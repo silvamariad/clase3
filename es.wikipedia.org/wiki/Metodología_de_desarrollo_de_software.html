@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Metodología de desarrollo de software - Wikipedia, la enciclopedia libre</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"wgRequestId":"229fae21-a99d-4aed-b328-3ed39391da53","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Metodología_de_desarrollo_de_software","wgTitle":"Metodología de desarrollo de software","wgCurRevisionId":139685051,"wgRevisionId":139685051,"wgArticleId":2032406,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia:Páginas con errores de referencia","Wikipedia:Copyedit","Metodologías de desarrollo de software"],"wgPageContentLanguage":"es","wgPageContentModel":"wikitext","wgRelevantPageName":"Metodología_de_desarrollo_de_software",
+"wgRelevantArticleId":2032406,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"es","pageLanguageDir":"ltr","pageVariantFallbacks":"es"},"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"español","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q1378470","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":true,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.imagenesinfobox":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready",
+"ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.a-commons-directo","ext.gadget.ReferenceTooltips","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=es&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=ext.gadget.imagenesinfobox&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<noscript><link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=noscript&amp;only=styles&amp;skin=vector"/></noscript>
+<meta name="generator" content="MediaWiki 1.39.0-wmf.23"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/6a/Software_development_methodologies.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="681"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Software_development_methodologies.jpg/800px-Software_development_methodologies.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="454"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Software_development_methodologies.jpg/640px-Software_development_methodologies.jpg"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="363"/>
+<meta name="viewport" content="width=1000, initial-scale=1.0"/>
+<meta property="og:title" content="Metodología de desarrollo de software - Wikipedia, la enciclopedia libre"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//es.m.wikipedia.org/wiki/Metodolog%C3%ADa_de_desarrollo_de_software"/>
+<link rel="alternate" type="application/x-wiki" title="Editar" href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (es)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//es.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://es.wikipedia.org/wiki/Metodolog%C3%ADa_de_desarrollo_de_software"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Metodología_de_desarrollo_de_software rootpage-Metodología_de_desarrollo_de_software skin-vector action-view skin-vector-legacy"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"><!-- CentralNotice --></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading">Metodología de desarrollo de software</h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">De Wikipedia, la enciclopedia libre</div>
+		<div id="contentSub"></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Ir a la navegación</a>
+		<a class="mw-jump-link" href="#searchInput">Ir a la búsqueda</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="es" dir="ltr"><div class="mw-parser-output"><table style="" class="noprint plainlinks ambox ambox-style">
+<tbody><tr>
+<td class="ambox-image" width="40">
+<img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Commons-emblem-copyedit.svg/40px-Commons-emblem-copyedit.svg.png" decoding="async" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Commons-emblem-copyedit.svg/60px-Commons-emblem-copyedit.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Commons-emblem-copyedit.svg/80px-Commons-emblem-copyedit.svg.png 2x" data-file-width="48" data-file-height="48" /></td>
+<td class="ambox-text"><div class="ambox-text-div"><strong>Este artículo o sección necesita una revisión de <a href="/wiki/Wikipedia:Convenciones_idiom%C3%A1ticas" title="Wikipedia:Convenciones idiomáticas">ortografía y gramática</a>.</strong></div><div class="hide-when-compact"><small>Puedes colaborar <a class="external text" href="https://es.wikipedia.org/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit">editándolo</a>. Cuando se haya corregido, puedes borrar este aviso. Si has <a href="/wiki/Especial:Entrar" title="Especial:Entrar">iniciado sesión</a>, puedes ayudarte del <a href="/wiki/Wikipedia:Corrector_ortogr%C3%A1fico" title="Wikipedia:Corrector ortográfico">corrector ortográfico</a>, activándolo en: <i><a href="/wiki/Especial:Preferencias" title="Especial:Preferencias">Mis preferencias</a> → <a href="/wiki/Especial:Preferencias#mw-prefsection-gadgets" title="Especial:Preferencias">Accesorios</a> → <u>Navegación</u> → <img alt="Check mark.png" src="//upload.wikimedia.org/wikipedia/commons/f/f0/Check_mark.png" decoding="async" width="20" height="20" data-file-width="20" data-file-height="20" /> El <a href="/wiki/Wikipedia:Corrector_ortogr%C3%A1fico" title="Wikipedia:Corrector ortográfico">corrector ortográfico</a> resalta errores ortográficos con un fondo rojo.</i>
+<span>Este aviso fue puesto el 21 de septiembre de 2017.</span></small></div></td>
+</tr>
+</tbody></table>
+<p>La <b>metodología de desarrollo de <i>software</i></b> en <a href="/wiki/Ingenier%C3%ADa_de_software" title="Ingeniería de software">ingeniería de <i>software</i></a> es un marco de trabajo usado para estructurar, planificar y controlar el proceso de desarrollo en sistemas de información.<sup id="cite_ref-CMS08_1-0" class="reference separada"><a href="#cite_note-CMS08-1"><span class="corchete-llamada">[</span>1<span class="corchete-llamada">]</span></a></sup>&#8203; 
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:482px;"><a href="/wiki/Archivo:Software_development_methodologies.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Software_development_methodologies.jpg/480px-Software_development_methodologies.jpg" decoding="async" width="480" height="273" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Software_development_methodologies.jpg/720px-Software_development_methodologies.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Software_development_methodologies.jpg/960px-Software_development_methodologies.jpg 2x" data-file-width="1164" data-file-height="661" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Software_development_methodologies.jpg" class="internal" title="Aumentar"></a></div>Tres patrones básicos en las metodologías de desarrollo de <i>software</i>.</div></div></div> 
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="es" dir="ltr"><h2 id="mw-toc-heading">Índice</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Introducción"><span class="tocnumber">1</span> <span class="toctext">Introducción</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Historia"><span class="tocnumber">2</span> <span class="toctext">Historia</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Metodologías_de_desarrollo_de_software_según_Darly_Correa"><span class="tocnumber">3</span> <span class="toctext">Metodologías de desarrollo de software según Darly Correa</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Enfoques_de_desarrollo_de_software"><span class="tocnumber">4</span> <span class="toctext">Enfoques de desarrollo de software</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Modelo_en_cascada"><span class="tocnumber">4.1</span> <span class="toctext">Modelo en cascada</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Prototipo"><span class="tocnumber">4.2</span> <span class="toctext">Prototipo</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Incremental"><span class="tocnumber">4.3</span> <span class="toctext">Incremental</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Espiral"><span class="tocnumber">4.4</span> <span class="toctext">Espiral</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Rapid_Application_Development_(RAD)"><span class="tocnumber">4.5</span> <span class="toctext">Rapid Application Development (RAD)</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Otros_enfoques_de_desarrollo_de_software"><span class="tocnumber">4.6</span> <span class="toctext">Otros enfoques de desarrollo de software</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Referencias"><span class="tocnumber">5</span> <span class="toctext">Referencias</span></a></li>
+</ul>
+</div>
+
+<h2><span id="Introducci.C3.B3n"></span><span class="mw-headline" id="Introducción">Introducción</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit&amp;section=1" title="Editar sección: Introducción">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Una metodología de desarrollo de software se refiere a un <i><a href="/wiki/Framework" title="Framework">framework</a></i> (entorno o marco de trabajo) que es usado para estructurar, planear y controlar el proceso de desarrollo en sistemas de información. 
+</p><p>A lo largo del tiempo, una gran cantidad de métodos han sido desarrollados
+diferenciándose por su fortaleza y debilidad.
+</p><p>Un <i>framework</i> para metodología de desarrollo de <i>software</i> consiste en:
+</p>
+<ul><li>Una <b>filosofía de desarrollo de programas de computación</b> con el enfoque del proceso de desarrollo de <i>software</i></li>
+<li>Herramientas, modelos y métodos para asistir al proceso de desarrollo de <i>software</i></li></ul>
+<p>Estos <i>frameworks</i> son a diario vinculados a algún tipo de organización que desarrolla, apoya el uso y promueve la metodología.
+</p>
+<h2><span class="mw-headline" id="Historia">Historia</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit&amp;section=2" title="Editar sección: Historia">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>El desarrollo de los sistemas tradicionales de ciclo de vida se originó en la década de 1960 para desarrollar a gran escala funcional de sistemas de negocio en una época de grandes conglomerados empresariales. La idea principal era continuar el desarrollo de los sistemas de información de manera deliberada, estructurada y metódica, reiterando cada una de las etapas del <a href="/wiki/Ciclo_de_vida_del_software" class="mw-redirect" title="Ciclo de vida del software">ciclo de vida</a>.
+</p><p>Las metodologías de desarrollo de <i>software</i> tienen como objetivo presentar un conjunto de técnicas tradicionales y modernas de modelado de sistemas que permitan desarrollar software de calidad, incluyendo heurísticas de construcción y criterios de comparación de modelos de sistemas. 
+</p><p>Para tal fin se describen, fundamentalmente, herramientas de Análisis y Diseño Orientado a Objetos (UML), sus diagramas, especificación, y criterios de aplicación de las mismas. Como complemento se describirán las metodologías de desarrollo de software que utilizan dichas herramientas, ciclos de vida asociados y discusión sobre el proceso de desarrollo de software más adecuado para las diferentes aplicaciones ejemplos que se presentarán. Principalmente, se presentará el Proceso Unificado el cual utiliza un ciclo de vida iterativo e incremental.
+</p><p><br />
+</p>
+<ul><li>Kendall y Kendall</li></ul>
+<p><br />
+<b>I</b>. Identificación del problema, oportunidades y objetivos.
+</p><p><b>II</b>. Determinación de los requerimientos de información.
+</p><p><b>III</b>. Análisis de las necesidades del sistema.
+</p><p><b>IV</b>. Diseño del sistema recomendado.
+</p><p><b>V</b>. Desarrollo y documentación del software.
+</p><p><b>VI</b>. Pruebas y mantenimiento del sistema.
+</p><p><b>VII</b>. Implantación y evaluación del sistema.
+</p><p><br />
+</p>
+<ul><li>James Senn</li></ul>
+<p><br />
+<b>I</b>. Ciclo de vida y desarrollo del sistema.
+</p><p><b>II</b>. Desarrollo por análisis estructurado
+</p><p><b>III</b>. Prototipo del sistema.
+</p><p><br />
+</p>
+<ul><li>Llorens Fabregas</li></ul>
+<p><br />
+<b>I</b>. Requerimientos.
+</p><p><b>II</b>. Análisis/Diseño.
+</p><p><b>III</b>. Construcción.
+</p><p><b>IV</b>. Pruebas.
+</p><p><b>V</b>. Producción y mantenimiento.
+</p><p><br />
+</p>
+<ul><li>Jonas Montilva</li></ul>
+<p><br />
+<b>I</b>. Definir el proyecto.
+</p><p><b>II</b>. Análisis  del contexto.
+</p><p><b>III</b>. Definición de los requerimientos.
+</p><p><b>IV</b>. Diseño preliminar.
+</p><p><b>V</b>. Diseño detallado.
+</p><p><br />
+</p>
+<ul><li>Roger Pressman</li></ul>
+<p><br />
+<b>I</b>. Análisis de los requerimientos del Software.
+</p><p><b>II</b>. Diseño.
+</p><p><b>III</b>. Generación de código.
+</p><p><b>IV</b>. Pruebas.
+</p><p><b>V</b>. Mantenimiento.
+</p>
+<h2><span id="Metodolog.C3.ADas_de_desarrollo_de_software_seg.C3.BAn_Darly_Correa"></span><span class="mw-headline" id="Metodologías_de_desarrollo_de_software_según_Darly_Correa">Metodologías de desarrollo de software según Darly Correa</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit&amp;section=3" title="Editar sección: Metodologías de desarrollo de software según Darly Correa">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol><li>Metodología ágil: Es una de varias metodologías de desarrollo de software basadas en el desarrollo iterativo e incremental, en contraposición a las metodologías tradicionales de desarrollo de software lineal o cascada.</li>
+<li>Metodologías tradicionales: Imponen una disciplina de trabajo sobre el proceso de desarrollo del software, con el fin de conseguir un software más eficiente. Para ello, se hace énfasis en la planificación total de todo el trabajo a realizar y una vez que esta todo detallado, comienza el ciclo de desarrollo del producto software.</li></ol>
+<dl><dt>1970</dt></dl>
+<ul><li><a href="/w/index.php?title=Programaci%C3%B3n_estructurada_sol&amp;action=edit&amp;redlink=1" class="new" title="Programación estructurada sol (aún no redactado)">Programación estructurada sol</a> desde 1969</li>
+<li><a href="/wiki/Programaci%C3%B3n_estructurada_de_Jackson" title="Programación estructurada de Jackson">Programación estructurada de Jackson</a> desde 1975</li></ul>
+<dl><dt>1980</dt></dl>
+<ul><li><a href="/w/index.php?title=Structured_Systems_Analysis_and_Design_Methodology&amp;action=edit&amp;redlink=1" class="new" title="Structured Systems Analysis and Design Methodology (aún no redactado)">Structured Systems Analysis and Design Methodology</a> (SSADM) desde 1980</li>
+<li><a href="/w/index.php?title=Structured_Analysis_and_Design_Technique&amp;action=edit&amp;redlink=1" class="new" title="Structured Analysis and Design Technique (aún no redactado)">Structured Analysis and Design Technique</a> (SADT) desde 1980</li>
+<li><a href="/w/index.php?title=Ingenier%C3%ADa_de_la_informaci%C3%B3n&amp;action=edit&amp;redlink=1" class="new" title="Ingeniería de la información (aún no redactado)">Ingeniería de la información</a> (IE/IEM) desde 1981</li></ul>
+<dl><dt>1990</dt></dl>
+<ul><li><a href="/wiki/Rapid_application_development" class="mw-redirect" title="Rapid application development">Rapid application development</a> (RAD) desde 1991.</li>
+<li><a href="/wiki/Programaci%C3%B3n_orientada_a_objetos" title="Programación orientada a objetos">Programación orientada a objetos</a> (OOP) a lo largo de la década de los 90's</li>
+<li><a href="/w/index.php?title=Virtual_finite_state_machine&amp;action=edit&amp;redlink=1" class="new" title="Virtual finite state machine (aún no redactado)">Virtual finite state machine</a> (VFSM) desde 1990s</li>
+<li><a href="/wiki/Dynamic_Systems_Development_Method" class="mw-redirect" title="Dynamic Systems Development Method">Dynamic Systems Development Method</a> desarrollado en UK desde 1995.</li>
+<li><a href="/wiki/Scrum_(desarrollo_de_software)" title="Scrum (desarrollo de software)">Scrum</a> (desarrollo), en la última parte de los 90's</li>
+<li><a href="/wiki/Rational_Unified_Process" class="mw-redirect" title="Rational Unified Process">Rational Unified Process</a> (RUP) desde 1999.</li>
+<li><a href="/wiki/Extreme_Programming" class="mw-redirect" title="Extreme Programming">Extreme Programming</a>(XP) desde 1999</li></ul>
+<dl><dt>Nuevo milenio</dt></dl>
+<ul><li><a href="/w/index.php?title=Enterprise_Unified_Process&amp;action=edit&amp;redlink=1" class="new" title="Enterprise Unified Process (aún no redactado)">Enterprise Unified Process</a> (EUP) extensiones RUP desde 2002</li>
+<li><a href="/w/index.php?title=Constructionist_design_methodology&amp;action=edit&amp;redlink=1" class="new" title="Constructionist design methodology (aún no redactado)">Constructionist design methodology</a> (CDM) desde 2004 por <a href="/w/index.php?title=Kristinn_R._Th%C3%B3risson&amp;action=edit&amp;redlink=1" class="new" title="Kristinn R. Thórisson (aún no redactado)">Kristinn R. Thórisson</a></li>
+<li><a href="/wiki/Agile_Unified_Process" title="Agile Unified Process">Agile Unified Process</a> (AUP) desde 2005 por <a href="/w/index.php?title=Scott_Ambler&amp;action=edit&amp;redlink=1" class="new" title="Scott Ambler (aún no redactado)">Scott Ambler</a></li></ul>
+<h2><span class="mw-headline" id="Enfoques_de_desarrollo_de_software">Enfoques de desarrollo de software</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit&amp;section=4" title="Editar sección: Enfoques de desarrollo de software">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Cada metodología de desarrollo de software tiene más o menos su propio enfoque para el <a href="/wiki/Desarrollo_de_software" class="mw-redirect" title="Desarrollo de software">desarrollo de software</a>. Estos son los enfoques más generales, que se desarrollan en varias metodologías específicas. Estos enfoques son los siguientes:<sup id="cite_ref-CMS08_1-1" class="reference separada"><a href="#cite_note-CMS08-1"><span class="corchete-llamada">[</span>1<span class="corchete-llamada">]</span></a></sup>&#8203;
+</p>
+<ul><li><a href="/wiki/Modelo_en_cascada" class="mw-redirect" title="Modelo en cascada">Modelo en cascada</a>: Framework lineal.</li>
+<li><a href="/wiki/Desarrollo_con_prototipaci%C3%B3n" class="mw-redirect" title="Desarrollo con prototipación">Prototipado</a>: Framework iterativo.</li>
+<li><a href="/wiki/Desarrollo_iterativo_y_creciente" title="Desarrollo iterativo y creciente">Incremental</a>: Combinación de framework lineal e iterativo.</li>
+<li><a href="/wiki/Desarrollo_en_espiral" title="Desarrollo en espiral">Espiral</a>: Combinación de framework lineal e iterativo.</li>
+<li>RAD: Rapid Application Development, framework iterativo.</li></ul>
+<h3><span class="mw-headline" id="Modelo_en_cascada">Modelo en cascada</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit&amp;section=5" title="Editar sección: Modelo en cascada">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Es un proceso secuencial,  fácil de desarrollo en el que los pasos de desarrollo son vistos hacia abajo (como en una cascada de agua) a través de las fases de análisis de las necesidades, el diseño, implantación, pruebas (validación), la integración, y mantenimiento. La primera descripción formal del modelo de cascada se cita a menudo a un artículo publicado por <a href="/w/index.php?title=Winston_Royce_W.&amp;action=edit&amp;redlink=1" class="new" title="Winston Royce W. (aún no redactado)">Winston Royce W.</a><sup id="cite_ref-2" class="reference separada"><a href="#cite_note-2"><span class="corchete-llamada">[</span>2<span class="corchete-llamada">]</span></a></sup>&#8203; en 1970, aunque Royce no utiliza el término "cascada" de este artículo.
+</p><p>Los principios básicos del modelo de cascada son los siguientes:<sup id="cite_ref-CMS08_1-2" class="reference separada"><a href="#cite_note-CMS08-1"><span class="corchete-llamada">[</span>1<span class="corchete-llamada">]</span></a></sup>&#8203;
+</p>
+<ul><li>El proyecto está dividido en fases secuenciales, con cierta superposición y splashback aceptable entre fases.</li>
+<li>Se hace hincapié en la planificación, los horarios, fechas, presupuestos y <b>ejecución de todo un sistema de una sola vez</b>.</li>
+<li>Un estricto control se mantiene durante la vida del proyecto a través de la utilización de una amplia documentación escrita, así como a través de comentarios y aprobación / signoff hechas por el usuario y la gestión del área TI al final de la mayoría de las fases y antes de comenzar la próxima fase.</li></ul>
+<h3><span class="mw-headline" id="Prototipo">Prototipo</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit&amp;section=6" title="Editar sección: Prototipo">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Permite desarrollar modelos de aplicaciones de software que permiten ver la funcionalidad básica de la misma, sin necesariamente incluir toda la lógica o características del modelo terminado. El prototipo permite al cliente evaluar en forma temprana el producto, e interactuar con los diseñadores y desarrolladores para saber si se está cumpliendo con las expectativas y las funcionalidades acordadas. Los Prototipos no poseen la funcionalidad total del sistema pero si condensa la idea principal del mismo, poco a poco crece su funcionalidad, y <b>maneja un alto grado de participación del usuario</b>.
+</p>
+<h3><span class="mw-headline" id="Incremental">Incremental</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit&amp;section=7" title="Editar sección: Incremental">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Provee una estrategia para controlar la complejidad y los riesgos, desarrollando una parte del producto software reservando el resto de aspectos para el futuro.
+</p>
+<h3><span class="mw-headline" id="Espiral">Espiral</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit&amp;section=8" title="Editar sección: Espiral">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Los principios básicos son:
+</p>
+<ul><li>La atención se centra en la evaluación y reducción del riesgo del proyecto dividiendo el proyecto en segmentos más pequeños y proporcionar más facilidad de cambio durante el proceso de desarrollo, así como ofrecer la oportunidad de evaluar los riesgos en fases tempranas del desarrollo.</li>
+<li>Cada viaje alrededor de la espiral atraviesa cuatro cuadrantes básicos:</li></ul>
+<ol><li>Determinar objetivos, alternativas, y desencadenantes de la iteración.</li>
+<li>Evaluar alternativas; Identificar y resolver los riesgos.</li>
+<li>Desarrollar y verificar los resultados de la iteración.</li>
+<li>Plan de la próxima iteración.</li></ol>
+<ul><li>Cada ciclo comienza con la identificación de los interesados y sus condiciones de ganancia, y termina con la revisión y examinación.<sup id="cite_ref-ref_duplicada_1_3-0" class="reference separada"><a href="#cite_note-ref_duplicada_1-3"><span class="corchete-llamada">[</span>3<span class="corchete-llamada">]</span></a></sup>&#8203;</li></ul>
+<h3><span id="Rapid_Application_Development_.28RAD.29"></span><span class="mw-headline" id="Rapid_Application_Development_(RAD)">Rapid Application Development (RAD)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit&amp;section=9" title="Editar sección: Rapid Application Development (RAD)">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>El <i>desarrollo rápido de aplicaciones</i> (RAD) es una metodología de desarrollo de software, que implica el desarrollo iterativo y la construcción de prototipos. El desarrollo rápido de aplicaciones es un término originalmente utilizado para describir un <a href="/wiki/Proceso_de_desarrollo_de_software" class="mw-redirect" title="Proceso de desarrollo de software">proceso de desarrollo de software</a> introducido por <a href="/wiki/James_Martin" title="James Martin">James Martin</a> en 1991.
+</p><p>Principios básicos:
+</p>
+<ul><li>Objetivo clave es para un rápido desarrollo y entrega de una alta calidad en un sistema de relativamente bajo coste de inversión.</li>
+<li>Intenta reducir los riesgos inherentes del proyecto partiéndolo en segmentos más pequeños y proporcionar más facilidad de cambio durante el proceso de desarrollo.</li>
+<li>Orientación dedicada a producir sistemas de alta calidad con rapidez, principalmente mediante el uso de iteración por prototipos (en cualquier etapa de desarrollo), promueve la participación de los usuarios y el uso de herramientas de desarrollo computarizadas. Estas herramientas pueden incluir constructores de <a href="/wiki/Interfaz_gr%C3%A1fica_de_usuario" title="Interfaz gráfica de usuario">Interfaz gráfica de usuario</a> (GUI), las herramientas (CASE) <a href="/w/index.php?title=Computer_Aided_Software_Engineering&amp;action=edit&amp;redlink=1" class="new" title="Computer Aided Software Engineering (aún no redactado)">Computer Aided Software Engineering</a>, los <a href="/wiki/Sistemas_de_gesti%C3%B3n_de_bases_de_datos" class="mw-redirect" title="Sistemas de gestión de bases de datos">sistemas de gestión de bases de datos</a> (DBMS), lenguajes de programación de cuarta generación, generadores de código, y técnicas orientada a objetos.</li>
+<li>Hace especial hincapié en el cumplimiento de la necesidad comercial, mientras que la ingeniería tecnológica o la excelencia es de menor importancia.</li>
+<li>Control de proyecto implica el desarrollo de prioridades y la definición de los plazos de entrega. Si el proyecto empieza a aplazarse, se hace hincapié en la reducción de requisitos para el ajuste, no en el aumento de la fecha límite.</li>
+<li>En general incluye <a href="/wiki/Joint_application_development" class="mw-redirect" title="Joint application development">Joint application development</a> (JAD), donde los usuarios están intensamente participando en el diseño del sistema, ya sea a través de la creación de consenso estructurado en talleres, o por vía electrónica.</li>
+<li><b>La participación activa de los usuarios es imprescindible</b>.</li>
+<li>Iterativamente realiza la producción de software, en lugar de enfocarse únicamente en un prototipo.</li>
+<li>Produce la documentación necesaria para facilitar el futuro desarrollo y mantenimiento.</li></ul>
+<h3><span class="mw-headline" id="Otros_enfoques_de_desarrollo_de_software">Otros enfoques de desarrollo de software</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit&amp;section=10" title="Editar sección: Otros enfoques de desarrollo de software">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>Metodologías de desarrollo <a href="/wiki/Orientado_a_objetos" class="mw-redirect" title="Orientado a objetos">Orientado a objetos</a>, <a href="/wiki/Dise%C3%B1o_orientado_a_objetos" title="Diseño orientado a objetos">Diseño orientado a objetos</a> (OOD) de <a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a>, también conocido como Análisis y Diseño Orientado a Objetos (OOAD). El modelo incluye seis diagramas:</li></ul>
+<ol><li>De clase</li>
+<li>De objetos</li>
+<li>De estados de transición</li>
+<li>De interacción</li>
+<li>De módulo</li>
+<li>De proceso</li></ol>
+<ul><li><a href="/wiki/Top-down" class="mw-redirect" title="Top-down">Top-down</a> programming, evolucionado en la década de 1970 por el investigador de <a href="/wiki/IBM" title="IBM">IBM</a> <a href="/w/index.php?title=Harlan_Mills&amp;action=edit&amp;redlink=1" class="new" title="Harlan Mills (aún no redactado)">Harlan Mills</a> y <a href="/wiki/Niklaus_Wirth" title="Niklaus Wirth">Niklaus Wirth</a> en <a href="/w/index.php?title=Desarrollo_Estructurado&amp;action=edit&amp;redlink=1" class="new" title="Desarrollo Estructurado (aún no redactado)">Desarrollo Estructurado</a>.</li>
+<li><a href="/wiki/Proceso_Unificado" class="mw-redirect" title="Proceso Unificado">Proceso Unificado</a>, es una metodología de desarrollo de software, basado en <a href="/wiki/UML" class="mw-redirect" title="UML">UML</a>. Organiza el desarrollo de software en cuatro fases, cada una de ellas con la ejecución de una o más iteraciones de desarrollo de software:</li></ul>
+<ol><li>Creación</li>
+<li>Elaboración</li>
+<li>Construcción</li>
+<li>Directrices</li></ol>
+<p>Hay una serie de herramientas y productos diseñados para facilitar la aplicación. Una de las versiones más populares es la de <a href="/wiki/Rational_Unified_Process" class="mw-redirect" title="Rational Unified Process">Rational Unified Process</a>.
+</p>
+<h2><span class="mw-headline" id="Referencias">Referencias</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit&amp;section=11" title="Editar sección: Referencias">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="listaref" style="list-style-type: decimal;"><ol class="references">
+<li id="cite_note-CMS08-1"><span class="mw-cite-backlink">↑ <a href="#cite_ref-CMS08_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-CMS08_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-CMS08_1-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/XLC/Downloads/SelectingDevelopmentApproach.pdf">SELECTING A DEVELOPMENT APPROACH</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20190102182947/https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/XLC/Downloads/SelectingDevelopmentApproach.pdf">Archivado</a> el 2 de enero de 2019 en <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a>.. Revalidated: March 27, 2008. Consultado el 27 de octubre de 2008.</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://cartoon.iguw.tuwien.ac.at/fit/fit01/wasserfall/entstehung.html">Wasserfallmodell &gt; Entstehungskontext</a>, Markus Rerych, Institut für Gestaltungs- und Wirkungsforschung, TU-Wien. Accessed on line <a href="/w/index.php?title=November_28&amp;action=edit&amp;redlink=1" class="new" title="November 28 (aún no redactado)">November 28</a>, <a href="/wiki/2007" title="2007">2007</a>.</span>
+</li>
+<li id="cite_note-ref_duplicada_1-3"><span class="mw-cite-backlink"><a href="#cite_ref-ref_duplicada_1_3-0">↑</a></span> <span class="error mw-ext-cite-error" lang="es" dir="ltr">Error en la cita: Etiqueta <code>&lt;ref&gt;</code> no válida; no se ha definido el contenido de las referencias llamadas <code>ref_duplicada_1</code></span></li>
+</ol></div>
+<style data-mw-deduplicate="TemplateStyles:r144106945">.mw-parser-output .mw-authority-control{margin-top:1.5em}.mw-parser-output .mw-authority-control .navbox hr:last-child{display:none}.mw-parser-output .mw-authority-control .navbox+.mw-mf-linked-projects{display:none}.mw-parser-output .mw-authority-control .mw-mf-linked-projects{display:flex;padding:0.5em;border:1px solid #c8ccd1;background-color:#eaecf0;color:#222222}.mw-parser-output .mw-authority-control .mw-mf-linked-projects ul li{margin-bottom:0}</style><div class="mw-authority-control"><div role="navigation" class="navbox" aria-label="Navbox" style="width: inherit;padding:3px"><table class="hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="row" class="navbox-group" style="width: 12%; text-align:center;"><a href="/wiki/Control_de_autoridades" title="Control de autoridades">Control de autoridades</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><b>Proyectos Wikimedia</b></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a> Datos:</span> <span class="uid"><a href="https://www.wikidata.org/wiki/Q1378470" class="extiw" title="wikidata:Q1378470">Q1378470</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikimedia_Commons" title="Commonscat"><img alt="Commonscat" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png" decoding="async" width="15" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/23px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a> Multimedia:</span> <span class="uid"><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Software_development_methodology">Software development methodology</a></span></span></li></ul>
+<hr />
+</div></td></tr></tbody></table></div><div class="mw-mf-linked-projects hlist">
+<ul><li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a> Datos:</span> <span class="uid"><a href="https://www.wikidata.org/wiki/Q1378470" class="extiw" title="wikidata:Q1378470">Q1378470</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikimedia_Commons" title="Commonscat"><img alt="Commonscat" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png" decoding="async" width="15" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/23px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a> Multimedia:</span> <span class="uid"><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Software_development_methodology">Software development methodology</a></span></span></li></ul>
+</div></div>
+<!-- 
+NewPP limit report
+Parsed by mw1385
+Cached time: 20220811041707
+Cache expiry: 86400
+Reduced expiry: true
+Complications: [show‐toc]
+CPU time usage: 0.146 seconds
+Real time usage: 0.188 seconds
+Preprocessor visited node count: 1659/1000000
+Post‐expand include size: 9785/2097152 bytes
+Template argument size: 2572/2097152 bytes
+Highest expansion depth: 23/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3463/5000000 bytes
+Lua time usage: 0.057/10.000 seconds
+Lua memory usage: 1576534/52428800 bytes
+Number of Wikibase entities loaded: 2/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  140.312      1 -total
+ 49.61%   69.613      1 Plantilla:Control_de_autoridades
+ 41.38%   58.066      1 Plantilla:Copyedit
+ 24.39%   34.221      1 Plantilla:Aviso
+ 18.78%   26.344      2 Plantilla:Problemas_artículo/validar
+ 13.12%   18.416     12 Plantilla:Str_mid
+ 12.26%   17.205     24 Plantilla:Trim
+  5.46%    7.665      1 Plantilla:Listaref
+  1.50%    2.103      1 Plantilla:Wayback
+-->
+
+<!-- Saved in parser cache with key eswiki:pcache:idhash:2032406-0!canonical and timestamp 20220811041706 and revision id 139685051.
+ -->
+</div><noscript><img src="//es.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter">Obtenido de «<a dir="ltr" href="https://es.wikipedia.org/w/index.php?title=Metodología_de_desarrollo_de_software&amp;oldid=139685051">https://es.wikipedia.org/w/index.php?title=Metodología_de_desarrollo_de_software&amp;oldid=139685051</a>»</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="/wiki/Categor%C3%ADa:Metodolog%C3%ADas_de_desarrollo_de_software" title="Categoría:Metodologías de desarrollo de software">Metodologías de desarrollo de software</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Categorías ocultas: <ul><li><a href="/wiki/Categor%C3%ADa:Wikipedia:P%C3%A1ginas_con_errores_de_referencia" title="Categoría:Wikipedia:Páginas con errores de referencia">Wikipedia:Páginas con errores de referencia</a></li><li><a href="/wiki/Categor%C3%ADa:Wikipedia:Copyedit" title="Categoría:Wikipedia:Copyedit">Wikipedia:Copyedit</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Menú de navegación</h2>
+	<div id="mw-head">
+		
+
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Herramientas personales</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage" class="mw-list-item"><span title="La página de usuario de la IP desde la que editas">No has accedido</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Especial:MiDiscusi%C3%B3n" title="Discusión sobre ediciones hechas desde esta dirección IP [n]" accesskey="n"><span>Discusión</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Especial:MisContribuciones" title="Una lista de modificaciones hechas desde esta dirección IP [y]" accesskey="y"><span>Contribuciones</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Especial:Crear_una_cuenta&amp;returnto=Metodolog%C3%ADa+de+desarrollo+de+software" title="Te recomendamos crear una cuenta e iniciar sesión; sin embargo, no es obligatorio"><span>Crear una cuenta</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Especial:Entrar&amp;returnto=Metodolog%C3%ADa+de+desarrollo+de+software" title="Te recomendamos iniciar sesión, aunque no es obligatorio [o]" accesskey="o"><span>Acceder</span></a></li></ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Espacios de nombres</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/Metodolog%C3%ADa_de_desarrollo_de_software" title="Ver la página de contenido [c]" accesskey="c"><span>Artículo</span></a></li><li id="ca-talk" class="mw-list-item"><a href="/wiki/Discusi%C3%B3n:Metodolog%C3%ADa_de_desarrollo_de_software" rel="discussion" title="Discusión acerca de la página [t]" accesskey="t"><span>Discusión</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		 aria-label="Cambiar variante de idioma"
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">español</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Vistas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected mw-list-item"><a href="/wiki/Metodolog%C3%ADa_de_desarrollo_de_software"><span>Leer</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=edit" title="Editar esta página [e]" accesskey="e"><span>Editar</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=history" title="Versiones anteriores de esta página [h]" accesskey="h"><span>Ver historial</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="Más opciones" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Más</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div>
+			<h3 >
+				<label for="searchInput">Buscar</label>
+			</h3>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-navigation">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Buscar en Wikipedia" aria-label="Buscar en Wikipedia" autocapitalize="sentences" title="Buscar en este wiki [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Especial:Buscar">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Busca páginas con este texto." value="Buscar">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Ir a la página con este nombre exacto si existe" value="Ir">
+			</div>
+		</form>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/wiki/Wikipedia:Portada"
+			title="Visitar la página principal"></a>
+	</div>
+	
+
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navegación</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikipedia:Portada" title="Visitar la página principal [z]" accesskey="z"><span>Portada</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Portal:Comunidad" title="Acerca del proyecto, lo que puedes hacer, dónde encontrar información"><span>Portal de la comunidad</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Actualidad" title="Encuentra información de contexto sobre acontecimientos actuales"><span>Actualidad</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Especial:CambiosRecientes" title="Lista de cambios recientes en la wiki [r]" accesskey="r"><span>Cambios recientes</span></a></li><li id="n-newpages" class="mw-list-item"><a href="/wiki/Especial:P%C3%A1ginasNuevas"><span>Páginas nuevas</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Especial:Aleatoria" title="Cargar una página al azar [x]" accesskey="x"><span>Página aleatoria</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Ayuda:Contenidos" title="El lugar para aprender"><span>Ayuda</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_es.wikipedia.org&amp;uselang=es" title="Apóyanos"><span>Donaciones</span></a></li><li id="n-bug_in_article" class="mw-list-item"><a href="/wiki/Wikipedia:Informes_de_error"><span>Notificar un error</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Herramientas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Especial:LoQueEnlazaAqu%C3%AD/Metodolog%C3%ADa_de_desarrollo_de_software" title="Lista de todas las páginas de la wiki que enlazan aquí [j]" accesskey="j"><span>Lo que enlaza aquí</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Especial:CambiosEnEnlazadas/Metodolog%C3%ADa_de_desarrollo_de_software" rel="nofollow" title="Cambios recientes en las páginas que enlazan con esta [k]" accesskey="k"><span>Cambios en enlazadas</span></a></li><li id="t-upload" class="mw-list-item"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=es" title="Subir archivos [u]" accesskey="u"><span>Subir archivo</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Especial:P%C3%A1ginasEspeciales" title="Lista de todas las páginas especiales [q]" accesskey="q"><span>Páginas especiales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;oldid=139685051" title="Enlace permanente a esta versión de la página"><span>Enlace permanente</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=info" title="Más información sobre esta página"><span>Información de la página</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Especial:Citar&amp;page=Metodolog%C3%ADa_de_desarrollo_de_software&amp;id=139685051&amp;wpFormIdentifier=titleform" title="Información sobre cómo citar esta página"><span>Citar esta página</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1378470" title="Enlace al elemento conectado del repositorio de datos [g]" accesskey="g"><span>Elemento de Wikidata</span></a></li></ul>
+		
+	</div>
+</nav>
+
+
+<nav id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" role="navigation"  >
+	<h3
+		id="p-coll-print_export-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Imprimir/exportar</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Especial:Libro&amp;bookcmd=book_creator&amp;referer=Metodolog%C3%ADa+de+desarrollo+de+software"><span>Crear un libro</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Especial:DownloadAsPdf&amp;page=Metodolog%C3%ADa_de_desarrollo_de_software&amp;action=show-download-screen"><span>Descargar como PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;printable=yes" title="Versión imprimible de esta página [p]" accesskey="p"><span>Versión para imprimir</span></a></li></ul>
+		
+	</div>
+</nav>
+
+
+<nav id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" aria-labelledby="p-wikibase-otherprojects-label" role="navigation"  >
+	<h3
+		id="p-wikibase-otherprojects-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">En otros proyectos</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Software_development_methodology" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-lang" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation"  >
+	<h3
+		id="p-lang-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">En otros idiomas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D9%85%D9%86%D9%87%D8%AC%D9%8A%D8%A9_%D8%AA%D8%B7%D9%88%D9%8A%D8%B1_%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA" title="منهجية تطوير برمجيات (árabe)" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Metodika_v%C3%BDvoje_softwaru" title="Metodika vývoje softwaru (checo)" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Vorgehensmodell_zur_Softwareentwicklung" title="Vorgehensmodell zur Softwareentwicklung (alemán)" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/Software_development_methodology" title="Software development methodology (inglés)" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%9E%D7%AA%D7%95%D7%93%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%99%D7%AA_%D7%A4%D7%99%D7%AA%D7%95%D7%97_%D7%AA%D7%95%D7%9B%D7%A0%D7%94" title="מתודולוגיית פיתוח תוכנה (hebreo)" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Metodologi_pengembangan_perangkat_lunak" title="Metodologi pengembangan perangkat lunak (indonesio)" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Metodologia_di_sviluppo_del_software" title="Metodologia di sviluppo del software (italiano)" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA%E6%96%B9%E6%B3%95%E8%AB%96" title="ソフトウェア開発方法論 (japonés)" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a href="https://kk.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%D0%BB%D0%B0%D1%83_%D3%99%D0%B4%D1%96%D1%81%D0%BD%D0%B0%D0%BC%D0%B0%D1%81%D1%8B" title="Программалау әдіснамасы (kazajo)" lang="kk" hreflang="kk" class="interlanguage-link-target"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EA%B0%9C%EB%B0%9C_%EB%B0%A9%EB%B2%95%EB%A1%A0" title="소프트웨어 개발 방법론 (coreano)" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/SDM2" title="SDM2 (neerlandés)" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F" title="Методология программирования (ruso)" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Yaz%C4%B1l%C4%B1m_geli%C5%9Ftirme_y%C3%B6ntembilimi" title="Yazılım geliştirme yöntembilimi (turco)" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F_%D1%80%D0%BE%D0%B7%D1%80%D0%BE%D0%B1%D0%BA%D0%B8_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F" title="Методологія розробки програмного забезпечення (ucraniano)" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95%E5%AD%A6" title="程序设计方法学 (chino)" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1378470#sitelinks-wikipedia" title="Editar enlaces interlingüísticos" class="wbc-editpage">Editar enlaces</a></span></div>
+	</div>
+</nav>
+
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> Esta página se editó por última vez el 12 nov 2021 a las 23:42.</li>
+	<li id="footer-info-copyright">El texto está disponible bajo la <a rel="license" href="//es.wikipedia.org/wiki/Wikipedia:Texto_de_la_Licencia_Creative_Commons_Atribuci%C3%B3n-CompartirIgual_3.0_Unported">Licencia Creative Commons Atribución Compartir Igual 3.0</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+pueden aplicarse cláusulas adicionales. Al usar este sitio, usted acepta nuestros <a href="//wikimediafoundation.org/wiki/Terms_of_Use">términos de uso</a> y nuestra <a href="//wikimediafoundation.org/wiki/Privacy_policy">política de privacidad</a>. <br/>Wikipedia&reg; es una marca registrada de la <a href="//www.wikimediafoundation.org/">Fundación Wikimedia, Inc.</a>, una organización sin ánimo de lucro.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/es">Política de privacidad</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:Acerca_de">Acerca de Wikipedia</a></li>
+	<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:Limitaci%C3%B3n_general_de_responsabilidad">Limitación de responsabilidad</a></li>
+	<li id="footer-places-mobileview"><a href="//es.m.wikipedia.org/w/index.php?title=Metodolog%C3%ADa_de_desarrollo_de_software&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versión para móviles</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Desarrolladores</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/es.wikipedia.org">Estadísticas</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement/es">Declaración de cookies</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.146","walltime":"0.188","ppvisitednodes":{"value":1659,"limit":1000000},"postexpandincludesize":{"value":9785,"limit":2097152},"templateargumentsize":{"value":2572,"limit":2097152},"expansiondepth":{"value":23,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":3463,"limit":5000000},"entityaccesscount":{"value":2,"limit":400},"timingprofile":["100.00%  140.312      1 -total"," 49.61%   69.613      1 Plantilla:Control_de_autoridades"," 41.38%   58.066      1 Plantilla:Copyedit"," 24.39%   34.221      1 Plantilla:Aviso"," 18.78%   26.344      2 Plantilla:Problemas_artículo/validar"," 13.12%   18.416     12 Plantilla:Str_mid"," 12.26%   17.205     24 Plantilla:Trim","  5.46%    7.665      1 Plantilla:Listaref","  1.50%    2.103      1 Plantilla:Wayback"]},"scribunto":{"limitreport-timeusage":{"value":"0.057","limit":"10.000"},"limitreport-memusage":{"value":1576534,"limit":52428800}},"cachereport":{"origin":"mw1385","timestamp":"20220811041707","ttl":86400,"transientcontent":true}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Metodolog\u00eda de desarrollo de software","url":"https:\/\/es.wikipedia.org\/wiki\/Metodolog%C3%ADa_de_desarrollo_de_software","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1378470","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1378470","author":{"@type":"Organization","name":"Colaboradores de los proyectos Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2008-11-06T13:31:42Z","dateModified":"2021-11-12T23:42:52Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/6\/6a\/Software_development_methodologies.jpg","headline":"marco de trabajo en ingenier\u00eda de software"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Metodolog\u00eda de desarrollo de software","url":"https:\/\/es.wikipedia.org\/wiki\/Metodolog%C3%ADa_de_desarrollo_de_software","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1378470","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1378470","author":{"@type":"Organization","name":"Colaboradores de los proyectos Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2008-11-06T13:31:42Z","dateModified":"2021-11-12T23:42:52Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/6\/6a\/Software_development_methodologies.jpg","headline":"marco de trabajo en ingenier\u00eda de software"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":174,"wgHostname":"mw1323"});});</script>
+</body>
+</html>

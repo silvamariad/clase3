@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Programación estructurada - Wikipedia, la enciclopedia libre</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"wgRequestId":"19d87942-69fa-4bd1-a173-78435163d355","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Programación_estructurada","wgTitle":"Programación estructurada","wgCurRevisionId":145121682,"wgRevisionId":145121682,"wgArticleId":2249,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia:Páginas con referencias sin URL y con formato","Wikipedia:Artículos con pasajes que requieren referencias","Wikipedia:Páginas con referencias con parámetros obsoletos","Wikipedia:Artículos con identificadores BNE",
+"Wikipedia:Artículos con identificadores BNF","Wikipedia:Artículos con identificadores GND","Wikipedia:Artículos con identificadores LCCN","Paradigmas de programación","Estructuras de control","Diseño de software"],"wgPageContentLanguage":"es","wgPageContentModel":"wikitext","wgRelevantPageName":"Programación_estructurada","wgRelevantArticleId":2249,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"es","pageLanguageDir":"ltr","pageVariantFallbacks":"es"},"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"español","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage",
+"wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q223335","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":true,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.imagenesinfobox":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP",
+"ext.centralNotice.startUp","ext.gadget.a-commons-directo","ext.gadget.ReferenceTooltips","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=es&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=ext.gadget.imagenesinfobox&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<noscript><link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=noscript&amp;only=styles&amp;skin=vector"/></noscript>
+<meta name="generator" content="MediaWiki 1.39.0-wmf.23"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="width=1000, initial-scale=1.0"/>
+<meta property="og:title" content="Programación estructurada - Wikipedia, la enciclopedia libre"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//es.m.wikipedia.org/wiki/Programaci%C3%B3n_estructurada"/>
+<link rel="alternate" type="application/x-wiki" title="Editar" href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (es)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//es.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_estructurada"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Programación_estructurada rootpage-Programación_estructurada skin-vector action-view skin-vector-legacy"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"><!-- CentralNotice --></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading">Programación estructurada</h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">De Wikipedia, la enciclopedia libre</div>
+		<div id="contentSub"></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Ir a la navegación</a>
+		<a class="mw-jump-link" href="#searchInput">Ir a la búsqueda</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="es" dir="ltr"><div class="mw-parser-output"><p>La <b>programación estructurada</b> es un <a href="/wiki/Paradigma_de_programaci%C3%B3n" title="Paradigma de programación">paradigma de programación</a> orientado a mejorar la claridad, calidad y tiempo de desarrollo de un <a href="/wiki/Programa_de_computadora" class="mw-redirect" title="Programa de computadora">programa de computadora</a> recurriendo únicamente a <a href="/wiki/Subrutina" title="Subrutina">subrutinas</a> y a tres <a href="/wiki/Estructura_de_control_(computaci%C3%B3n)" class="mw-redirect" title="Estructura de control (computación)">estructuras de control</a> básicas: <a href="/wiki/Bloque_de_c%C3%B3digo" title="Bloque de código">secuencia</a>, selección (<i><a href="/wiki/If" class="mw-redirect" title="If">if</a></i> y <i><a href="/wiki/Switch" class="mw-redirect" title="Switch">switch</a></i>) e <a href="/wiki/Iteraci%C3%B3n" title="Iteración">iteración</a> (<a href="/wiki/Bucle_(programaci%C3%B3n)" title="Bucle (programación)">bucles</a> <i><a href="/wiki/Bucle_for" title="Bucle for">for</a></i> y <i><a href="/wiki/Bucle_while" title="Bucle while">while</a></i>); asimismo, se considera innecesario y contraproducente el uso de la <a href="/wiki/Transferencia_incondicional" class="mw-redirect" title="Transferencia incondicional">transferencia incondicional</a> (<a href="/wiki/GOTO" title="GOTO">GOTO</a>); esta <a href="/wiki/Instrucci%C3%B3n_(inform%C3%A1tica)" title="Instrucción (informática)">instrucción</a> suele acabar generando el llamado <i><a href="/wiki/C%C3%B3digo_espagueti" title="Código espagueti">código espagueti</a></i>, mucho más difícil de seguir y de mantener, además de originar numerosos <a href="/wiki/Error_de_programaci%C3%B3n" class="mw-redirect" title="Error de programación">errores de programación</a>.
+</p><p>Surgió en la década de 1960, particularmente del trabajo de <a href="/wiki/Corrado_B%C3%B6hm" title="Corrado Böhm">Böhm</a> y Jacopini,<sup id="cite_ref-1" class="reference separada"><a href="#cite_note-1"><span class="corchete-llamada">[</span>1<span class="corchete-llamada">]</span></a></sup>&#8203; y un famoso escrito de 1968: «La sentencia goto, considerada perjudicial», de <a href="/wiki/Edsger_Dijkstra" title="Edsger Dijkstra">Edsger Dijkstra</a>.<sup id="cite_ref-dijkstra1968_2-0" class="reference separada"><a href="#cite_note-dijkstra1968-2"><span class="corchete-llamada">[</span>2<span class="corchete-llamada">]</span></a></sup>&#8203; Sus postulados se verían reforzados, a nivel teórico, por el <a href="/wiki/Teorema_del_programa_estructurado" title="Teorema del programa estructurado">teorema del programa estructurado</a> y, a nivel práctico, por la aparición de lenguajes como <a href="/wiki/ALGOL" title="ALGOL">ALGOL</a>, dotado de <a href="/wiki/Estructuras_de_control" title="Estructuras de control">estructuras de control</a> consistentes y bien formadas.<sup id="cite_ref-3" class="reference separada"><a href="#cite_note-3"><span class="corchete-llamada">[</span>3<span class="corchete-llamada">]</span></a></sup>&#8203;
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="es" dir="ltr"><h2 id="mw-toc-heading">Índice</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Elementos"><span class="tocnumber">1</span> <span class="toctext">Elementos</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Estructuras_de_control"><span class="tocnumber">1.1</span> <span class="toctext">Estructuras de control</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Subrutinas"><span class="tocnumber">1.2</span> <span class="toctext">Subrutinas</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Bloques"><span class="tocnumber">1.3</span> <span class="toctext">Bloques</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Orígenes_de_la_programación_estructurada"><span class="tocnumber">2</span> <span class="toctext">Orígenes de la programación estructurada</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Historia"><span class="tocnumber">3</span> <span class="toctext">Historia</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Fundamentación_teórica"><span class="tocnumber">3.1</span> <span class="toctext">Fundamentación teórica</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Debate"><span class="tocnumber">3.2</span> <span class="toctext">Debate</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Resultado"><span class="tocnumber">3.3</span> <span class="toctext">Resultado</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Ventajas_de_la_programación_estructurada"><span class="tocnumber">4</span> <span class="toctext">Ventajas de la programación estructurada</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Lenguajes_de_programación_estructurada"><span class="tocnumber">5</span> <span class="toctext">Lenguajes de programación estructurada</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Nuevos_paradigmas"><span class="tocnumber">6</span> <span class="toctext">Nuevos paradigmas</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Referencias"><span class="tocnumber">7</span> <span class="toctext">Referencias</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Bibliografía"><span class="tocnumber">8</span> <span class="toctext">Bibliografía</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Véase_también"><span class="tocnumber">9</span> <span class="toctext">Véase también</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Enlaces_externos"><span class="tocnumber">10</span> <span class="toctext">Enlaces externos</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Elementos">Elementos</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=1" title="Editar sección: Elementos">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Estructuras_de_control">Estructuras de control</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=2" title="Editar sección: Estructuras de control">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Siguiendo el teorema del programa estructurado, todos los programas se ven como compuestos de estructuras de control:
+</p>
+<ul><li><i>Sequence</i>: declaraciones ordenadas o subrutinas ejecutadas en secuencia.</li>
+<li><i>Selection</i>: una o varias instrucciones se ejecutan dependiendo del estado del programa. Esto generalmente se expresa con la <a href="/wiki/Palabra_clave_(programaci%C3%B3n_de_computadora)" class="mw-redirect" title="Palabra clave (programación de computadora)">palabra clave</a> como <a href="/wiki/Condicional_(programaci%C3%B3n)" class="mw-redirect" title="Condicional (programación)"><code>if..then..else..endif</code></a>. La declaración condicional debe tener al menos una condición verdadera y cada condición debe tener un punto de salida como máximo.</li>
+<li><i>Iteration</i>: una instrucción o bloque se ejecuta hasta que el programa alcanza un cierto estado, o se han aplicado operaciones a cada elemento de una colección. Esto generalmente se expresa con palabras clave como <a href="/w/index.php?title=While_loop&amp;action=edit&amp;redlink=1" class="new" title="While loop (aún no redactado)"><code>while</code></a>, <a href="/w/index.php?title=Do_while_loop&amp;action=edit&amp;redlink=1" class="new" title="Do while loop (aún no redactado)"><code>repeat</code></a>, <a href="/w/index.php?title=For_loop&amp;action=edit&amp;redlink=1" class="new" title="For loop (aún no redactado)"><code>for</code></a> o <a href="/w/index.php?title=Do_while_loop&amp;action=edit&amp;redlink=1" class="new" title="Do while loop (aún no redactado)"><code>do..until</code></a>. A menudo, se recomienda que cada bucle solo tenga un punto de entrada (y en la programación estructural original, también solo un punto de salida, y algunos lenguajes lo imponen).</li>
+<li><i>Recursion</i>; una declaración se ejecuta llamándose repetidamente a sí misma hasta que se cumplen las condiciones de terminación. Si bien en la práctica son similares a los bucles iterativos, los bucles recursivos pueden ser más eficientes desde el punto de vista computacional y se implementan de manera diferente como una pila en cascada.</li></ul>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:702px;"><a href="/wiki/Archivo:Structured_program_patterns.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/e/ec/Structured_program_patterns.png" decoding="async" width="700" height="125" class="thumbimage" data-file-width="700" data-file-height="125" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Structured_program_patterns.png" class="internal" title="Aumentar"></a></div>Representación gráfica de los <a href="/wiki/Teorema_del_programa_estructurado" title="Teorema del programa estructurado">tres patrones básicos</a> (secuencia, selección y repetición) utilizando <a href="/wiki/Diagrama_de_Nassi-Shneiderman" class="mw-redirect" title="Diagrama de Nassi-Shneiderman">diagramas NS</a> (azul) y <a href="/wiki/Diagrama_de_flujo" title="Diagrama de flujo">diagramas de flujo</a> (verde).</div></div></div></div>
+<h3><span class="mw-headline" id="Subrutinas">Subrutinas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=3" title="Editar sección: Subrutinas">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Subrutina" title="Subrutina">Subrutinas</a>; Las unidades a las que se puede llamar, como procedimientos, funciones, métodos o subprogramas, se utilizan para permitir que una sola declaración haga referencia a una secuencia.
+</p>
+<h3><span class="mw-headline" id="Bloques">Bloques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=4" title="Editar sección: Bloques">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Los <a href="/wiki/Bloques_(programaci%C3%B3n)" class="mw-redirect" title="Bloques (programación)">Bloques</a> se utilizan para permitir que grupos de declaraciones se traten como si fueran una sola declaración. Los lenguajes "estructurados en bloques" tienen una sintaxis para encerrar estructuras de alguna manera formal, como una declaración if entre paréntesis. <code>if..fi</code> como en <a href="/wiki/ALGOL_68" class="mw-redirect" title="ALGOL 68">ALGOL 68</a>, o una sección de código entre corchetes <code>BEGIN..END</code>, como en <a href="/wiki/PL/I" class="mw-redirect" title="PL/I">PL/I</a> y <a href="/wiki/Pascal_(lenguaje_de_programaci%C3%B3n)" title="Pascal (lenguaje de programación)">Pascal</a>, sangría de <a href="/w/index.php?title=Car%C3%A1cter_de_espacio_en_blanco&amp;action=edit&amp;redlink=1" class="new" title="Carácter de espacio en blanco (aún no redactado)">espacio en blanco</a> como en <a href="/wiki/Python_(lenguaje_de_programaci%C3%B3n)" class="mw-redirect" title="Python (lenguaje de programación)">Python</a>, o las llaves <code>{...}</code> de <a href="/wiki/C_(lenguaje_de_programaci%C3%B3n)" title="C (lenguaje de programación)">C</a> y <a href="/w/index.php?title=Familia_de_llaves_Curly&amp;action=edit&amp;redlink=1" class="new" title="Familia de llaves Curly (aún no redactado)">muchos lenguajes posteriores</a>.
+</p>
+<h2><span id="Or.C3.ADgenes_de_la_programaci.C3.B3n_estructurada"></span><span class="mw-headline" id="Orígenes_de_la_programación_estructurada">Orígenes de la programación estructurada</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=5" title="Editar sección: Orígenes de la programación estructurada">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A finales de los años 1970 surgió una nueva forma de programar que no solamente permitía desarrollar programas fiables y eficientes, sino que además estos estaban escritos de manera que se facilitaba su comprensión en fases de mejora posteriores.
+</p><p>El <a href="/wiki/Teorema_del_programa_estructurado" title="Teorema del programa estructurado">teorema del programa estructurado</a>, propuesto por Böhm-Jacopini, demuestra que todo programa puede escribirse utilizando únicamente las tres instrucciones de control siguientes:
+</p>
+<ul><li>Secuencia.</li>
+<li>Instrucción condicional.</li>
+<li>Iteración (bucle de instrucciones) con condición inicial.</li></ul>
+<p>Solamente con estas tres estructuras se pueden escribir todos los <a href="/wiki/Programa_inform%C3%A1tico" title="Programa informático">programas</a> y aplicaciones posibles. Si bien los <a href="/wiki/Lenguaje_de_programaci%C3%B3n" title="Lenguaje de programación">lenguajes de programación</a> tienen un mayor repertorio de <a href="/wiki/Estructuras_de_control" title="Estructuras de control">estructuras de control</a>, estas pueden ser construidas mediante las tres básicas citadas.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Historia">Historia</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=6" title="Editar sección: Historia">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="Fundamentaci.C3.B3n_te.C3.B3rica"></span><span class="mw-headline" id="Fundamentación_teórica">Fundamentación teórica</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=7" title="Editar sección: Fundamentación teórica">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>El <a href="/wiki/Teorema_del_programa_estructurado" title="Teorema del programa estructurado">teorema del programa estructurado</a> proporciona la base teórica de la programación estructurada. Señala que la combinación de las tres estructuras básicas, secuencia, selección e iteración, son suficientes para expresar cualquier <a href="/wiki/Funci%C3%B3n_computable" title="Función computable">función computable</a>. Esta observación no se originó con el movimiento de la programación estructurada. Estas estructuras son suficientes para describir el <a href="/wiki/Ciclo_de_instrucci%C3%B3n" title="Ciclo de instrucción">ciclo de instrucción</a> de una <a href="/wiki/Unidad_central_de_procesamiento" title="Unidad central de procesamiento">unidad central de procesamiento</a>, así como el funcionamiento de una <a href="/wiki/M%C3%A1quina_de_Turing" title="Máquina de Turing">máquina de Turing</a>. Por lo tanto, un procesador siempre está ejecutando un «programa estructurado» en este sentido, incluso si las instrucciones que lee de la memoria no son parte de un programa estructurado. Sin embargo, los autores usualmente acreditan el resultado a un documento escrito en 1966 por Böhm y Jacopini, posiblemente porque Dijkstra había citado este escrito.<sup id="cite_ref-FOOTNOTEDijkstra1968_4-0" class="reference separada"><a href="#cite_note-FOOTNOTEDijkstra1968-4"><span class="corchete-llamada">[</span>4<span class="corchete-llamada">]</span></a></sup>&#8203; El teorema del programa estructurado no responde a cómo escribir y analizar un programa estructurado de manera útil. Estos temas fueron abordados durante la década de 1960 y principio de los años 1970, con importantes contribuciones de Dijkstra, <a href="/wiki/Robert_W._Floyd" title="Robert W. Floyd">Robert W. Floyd</a>, <a href="/w/index.php?title=Tony_Hoarey&amp;action=edit&amp;redlink=1" class="new" title="Tony Hoarey (aún no redactado)">Tony Hoarey</a> y <a href="/w/index.php?title=David_Gries&amp;action=edit&amp;redlink=1" class="new" title="David Gries (aún no redactado)">David Gries</a>.
+</p>
+<h3><span class="mw-headline" id="Debate">Debate</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=8" title="Editar sección: Debate">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>P. J. Plauger, uno de los primeros en adoptar la programación estructurada, describió su reacción con el teorema del programa estructurado:
+</p><p>Nosotros los conversos ondeamos esta interesante <a href="/wiki/Bit" title="Bit">pizca</a> de noticias bajo las narices de los recalcitrantes programadores de <a href="/wiki/Lenguaje_ensamblador" title="Lenguaje ensamblador">lenguaje ensamblador</a> que mantuvieron trotando adelante retorcidos bits de lógica y diciendo, 'Te apuesto que no puedes estructurar esto'. Ni la prueba por Böhm y Jacopini, ni nuestros repetidos éxitos en escribir código estructurado, los llevaron un día antes de lo que estaban listos para convencerse.<sup id="cite_ref-5" class="reference separada"><a href="#cite_note-5"><span class="corchete-llamada">[</span>5<span class="corchete-llamada">]</span></a></sup>&#8203;
+</p><p><a href="/wiki/Donald_Knuth" title="Donald Knuth">Donald Knuth</a> aceptó el principio de que los programas deben adaptarse con asertividad, pero no estaba de acuerdo (y aún está en desacuerdo)<sup>[<i><a href="/wiki/Wikipedia:Verificabilidad" title="Wikipedia:Verificabilidad">cita&#160;requerida</a></i>]</sup> con la supresión de la sentencia GOTO. En su escrito de 1974 «Programación estructurada con sentencias Goto», dio ejemplos donde creía que un salto directo conduce a código más claro y más eficiente sin sacrificar demostratividad. Knuth propuso una restricción estructural más flexible: debe ser posible establecer un diagrama de flujo del programa con todas las bifurcaciones hacia adelante a la izquierda, todas las bifurcaciones hacia atrás a la derecha, y sin bifurcaciones que se crucen entre sí. Muchos de los expertos en <a href="/wiki/Teor%C3%ADa_de_grafos" title="Teoría de grafos">teoría de grafos</a> y <a href="/wiki/Compilador" title="Compilador">compiladores</a> han abogado por permitir solo grafos de flujo reducible<sup>[<i><a href="/wiki/Wikipedia:Palabras_que_evitar#Hay_quien_dice,_se_dice_que,_muchos_creen_que" class="mw-redirect" title="Wikipedia:Palabras que evitar">¿quién?</a></i>]</sup><sup>[<i><a href="/wiki/Wikipedia:REFTEMPREL" class="mw-redirect" title="Wikipedia:REFTEMPREL">¿cuándo?</a></i>]</sup>.
+</p><p>Los teóricos de la programación estructurada se ganaron un aliado importante en la década de 1970 después de que el investigador de <a href="/wiki/IBM" title="IBM">IBM</a> <a href="/w/index.php?title=Harlan_Mills&amp;action=edit&amp;redlink=1" class="new" title="Harlan Mills (aún no redactado)">Harlan Mills</a> aplicara su interpretación de la teoría de la programación estructurada para el desarrollo de un sistema de indexación para el archivo de investigación del <i><a href="/wiki/New_York_Times" class="mw-redirect" title="New York Times">New York Times</a></i>. El proyecto fue un gran éxito de la ingeniería, y los directivos de otras empresas lo citaron en apoyo de la adopción de la programación estructurada, aunque Dijkstra criticó las maneras en que la interpretación de Mills difería de la obra publicada.
+</p><p>Habría que esperar a 1987 para que la cuestión de la programación estructurada llamara la atención de una revista de ciencia de la computación. Frank Rubin lo hizo en ese año, con el escrito: «¿“La sentencia GOTO considerada dañina” se considera dañina?». A este le siguieron numerosas objeciones, como una respuesta del propio Dijkstra que criticaba duramente a Rubin y las concesiones que otros autores hicieron cuando le respondieron.
+</p>
+<h3><span class="mw-headline" id="Resultado">Resultado</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=9" title="Editar sección: Resultado">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>A finales del siglo XX, casi todos los científicos están convencidos de que es útil aprender y aplicar los conceptos de programación estructurada. Los lenguajes de programación de alto nivel que originalmente carecían de estructuras de programación, como <a href="/wiki/FORTRAN" class="mw-redirect" title="FORTRAN">FORTRAN</a>, <a href="/wiki/COBOL" title="COBOL">COBOL</a> y <a href="/wiki/BASIC" title="BASIC">BASIC</a>, ahora las tienen.
+</p>
+<h2><span id="Ventajas_de_la_programaci.C3.B3n_estructurada"></span><span class="mw-headline" id="Ventajas_de_la_programación_estructurada">Ventajas de la programación estructurada</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=10" title="Editar sección: Ventajas de la programación estructurada">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Entre las ventajas de la programación estructurada sobre el modelo anterior (hoy llamado despectivamente <a href="/wiki/C%C3%B3digo_espagueti" title="Código espagueti">código espagueti</a>), cabe citar las siguientes:
+</p>
+<ul><li>Los programas son más fáciles de entender, pueden ser leídos de forma secuencial y no hay necesidad de tener que rastrear saltos de líneas (GOTO) dentro de los bloques de código para intentar entender la lógica interna.</li>
+<li>La estructura de los programas es clara, puesto que las instrucciones están más ligadas o relacionadas entre sí.</li>
+<li>Se optimiza el esfuerzo en las fases de pruebas y depuración. El seguimiento de los fallos o errores del programa (<i>debugging</i>), y con él su detección y corrección, se facilita enormemente.</li>
+<li>Se reducen los costos de mantenimiento. Análogamente a la depuración, durante la fase de mantenimiento, modificar o extender los programas resulta más fácil.</li>
+<li>Los programas son más sencillos y más rápidos de confeccionar.</li>
+<li>Se incrementa el rendimiento de los programadores.</li></ul>
+<h2><span id="Lenguajes_de_programaci.C3.B3n_estructurada"></span><span class="mw-headline" id="Lenguajes_de_programación_estructurada">Lenguajes de programación estructurada</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=11" title="Editar sección: Lenguajes de programación estructurada">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Si bien es posible desarrollar la programación estructurada en cualquier lenguaje de programación, resulta más idóneo un <a href="/wiki/Programaci%C3%B3n_por_procedimientos" title="Programación por procedimientos">lenguaje de programación procedimental</a>. Algunos de los lenguajes utilizados inicialmente para programación estructurada incluyen <a href="/wiki/ALGOL" title="ALGOL">ALGOL</a>, <a href="/wiki/Pascal_(lenguaje_de_programaci%C3%B3n)" title="Pascal (lenguaje de programación)">Pascal</a>, <a href="/wiki/PL/I" class="mw-redirect" title="PL/I">PL/I</a> y <a href="/wiki/Lenguaje_de_programaci%C3%B3n_Ada" class="mw-redirect" title="Lenguaje de programación Ada">Ada</a>, pero la mayoría de los nuevos lenguajes de programación procedimentales desde entonces han incluido características para fomentar la programación estructurada y a veces, deliberadamente, omiten características<sup id="cite_ref-6" class="reference separada"><a href="#cite_note-6"><span class="corchete-llamada">[</span>6<span class="corchete-llamada">]</span></a></sup>&#8203; en un esfuerzo para hacer más difícil la <a href="/w/index.php?title=Programaci%C3%B3n_no_estructurada&amp;action=edit&amp;redlink=1" class="new" title="Programación no estructurada (aún no redactado)">programación no estructurada</a>.
+</p>
+<h2><span class="mw-headline" id="Nuevos_paradigmas">Nuevos paradigmas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=12" title="Editar sección: Nuevos paradigmas">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Con posterioridad a la programación estructurada se han creado nuevos paradigmas tales como la <a href="/wiki/Programaci%C3%B3n_modular" title="Programación modular">programación modular</a>, la <a href="/wiki/Programaci%C3%B3n_orientada_a_objetos" title="Programación orientada a objetos">programación orientada a objetos</a>, la <a href="/wiki/Programaci%C3%B3n_por_capas" title="Programación por capas">programación por capas</a> y otras, así como nuevos entornos de programación que facilitan la programación de grandes aplicaciones y sistemas.
+</p>
+<h2><span class="mw-headline" id="Referencias">Referencias</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=13" title="Editar sección: Referencias">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="listaref" style="list-style-type: decimal;"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">Böhm, Jacopini. "Flow diagrams, turing machines and languages with only two formation rules" <a href="/w/index.php?title=Comm._ACM&amp;action=edit&amp;redlink=1" class="new" title="Comm. ACM (aún no redactado)">Comm. ACM</a>, 9(5):366-371, May 1966, doi=10.1145/355592.365646</span>
+</li>
+<li id="cite_note-dijkstra1968-2"><span class="mw-cite-backlink"><a href="#cite_ref-dijkstra1968_2-0">↑</a></span> <span class="reference-text"><span id="CITAREFEdsger_Dijkstramarzo_de_1968" class="citation publicación"><a href="/wiki/Edsger_Dijkstra" title="Edsger Dijkstra">Edsger Dijkstra</a> (marzo de 1968). «Go To Statement Considered Harmful». <i>Communications of the ACM</i> <span style="color:#555;">(PDF<span style="display:none;font-size:100%" class="error citation-comment"><code>&#124;formato=</code> requiere <code>&#124;url=</code> (<a href="/wiki/Ayuda:Errores_en_las_referencias#format_missing_url" title="Ayuda:Errores en las referencias">ayuda</a>)</span>)</span> <b>11</b> (3): 147-148. <small><a href="/wiki/Digital_object_identifier" class="mw-redirect" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="https://dx.doi.org/10.1145%2F362929.362947">10.1145/362929.362947</a></small>. «The unbridled use of the go to statement has as an immediate consequence that it becomes terribly hard to find a meaningful set of coordinates in which to describe the process progress.  ... The go to statement as it stands is just too primitive, it is too much an invitation to make a mess of one's program.&#160;»</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3AProgramaci%C3%B3n+estructurada&amp;rft.atitle=Go+To+Statement+Considered+Harmful&amp;rft.au=Edsger+Dijkstra&amp;rft.aulast=Edsger+Dijkstra&amp;rft.date=marzo+de+1968&amp;rft.genre=article&amp;rft.issue=3&amp;rft.jtitle=Communications+of+the+ACM&amp;rft.pages=147-148&amp;rft.volume=11&amp;rft_id=info%3Adoi%2F10.1145%2F362929.362947&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text"><span id="CITAREFClarkRobert2000" class="citation libro">Clark, Leslie B. Wilson, Robert G.; Robert, Clark (2000). <a rel="nofollow" class="external text" href="https://web.archive.org/web/20151126050203/https://books.google.co.uk/books?id=bVSjoO8f2fMC&amp;lpg=PR11&amp;ots=zItCa2GxG6&amp;dq=Comparative%20Programming%20Languages&amp;lr&amp;pg=PA20#v=onepage&amp;q=Comparative%20Programming%20Languages&amp;f=false"><i>Comparative programming languages</i></a> (3rd edición). Harlow, England: Addison-Wesley. p.&#160;20. <small><a href="/wiki/ISBN" title="ISBN">ISBN</a>&#160;<a href="/wiki/Especial:FuentesDeLibros/9780201710120" title="Especial:FuentesDeLibros/9780201710120">9780201710120</a></small>. Archivado desde <a rel="nofollow" class="external text" href="https://books.google.com/books?id=bVSjoO8f2fMC&amp;q=Comparative+Programming+Languages&amp;pg=PA20">el original</a> el 26 November 2015<span class="reference-accessdate">. Consultado el 25 November 2015</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3AProgramaci%C3%B3n+estructurada&amp;rft.au=Clark%2C+Leslie+B.+Wilson%2C+Robert+G.&amp;rft.au=Robert%2C+Clark&amp;rft.aufirst=Leslie+B.+Wilson%2C+Robert+G.&amp;rft.aulast=Clark&amp;rft.btitle=Comparative+programming+languages&amp;rft.date=2000&amp;rft.edition=3rd&amp;rft.genre=book&amp;rft.isbn=9780201710120&amp;rft.pages=20&amp;rft.place=Harlow%2C+England&amp;rft.pub=Addison-Wesley&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DbVSjoO8f2fMC%26q%3DComparative%2BProgramming%2BLanguages%26pg%3DPA20&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-FOOTNOTEDijkstra1968-4"><span class="mw-cite-backlink"><a href="#cite_ref-FOOTNOTEDijkstra1968_4-0">↑</a></span> <span class="reference-text"><a href="#CITAREFDijkstra1968">Dijkstra, 1968</a>.</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text"><span id="CITAREFP._J._Plauger1993" class="citation libro">P. J. Plauger (1993). <a rel="nofollow" class="external text" href="https://archive.org/details/programmingonpur00plau"><i>Programming on Purpose</i></a> <span style="color:#555;">(en inglés)</span>. PTR Prentice Hall. p.&#160;<a rel="nofollow" class="external text" href="https://archive.org/details/programmingonpur00plau/page/n28">20</a>. <small><a href="/wiki/ISBN" title="ISBN">ISBN</a>&#160;<a href="/wiki/Especial:FuentesDeLibros/978-013-721-374-0" title="Especial:FuentesDeLibros/978-013-721-374-0">978-013-721-374-0</a></small>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3AProgramaci%C3%B3n+estructurada&amp;rft.au=P.+J.+Plauger&amp;rft.aulast=P.+J.+Plauger&amp;rft.btitle=Programming+on+Purpose&amp;rft.date=1993&amp;rft.genre=book&amp;rft.isbn=978-013-721-374-0&amp;rft.pages=20&amp;rft.pub=PTR+Prentice+Hall&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fprogrammingonpur00plau&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text">GOTO for example</span>
+</li>
+</ol></div>
+<h2><span id="Bibliograf.C3.ADa"></span><span class="mw-headline" id="Bibliografía">Bibliografía</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=14" title="Editar sección: Bibliografía">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><span id="CITAREFDijkstra1968" class="citation publicación"><a href="/wiki/Edsger_Dijkstra" title="Edsger Dijkstra">Dijkstra, Edsger W.</a> (Marzo 1968). <a rel="nofollow" class="external text" href="https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF">«Letters to the editor: Go to statement considered harmful»</a>. <i><a href="/w/index.php?title=Communications_of_the_ACM&amp;action=edit&amp;redlink=1" class="new" title="Communications of the ACM (aún no redactado)">Communications of the ACM</a></i> <b>11</b> (3): 147-148. <small><a href="/wiki/ISSN" class="mw-redirect" title="ISSN">ISSN</a>&#160;<a rel="nofollow" class="external text" href="//portal.issn.org/resource/issn/0001-0782">0001-0782</a></small>. <small><a href="/wiki/Semantic_Scholar" title="Semantic Scholar">S2CID</a>&#160;<a rel="nofollow" class="external text" href="https://api.semanticscholar.org/CorpusID:17469809">17469809</a></small>. <small><a href="/wiki/Digital_object_identifier" class="mw-redirect" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="https://dx.doi.org/10.1145%2F362929.362947">10.1145/362929.362947</a></small>.</span><span title="ctx_ver=Z39.88-2004&amp;pre=17469809&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3AProgramaci%C3%B3n+estructurada&amp;rft.atitle=Letters+to+the+editor%3A+Go+to+statement+considered+harmful&amp;rft.au=Dijkstra%2C+Edsger+W.&amp;rft.aufirst=Edsger+W.&amp;rft.aulast=Dijkstra&amp;rft.date=Marzo+1968&amp;rft.genre=article&amp;rft.issn=0001-0782&amp;rft.issue=3&amp;rft.jtitle=Communications+of+the+ACM&amp;rft.pages=147-148&amp;rft.volume=11&amp;rft_id=https%3A%2F%2Fwww.cs.utexas.edu%2Fusers%2FEWD%2Fewd02xx%2FEWD215.PDF&amp;rft_id=info%3Adoi%2F10.1145%2F362929.362947&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><span id="CITAREFGarcía-Bermejo_Giner2008" class="citation libro">García-Bermejo Giner, José Rafael (2008). <i>Programación estructurada en C</i> (1.ª edición). Pearson Prentice Hall. <small><a href="/wiki/ISBN" title="ISBN">ISBN</a>&#160;<a href="/wiki/Especial:FuentesDeLibros/978-84-8322-423-6" title="Especial:FuentesDeLibros/978-84-8322-423-6">978-84-8322-423-6</a></small>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3AProgramaci%C3%B3n+estructurada&amp;rft.au=Garc%C3%ADa-Bermejo+Giner%2C+Jos%C3%A9+Rafael&amp;rft.aufirst=Jos%C3%A9+Rafael&amp;rft.aulast=Garc%C3%ADa-Bermejo+Giner&amp;rft.btitle=Programaci%C3%B3n+estructurada+en+C&amp;rft.date=2008&amp;rft.edition=1.%C2%AA&amp;rft.genre=book&amp;rft.isbn=978-84-8322-423-6&amp;rft.pub=Pearson+Prentice+Hall&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><span id="CITAREFValls_Ferrán2004" class="citation libro">Valls Ferrán, José María; Camacho Fernández, David (2004). <i>Programación estructurada y algoritmos en Pascal</i> (1.ª edición). Pearson Alhambra. <small><a href="/wiki/ISBN" title="ISBN">ISBN</a>&#160;<a href="/wiki/Especial:FuentesDeLibros/978-84-205-4246-1" title="Especial:FuentesDeLibros/978-84-205-4246-1">978-84-205-4246-1</a></small>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3AProgramaci%C3%B3n+estructurada&amp;rft.au=Valls+Ferr%C3%A1n%2C+Jos%C3%A9+Mar%C3%ADa&amp;rft.aufirst=Jos%C3%A9+Mar%C3%ADa&amp;rft.aulast=Valls+Ferr%C3%A1n&amp;rft.btitle=Programaci%C3%B3n+estructurada+y+algoritmos+en+Pascal&amp;rft.date=2004&amp;rft.edition=1.%C2%AA&amp;rft.genre=book&amp;rft.isbn=978-84-205-4246-1&amp;rft.pub=Pearson+Alhambra&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span> <span style="display:none;font-size:100%" class="error citation-comment">La referencia utiliza el parámetro obsoleto <code>&#124;coautores=</code> (<a href="/wiki/Ayuda:Errores_en_las_referencias#deprecated_params" title="Ayuda:Errores en las referencias">ayuda</a>)</span></li>
+<li><span class="citation libro"><i>Programación estructurada II</i> (1.ª edición). Enseñanza Técnica y Sistemas, S.A. 2000. <small><a href="/wiki/ISBN" title="ISBN">ISBN</a>&#160;<a href="/wiki/Especial:FuentesDeLibros/978-84-85838-90-5" title="Especial:FuentesDeLibros/978-84-85838-90-5">978-84-85838-90-5</a></small>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3AProgramaci%C3%B3n+estructurada&amp;rft.btitle=Programaci%C3%B3n+estructurada+II&amp;rft.date=2000&amp;rft.edition=1.%C2%AA&amp;rft.genre=book&amp;rft.isbn=978-84-85838-90-5&amp;rft.pub=Ense%C3%B1anza+T%C3%A9cnica+y+Sistemas%2C+S.A.&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><span class="citation libro"><i>Pseudocódigos y programación estructurada</i> (1.ª edición). Centro Técnico Europeo de Enseñanzas Profesionales. 1997. <small><a href="/wiki/ISBN" title="ISBN">ISBN</a>&#160;<a href="/wiki/Especial:FuentesDeLibros/978-84-8199-065-2" title="Especial:FuentesDeLibros/978-84-8199-065-2">978-84-8199-065-2</a></small>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3AProgramaci%C3%B3n+estructurada&amp;rft.btitle=Pseudoc%C3%B3digos+y+programaci%C3%B3n+estructurada&amp;rft.date=1997&amp;rft.edition=1.%C2%AA&amp;rft.genre=book&amp;rft.isbn=978-84-8199-065-2&amp;rft.pub=Centro+T%C3%A9cnico+Europeo+de+Ense%C3%B1anzas+Profesionales&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><span id="CITAREFSánchez_Andrés1996" class="citation libro">Sánchez Andrés, María Ángeles (1996). <i>Programación estructurada y fundamentos de programación</i> (1.ª edición). McGraw-Hill / Interamericana de España, S.A. <small><a href="/wiki/ISBN" title="ISBN">ISBN</a>&#160;<a href="/wiki/Especial:FuentesDeLibros/978-84-481-0557-0" title="Especial:FuentesDeLibros/978-84-481-0557-0">978-84-481-0557-0</a></small>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3AProgramaci%C3%B3n+estructurada&amp;rft.au=S%C3%A1nchez+Andr%C3%A9s%2C+Mar%C3%ADa+%C3%81ngeles&amp;rft.aufirst=Mar%C3%ADa+%C3%81ngeles&amp;rft.aulast=S%C3%A1nchez+Andr%C3%A9s&amp;rft.btitle=Programaci%C3%B3n+estructurada+y+fundamentos+de+programaci%C3%B3n&amp;rft.date=1996&amp;rft.edition=1.%C2%AA&amp;rft.genre=book&amp;rft.isbn=978-84-481-0557-0&amp;rft.pub=McGraw-Hill+%2F+Interamericana+de+Espa%C3%B1a%2C+S.A.&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li></ul>
+<h2><span id="V.C3.A9ase_tambi.C3.A9n"></span><span class="mw-headline" id="Véase_también">Véase también</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=15" title="Editar sección: Véase también">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Teorema_del_programa_estructurado" title="Teorema del programa estructurado">Teorema del programa estructurado</a></li>
+<li><a href="/wiki/Dise%C3%B1o_estructurado" title="Diseño estructurado">Diseño estructurado</a></li>
+<li><a href="/wiki/Bloque_de_c%C3%B3digo" title="Bloque de código">Bloque de código</a></li>
+<li><a href="/wiki/Estructuras_de_control" title="Estructuras de control">Estructuras de control</a></li>
+<li><a href="/wiki/Programaci%C3%B3n_por_procedimientos" title="Programación por procedimientos">Programación por procedimientos</a></li>
+<li><a href="/wiki/Programaci%C3%B3n_modular" title="Programación modular">Programación modular</a></li>
+<li><a href="/wiki/Programaci%C3%B3n_orientada_a_objetos" title="Programación orientada a objetos">Programación orientada a objetos</a></li></ul>
+<h2><span class="mw-headline" id="Enlaces_externos">Enlaces externos</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit&amp;section=16" title="Editar sección: Enlaces externos">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://www.monografias.com/trabajos/progestructu/progestructu.shtml">Monografías.com: Programación Estructurada</a></li>
+<li><a rel="nofollow" class="external text" href="http://diagramas-de-flujo.blogspot.com/search/label/programacion%20estructurada">Ejercicios resueltos de Programación Estructurada</a></li></ul>
+<style data-mw-deduplicate="TemplateStyles:r144106945">.mw-parser-output .mw-authority-control{margin-top:1.5em}.mw-parser-output .mw-authority-control .navbox hr:last-child{display:none}.mw-parser-output .mw-authority-control .navbox+.mw-mf-linked-projects{display:none}.mw-parser-output .mw-authority-control .mw-mf-linked-projects{display:flex;padding:0.5em;border:1px solid #c8ccd1;background-color:#eaecf0;color:#222222}.mw-parser-output .mw-authority-control .mw-mf-linked-projects ul li{margin-bottom:0}</style><div class="mw-authority-control"><div role="navigation" class="navbox" aria-label="Navbox" style="width: inherit;padding:3px"><table class="hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="row" class="navbox-group" style="width: 12%; text-align:center;"><a href="/wiki/Control_de_autoridades" title="Control de autoridades">Control de autoridades</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><b>Proyectos Wikimedia</b></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a> Datos:</span> <span class="uid"><a href="https://www.wikidata.org/wiki/Q223335" class="extiw" title="wikidata:Q223335">Q223335</a></span></li>
+<li><b>Identificadores</b></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_de_Espa%C3%B1a" title="Biblioteca Nacional de España">BNE</a>:</span> <span class="uid"><a rel="nofollow" class="external text" href="https://datos.bne.es/resource/XX531013">XX531013</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_de_Francia" title="Biblioteca Nacional de Francia">BNF</a>:</span> <span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb11966709k">11966709k</a> <a rel="nofollow" class="external text" href="http://data.bnf.fr/ark:/12148/cb11966709k">(data)</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Gemeinsame_Normdatei" title="Gemeinsame Normdatei">GND</a>:</span> <span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/4058133-0">4058133-0</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Library_of_Congress_Control_Number" title="Library of Congress Control Number">LCCN</a>:</span> <span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/sh85129214">sh85129214</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_de_la_Rep%C3%BAblica_Checa" title="Biblioteca Nacional de la República Checa">NKC</a>:</span> <span class="uid"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=ph126154">ph126154</a></span></li></ul>
+</div></td></tr></tbody></table></div><div class="mw-mf-linked-projects hlist">
+<ul><li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a> Datos:</span> <span class="uid"><a href="https://www.wikidata.org/wiki/Q223335" class="extiw" title="wikidata:Q223335">Q223335</a></span></li></ul>
+</div></div>
+<!-- 
+NewPP limit report
+Parsed by mw1371
+Cached time: 20220805082824
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.283 seconds
+Real time usage: 0.336 seconds
+Preprocessor visited node count: 650/1000000
+Post‐expand include size: 23254/2097152 bytes
+Template argument size: 116/2097152 bytes
+Highest expansion depth: 11/100
+Expensive parser function count: 5/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7310/5000000 bytes
+Lua time usage: 0.200/10.000 seconds
+Lua memory usage: 3733078/52428800 bytes
+Number of Wikibase entities loaded: 6/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  289.564      1 -total
+ 71.04%  205.710      1 Plantilla:Control_de_autoridades
+ 17.90%   51.845      1 Plantilla:Listaref
+ 12.08%   34.980      1 Plantilla:Cita_publicación
+  4.48%   12.966      6 Plantilla:Cita_libro
+  3.35%    9.708      1 Plantilla:Sfn
+  2.03%    5.879      1 Plantilla:Refn
+  1.72%    4.989      1 Plantilla:Cite_book
+  1.46%    4.222      1 Plantilla:Cite_journal
+  0.66%    1.916      1 Plantilla:Cita_requerida
+-->
+
+<!-- Saved in parser cache with key eswiki:pcache:idhash:2249-0!canonical and timestamp 20220805082824 and revision id 145121682.
+ -->
+</div><noscript><img src="//es.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter">Obtenido de «<a dir="ltr" href="https://es.wikipedia.org/w/index.php?title=Programación_estructurada&amp;oldid=145121682">https://es.wikipedia.org/w/index.php?title=Programación_estructurada&amp;oldid=145121682</a>»</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Especial:Categor%C3%ADas" title="Especial:Categorías">Categorías</a>: <ul><li><a href="/wiki/Categor%C3%ADa:Paradigmas_de_programaci%C3%B3n" title="Categoría:Paradigmas de programación">Paradigmas de programación</a></li><li><a href="/wiki/Categor%C3%ADa:Estructuras_de_control" title="Categoría:Estructuras de control">Estructuras de control</a></li><li><a href="/wiki/Categor%C3%ADa:Dise%C3%B1o_de_software" title="Categoría:Diseño de software">Diseño de software</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Categorías ocultas: <ul><li><a href="/wiki/Categor%C3%ADa:Wikipedia:P%C3%A1ginas_con_referencias_sin_URL_y_con_formato" title="Categoría:Wikipedia:Páginas con referencias sin URL y con formato">Wikipedia:Páginas con referencias sin URL y con formato</a></li><li><a href="/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_pasajes_que_requieren_referencias" title="Categoría:Wikipedia:Artículos con pasajes que requieren referencias">Wikipedia:Artículos con pasajes que requieren referencias</a></li><li><a href="/wiki/Categor%C3%ADa:Wikipedia:P%C3%A1ginas_con_referencias_con_par%C3%A1metros_obsoletos" title="Categoría:Wikipedia:Páginas con referencias con parámetros obsoletos">Wikipedia:Páginas con referencias con parámetros obsoletos</a></li><li><a href="/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_identificadores_BNE" title="Categoría:Wikipedia:Artículos con identificadores BNE">Wikipedia:Artículos con identificadores BNE</a></li><li><a href="/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_identificadores_BNF" title="Categoría:Wikipedia:Artículos con identificadores BNF">Wikipedia:Artículos con identificadores BNF</a></li><li><a href="/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_identificadores_GND" title="Categoría:Wikipedia:Artículos con identificadores GND">Wikipedia:Artículos con identificadores GND</a></li><li><a href="/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_identificadores_LCCN" title="Categoría:Wikipedia:Artículos con identificadores LCCN">Wikipedia:Artículos con identificadores LCCN</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Menú de navegación</h2>
+	<div id="mw-head">
+		
+
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Herramientas personales</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage" class="mw-list-item"><span title="La página de usuario de la IP desde la que editas">No has accedido</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Especial:MiDiscusi%C3%B3n" title="Discusión sobre ediciones hechas desde esta dirección IP [n]" accesskey="n"><span>Discusión</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Especial:MisContribuciones" title="Una lista de modificaciones hechas desde esta dirección IP [y]" accesskey="y"><span>Contribuciones</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Especial:Crear_una_cuenta&amp;returnto=Programaci%C3%B3n+estructurada" title="Te recomendamos crear una cuenta e iniciar sesión; sin embargo, no es obligatorio"><span>Crear una cuenta</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Especial:Entrar&amp;returnto=Programaci%C3%B3n+estructurada" title="Te recomendamos iniciar sesión, aunque no es obligatorio [o]" accesskey="o"><span>Acceder</span></a></li></ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Espacios de nombres</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/Programaci%C3%B3n_estructurada" title="Ver la página de contenido [c]" accesskey="c"><span>Artículo</span></a></li><li id="ca-talk" class="mw-list-item"><a href="/wiki/Discusi%C3%B3n:Programaci%C3%B3n_estructurada" rel="discussion" title="Discusión acerca de la página [t]" accesskey="t"><span>Discusión</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		 aria-label="Cambiar variante de idioma"
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">español</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Vistas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected mw-list-item"><a href="/wiki/Programaci%C3%B3n_estructurada"><span>Leer</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=edit" title="Editar esta página [e]" accesskey="e"><span>Editar</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=history" title="Versiones anteriores de esta página [h]" accesskey="h"><span>Ver historial</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="Más opciones" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Más</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div>
+			<h3 >
+				<label for="searchInput">Buscar</label>
+			</h3>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-navigation">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Buscar en Wikipedia" aria-label="Buscar en Wikipedia" autocapitalize="sentences" title="Buscar en este wiki [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Especial:Buscar">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Busca páginas con este texto." value="Buscar">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Ir a la página con este nombre exacto si existe" value="Ir">
+			</div>
+		</form>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/wiki/Wikipedia:Portada"
+			title="Visitar la página principal"></a>
+	</div>
+	
+
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navegación</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikipedia:Portada" title="Visitar la página principal [z]" accesskey="z"><span>Portada</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Portal:Comunidad" title="Acerca del proyecto, lo que puedes hacer, dónde encontrar información"><span>Portal de la comunidad</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Actualidad" title="Encuentra información de contexto sobre acontecimientos actuales"><span>Actualidad</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Especial:CambiosRecientes" title="Lista de cambios recientes en la wiki [r]" accesskey="r"><span>Cambios recientes</span></a></li><li id="n-newpages" class="mw-list-item"><a href="/wiki/Especial:P%C3%A1ginasNuevas"><span>Páginas nuevas</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Especial:Aleatoria" title="Cargar una página al azar [x]" accesskey="x"><span>Página aleatoria</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Ayuda:Contenidos" title="El lugar para aprender"><span>Ayuda</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_es.wikipedia.org&amp;uselang=es" title="Apóyanos"><span>Donaciones</span></a></li><li id="n-bug_in_article" class="mw-list-item"><a href="/wiki/Wikipedia:Informes_de_error"><span>Notificar un error</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Herramientas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Especial:LoQueEnlazaAqu%C3%AD/Programaci%C3%B3n_estructurada" title="Lista de todas las páginas de la wiki que enlazan aquí [j]" accesskey="j"><span>Lo que enlaza aquí</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Especial:CambiosEnEnlazadas/Programaci%C3%B3n_estructurada" rel="nofollow" title="Cambios recientes en las páginas que enlazan con esta [k]" accesskey="k"><span>Cambios en enlazadas</span></a></li><li id="t-upload" class="mw-list-item"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=es" title="Subir archivos [u]" accesskey="u"><span>Subir archivo</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Especial:P%C3%A1ginasEspeciales" title="Lista de todas las páginas especiales [q]" accesskey="q"><span>Páginas especiales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;oldid=145121682" title="Enlace permanente a esta versión de la página"><span>Enlace permanente</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;action=info" title="Más información sobre esta página"><span>Información de la página</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Especial:Citar&amp;page=Programaci%C3%B3n_estructurada&amp;id=145121682&amp;wpFormIdentifier=titleform" title="Información sobre cómo citar esta página"><span>Citar esta página</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q223335" title="Enlace al elemento conectado del repositorio de datos [g]" accesskey="g"><span>Elemento de Wikidata</span></a></li></ul>
+		
+	</div>
+</nav>
+
+
+<nav id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" role="navigation"  >
+	<h3
+		id="p-coll-print_export-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Imprimir/exportar</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Especial:Libro&amp;bookcmd=book_creator&amp;referer=Programaci%C3%B3n+estructurada"><span>Crear un libro</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Especial:DownloadAsPdf&amp;page=Programaci%C3%B3n_estructurada&amp;action=show-download-screen"><span>Descargar como PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Programaci%C3%B3n_estructurada&amp;printable=yes" title="Versión imprimible de esta página [p]" accesskey="p"><span>Versión para imprimir</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-lang" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation"  >
+	<h3
+		id="p-lang-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">En otros idiomas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9_%D9%85%D9%87%D9%8A%D9%83%D9%84%D8%A9" title="برمجة مهيكلة (árabe)" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a href="https://ast.wikipedia.org/wiki/Programaci%C3%B3n_estructurada" title="Programación estructurada (asturiano)" lang="ast" hreflang="ast" class="interlanguage-link-target"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a href="https://az.wikipedia.org/wiki/Strukturlu_proqramla%C5%9Fd%C4%B1rma" title="Strukturlu proqramlaşdırma (azerbaiyano)" lang="az" hreflang="az" class="interlanguage-link-target"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%BD%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5" title="Структурно програмиране (búlgaro)" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Programaci%C3%B3_estructurada" title="Programació estructurada (catalán)" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Strukturovan%C3%A9_programov%C3%A1n%C3%AD" title="Strukturované programování (checo)" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a href="https://da.wikipedia.org/wiki/Struktureret_programmering" title="Struktureret programmering (danés)" lang="da" hreflang="da" class="interlanguage-link-target"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Strukturierte_Programmierung" title="Strukturierte Programmierung (alemán)" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/Structured_programming" title="Structured programming (inglés)" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a href="https://et.wikipedia.org/wiki/Struktureeritud_programmeerimine" title="Struktureeritud programmeerimine (estonio)" lang="et" hreflang="et" class="interlanguage-link-target"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C_%D8%B3%D8%A7%D8%AE%D8%AA%E2%80%8C%DB%8C%D8%A7%D9%81%D8%AA%D9%87" title="برنامه‌نویسی ساخت‌یافته (persa)" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Strukturoitu_ohjelmointi" title="Strukturoitu ohjelmointi (finés)" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Programmation_structur%C3%A9e" title="Programmation structurée (francés)" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Programaci%C3%B3n_estruturada" title="Programación estruturada (gallego)" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%9B%D7%A0%D7%95%D7%AA_%D7%9E%D7%95%D7%91%D7%A0%D7%94" title="תכנות מובנה (hebreo)" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Strukturirano_programiranje" title="Strukturirano programiranje (croata)" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Struktur%C3%A1lt_programoz%C3%A1s" title="Strukturált programozás (húngaro)" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Pemrograman_terstruktur" title="Pemrograman terstruktur (indonesio)" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Programmazione_strutturata" title="Programmazione strutturata (italiano)" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E6%A7%8B%E9%80%A0%E5%8C%96%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0" title="構造化プログラミング (japonés)" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EA%B5%AC%EC%A1%B0%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D" title="구조적 프로그래밍 (coreano)" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Programmatura_ordinata" title="Programmatura ordinata (latín)" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a href="https://lt.wikipedia.org/wiki/Strukt%C5%ABrinis_programavimas" title="Struktūrinis programavimas (lituano)" lang="lt" hreflang="lt" class="interlanguage-link-target"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a href="https://mk.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%BD%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D1%9A%D0%B5" title="Структурно програмирање (macedonio)" lang="mk" hreflang="mk" class="interlanguage-link-target"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a href="https://ml.wikipedia.org/wiki/%E0%B4%B8%E0%B5%8D%E0%B4%9F%E0%B5%8D%E0%B4%B0%E0%B4%95%E0%B5%8D%E0%B4%9A%E0%B5%87%E0%B5%BC%E0%B4%A1%E0%B5%8D_%E0%B4%AA%E0%B5%8D%E0%B4%B0%E0%B5%8B%E0%B4%97%E0%B5%8D%E0%B4%B0%E0%B4%BE%E0%B4%AE%E0%B4%BF%E0%B4%99%E0%B5%8D" title="സ്ട്രക്ചേർഡ് പ്രോഗ്രാമിങ് (malayalam)" lang="ml" hreflang="ml" class="interlanguage-link-target"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a href="https://ms.wikipedia.org/wiki/Pengaturcaraan_berstruktur" title="Pengaturcaraan berstruktur (malayo)" lang="ms" hreflang="ms" class="interlanguage-link-target"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Gestructureerd_programmeren" title="Gestructureerd programmeren (neerlandés)" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Strukturert_programmering" title="Strukturert programmering (noruego bokmal)" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Programowanie_strukturalne" title="Programowanie strukturalne (polaco)" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_estruturada" title="Programação estruturada (portugués)" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Programare_structurat%C4%83" title="Programare structurată (rumano)" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" title="Структурное программирование (ruso)" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-rue mw-list-item"><a href="https://rue.wikipedia.org/wiki/%D0%A8%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B5_%D0%BF%D1%80%D0%BE%D2%91%D1%80%D0%B0%D0%BC%D0%BE%D0%B2%D0%B0%D0%BD%D1%8F" title="Штруктуроване проґрамованя (Rusyn)" lang="rue" hreflang="rue" class="interlanguage-link-target"><span>Русиньскый</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Strukturirano_programiranje" title="Strukturirano programiranje (serbocroata)" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/Strukturirano_programiranje" title="Strukturirano programiranje (serbio)" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Strukturerad_programmering" title="Strukturerad programmering (sueco)" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Uprogramishaji_unde" title="Uprogramishaji unde (suajili)" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a href="https://ta.wikipedia.org/wiki/%E0%AE%92%E0%AE%B4%E0%AF%81%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%9A%E0%AE%BE%E0%AE%B0%E0%AF%8D_%E0%AE%A8%E0%AE%BF%E0%AE%B0%E0%AE%B2%E0%AE%BE%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AE%E0%AF%8D" title="ஒழுங்குசார் நிரலாக்கம் (tamil)" lang="ta" hreflang="ta" class="interlanguage-link-target"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Yap%C4%B1sal_programlama" title="Yapısal programlama (turco)" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%BD%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F" title="Структурне програмування (ucraniano)" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/L%E1%BA%ADp_tr%C3%ACnh_c%E1%BA%A5u_tr%C3%BAc" title="Lập trình cấu trúc (vietnamita)" lang="vi" hreflang="vi" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E7%BB%93%E6%9E%84%E5%8C%96%E7%BC%96%E7%A8%8B" title="结构化编程 (chino)" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a href="https://zh-yue.wikipedia.org/wiki/%E7%B5%90%E6%A7%8B%E5%8C%96%E7%B7%A8%E7%A8%8B" title="結構化編程 (Cantonese)" lang="yue" hreflang="yue" class="interlanguage-link-target"><span>粵語</span></a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q223335#sitelinks-wikipedia" title="Editar enlaces interlingüísticos" class="wbc-editpage">Editar enlaces</a></span></div>
+	</div>
+</nav>
+
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> Esta página se editó por última vez el 1 ago 2022 a las 16:59.</li>
+	<li id="footer-info-copyright">El texto está disponible bajo la <a rel="license" href="//es.wikipedia.org/wiki/Wikipedia:Texto_de_la_Licencia_Creative_Commons_Atribuci%C3%B3n-CompartirIgual_3.0_Unported">Licencia Creative Commons Atribución Compartir Igual 3.0</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+pueden aplicarse cláusulas adicionales. Al usar este sitio, usted acepta nuestros <a href="//wikimediafoundation.org/wiki/Terms_of_Use">términos de uso</a> y nuestra <a href="//wikimediafoundation.org/wiki/Privacy_policy">política de privacidad</a>. <br/>Wikipedia&reg; es una marca registrada de la <a href="//www.wikimediafoundation.org/">Fundación Wikimedia, Inc.</a>, una organización sin ánimo de lucro.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/es">Política de privacidad</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:Acerca_de">Acerca de Wikipedia</a></li>
+	<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:Limitaci%C3%B3n_general_de_responsabilidad">Limitación de responsabilidad</a></li>
+	<li id="footer-places-mobileview"><a href="//es.m.wikipedia.org/w/index.php?title=Programaci%C3%B3n_estructurada&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versión para móviles</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Desarrolladores</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/es.wikipedia.org">Estadísticas</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement/es">Declaración de cookies</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.283","walltime":"0.336","ppvisitednodes":{"value":650,"limit":1000000},"postexpandincludesize":{"value":23254,"limit":2097152},"templateargumentsize":{"value":116,"limit":2097152},"expansiondepth":{"value":11,"limit":100},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":7310,"limit":5000000},"entityaccesscount":{"value":6,"limit":400},"timingprofile":["100.00%  289.564      1 -total"," 71.04%  205.710      1 Plantilla:Control_de_autoridades"," 17.90%   51.845      1 Plantilla:Listaref"," 12.08%   34.980      1 Plantilla:Cita_publicación","  4.48%   12.966      6 Plantilla:Cita_libro","  3.35%    9.708      1 Plantilla:Sfn","  2.03%    5.879      1 Plantilla:Refn","  1.72%    4.989      1 Plantilla:Cite_book","  1.46%    4.222      1 Plantilla:Cite_journal","  0.66%    1.916      1 Plantilla:Cita_requerida"]},"scribunto":{"limitreport-timeusage":{"value":"0.200","limit":"10.000"},"limitreport-memusage":{"value":3733078,"limit":52428800}},"cachereport":{"origin":"mw1371","timestamp":"20220805082824","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Programaci\u00f3n estructurada","url":"https:\/\/es.wikipedia.org\/wiki\/Programaci%C3%B3n_estructurada","sameAs":"http:\/\/www.wikidata.org\/entity\/Q223335","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q223335","author":{"@type":"Organization","name":"Colaboradores de los proyectos Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-04-23T03:29:15Z","dateModified":"2022-08-01T16:59:57Z","headline":"paradigma de programaci\u00f3n"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Programaci\u00f3n estructurada","url":"https:\/\/es.wikipedia.org\/wiki\/Programaci%C3%B3n_estructurada","sameAs":"http:\/\/www.wikidata.org\/entity\/Q223335","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q223335","author":{"@type":"Organization","name":"Colaboradores de los proyectos Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-04-23T03:29:15Z","dateModified":"2022-08-01T16:59:57Z","headline":"paradigma de programaci\u00f3n"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":142,"wgHostname":"mw1456"});});</script>
+</body>
+</html>

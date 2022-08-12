@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Diagrama de casos de uso - Wikipedia, la enciclopedia libre</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"wgRequestId":"4b28411a-3740-4a93-bbd9-cf38350ba3cd","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Diagrama_de_casos_de_uso","wgTitle":"Diagrama de casos de uso","wgCurRevisionId":133839742,"wgRevisionId":133839742,"wgArticleId":675122,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["UML","Diagramas"],"wgPageContentLanguage":"es","wgPageContentModel":"wikitext","wgRelevantPageName":"Diagrama_de_casos_de_uso","wgRelevantArticleId":675122,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],
+"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"es","pageLanguageDir":"ltr","pageVariantFallbacks":"es"},"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":8000,"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"español","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q613423","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":true,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.imagenesinfobox":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","skins.vector.styles.legacy":"ready",
+"ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.a-commons-directo","ext.gadget.ReferenceTooltips","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=es&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=ext.gadget.imagenesinfobox&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<noscript><link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=noscript&amp;only=styles&amp;skin=vector"/></noscript>
+<meta name="generator" content="MediaWiki 1.39.0-wmf.23"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UML_diagrama_caso_de_uso.svg/1200px-UML_diagrama_caso_de_uso.svg.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="865"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UML_diagrama_caso_de_uso.svg/800px-UML_diagrama_caso_de_uso.svg.png"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="577"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UML_diagrama_caso_de_uso.svg/640px-UML_diagrama_caso_de_uso.svg.png"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="461"/>
+<meta name="viewport" content="width=1000, initial-scale=1.0"/>
+<meta property="og:title" content="Diagrama de casos de uso - Wikipedia, la enciclopedia libre"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//es.m.wikipedia.org/wiki/Diagrama_de_casos_de_uso"/>
+<link rel="alternate" type="application/x-wiki" title="Editar" href="/w/index.php?title=Diagrama_de_casos_de_uso&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (es)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//es.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://es.wikipedia.org/wiki/Diagrama_de_casos_de_uso"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Diagrama_de_casos_de_uso rootpage-Diagrama_de_casos_de_uso skin-vector action-view skin-vector-legacy"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"><!-- CentralNotice --></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading">Diagrama de casos de uso</h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">De Wikipedia, la enciclopedia libre</div>
+		<div id="contentSub"></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Ir a la navegación</a>
+		<a class="mw-jump-link" href="#searchInput">Ir a la búsqueda</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="es" dir="ltr"><div class="mw-parser-output"><table class="vertical-navbox plainlist nowraplinks" cellspacing="5" cellpadding="0" style="float:right;clear:right;width:17em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;"><tbody><tr><th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;background-color:#eecd9c"><a href="/w/index.php?title=Diagramas_UML&amp;action=edit&amp;redlink=1" class="new" title="Diagramas UML (aún no redactado)">Diagramas UML</a></th>
+      </tr><tr>
+<th class="" style="padding:0.1em;;background-color:#FFDEAD;">
+Estructurales</th>
+</tr><tr>
+<td class="" style="padding:0 0.1em 0.4em;;">
+<ul><li><a href="/wiki/Diagrama_de_clases" title="Diagrama de clases">Clases</a></li>
+<li><a href="/wiki/Diagrama_de_componentes" title="Diagrama de componentes">Componentes</a></li>
+<li><a href="/wiki/Diagrama_de_estructura_compuesta" title="Diagrama de estructura compuesta">Estructura compuesta</a></li>
+<li><a href="/wiki/Diagrama_de_despliegue" title="Diagrama de despliegue">Despliegue</a></li>
+<li><a href="/wiki/Diagrama_de_objetos" title="Diagrama de objetos">Objetos</a></li>
+<li><a href="/wiki/Diagrama_de_paquetes" title="Diagrama de paquetes">Paquetes</a></li>
+<li><a href="/w/index.php?title=Diagrama_de_perfiles&amp;action=edit&amp;redlink=1" class="new" title="Diagrama de perfiles (aún no redactado)">Perfiles</a></li></ul></td>
+</tr><tr>
+<th class="" style="padding:0.1em;;background-color:#FFDEAD;">
+De comportamiento</th>
+</tr><tr>
+<td class="" style="padding:0 0.1em 0.4em;;">
+<ul><li><a href="/wiki/Diagrama_de_actividades" class="mw-redirect" title="Diagrama de actividades">Actividades</a></li>
+<li><a href="/wiki/Diagrama_de_comunicaci%C3%B3n" title="Diagrama de comunicación">Comunicación</a></li>
+<li><a href="/wiki/Diagrama_global_de_interacciones" title="Diagrama global de interacciones">Interacciones</a></li>
+<li><a href="/w/index.php?title=Diagrama_de_m%C3%A1quina_de_estados&amp;action=edit&amp;redlink=1" class="new" title="Diagrama de máquina de estados (aún no redactado)">Máquina de estados</a></li>
+<li><a href="/wiki/Diagrama_de_secuencia" title="Diagrama de secuencia">Secuencia</a></li>
+<li><a href="/wiki/Diagrama_de_tiempos" title="Diagrama de tiempos">Tiempos</a></li>
+<li><a class="mw-selflink selflink">Casos de uso</a></li></ul></td>
+</tr><tr><td style="text-align:right;font-size:115%;"><style data-mw-deduplicate="TemplateStyles:r134093784">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-ver"><a href="/wiki/Plantilla:Diagramas_UML" title="Plantilla:Diagramas UML"><abbr title="Ver esta plantilla">v</abbr></a></li><li class="nv-discusión"><a href="/w/index.php?title=Plantilla_discusi%C3%B3n:Diagramas_UML&amp;action=edit&amp;redlink=1" class="new" title="Plantilla discusión:Diagramas UML (aún no redactado)"><abbr title="Conversar sobre esta plantilla">t</abbr></a></li><li class="nv-editar"><a class="external text" href="https://es.wikipedia.org/w/index.php?title=Plantilla:Diagramas_UML&amp;action=edit"><abbr title="Editar esta plantilla">e</abbr></a></li></ul></div></td></tr>
+</tbody></table>
+<p>En el <a href="/wiki/UML" class="mw-redirect" title="UML">Lenguaje de Modelado Unificado</a>, un <b>diagrama de casos de uso</b> es una forma de diagrama de comportamiento UML mejorado.
+El  <a href="/wiki/UML" class="mw-redirect" title="UML">Lenguaje de Modelado Unificado</a> (UML), define una <a href="/w/index.php?title=Unling&amp;action=edit&amp;redlink=1" class="new" title="Unling (aún no redactado)">notación gráfica</a> para representar casos de uso llamada modelo de casos de uso. UML no define estándares para que el formato escrito describa los <a href="/wiki/Caso_de_uso" title="Caso de uso">casos de uso</a>, y así mucha gente no entiende que esta notación gráfica define la naturaleza de un caso de uso; sin embargo una notación gráfica puede solo dar una vista general simple de un caso de uso o un conjunto de casos de uso. Los <b>diagramas de casos de uso</b> son a menudo confundidos con los casos de uso. Mientras los dos conceptos están relacionados, los casos de uso son mucho más detallados que los diagramas de casos de uso. En los conceptos se debe detallar más de un caso de uso para poder identificar qué es lo que hace un caso de uso.
+</p>
+<ul><li>La descripción escrita del <a href="/w/index.php?title=Comportamiento_del_sistema&amp;action=edit&amp;redlink=1" class="new" title="Comportamiento del sistema (aún no redactado)">comportamiento del sistema</a> al afrontar una <a href="/w/index.php?title=Tarea_de_negocio&amp;action=edit&amp;redlink=1" class="new" title="Tarea de negocio (aún no redactado)">tarea de negocio</a> o un <a href="/w/index.php?title=Requisito_de_negocio&amp;action=edit&amp;redlink=1" class="new" title="Requisito de negocio (aún no redactado)">requisito de negocio</a>. Esta descripción se enfoca en el valor suministrado por el sistema a entidades externas tales como usuarios humanos u otros sistemas.</li></ul>
+<ul><li>La posición o contexto del caso de uso entre otros casos de uso. Dado que es un mecanismo de organización, un conjunto de casos de uso coherentes y consistentes promueven una imagen fácil de comprender del comportamiento del sistema, un entendimiento común entre el cliente/propietario/usuario y el equipo de desarrollo.</li></ul>
+<p>En esta práctica es común crear especificaciones suplementarias para capturar detalles de requisitos que caen fuera del ámbito de las descripciones de los casos de uso. Ejemplos de esos temas incluyen restricciones de diseño como: rendimiento, temas de escalabilidad/gestión, o cumplimiento de estándares.
+</p>
+<div class="floatright"><a href="/wiki/Archivo:UML_diagrama_caso_de_uso.svg" class="image" title="Casos de uso UML para un modelo simple de restaurante."><img alt="Casos de uso UML para un modelo simple de restaurante." src="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/UML_diagrama_caso_de_uso.svg/498px-UML_diagrama_caso_de_uso.svg.png" decoding="async" width="498" height="359" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/UML_diagrama_caso_de_uso.svg/747px-UML_diagrama_caso_de_uso.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/80/UML_diagrama_caso_de_uso.svg/996px-UML_diagrama_caso_de_uso.svg.png 2x" data-file-width="498" data-file-height="359" /></a></div>
+<p>El diagrama de la derecha describe la funcionalidad de un <i>Sistema Restaurante</i> muy simple. Los casos de uso están representados por elipses y los <a href="/wiki/Actor_(UML)" title="Actor (UML)">actores</a> están, por ejemplo, los casos de uso se muestran como parte del sistema que está siendo modelado, los actores no.
+</p><p>En este caso, podemos apreciar tanto declaraciones correctas como incorrectas. El probar la comida y pagarla es un requerimiento funcional del sistema, pero beber vino no lo es, por lo tanto este caso de uso está incorrecto.
+</p><p>La interacción entre actores no se ve en el <b>diagrama de casos de uso</b>. Si esta interacción es esencial para una descripción coherente del comportamiento deseado, quizás los límites del sistema o del caso de uso deban de ser re-examinados. Alternativamente, la interacción entre actores puede ser parte de suposiciones usadas en el caso de uso. Sin embargo, los actores son una especie de rol, un usuario humano u otra entidad externa puede jugar varios papeles o roles. Así el Chef y el Cajero podrían ser realmente la misma persona.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="es" dir="ltr"><h2 id="mw-toc-heading">Índice</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Relaciones_de_Casos_de_Uso"><span class="tocnumber">1</span> <span class="toctext">Relaciones de Casos de Uso</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Inclusión_(include)"><span class="tocnumber">1.1</span> <span class="toctext">Inclusión (include)</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Extensión_(extend)"><span class="tocnumber">1.2</span> <span class="toctext">Extensión (extend)</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Generalización"><span class="tocnumber">1.3</span> <span class="toctext">Generalización</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Véase_también"><span class="tocnumber">2</span> <span class="toctext">Véase también</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Enlaces_externos"><span class="tocnumber">3</span> <span class="toctext">Enlaces externos</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Relaciones_de_Casos_de_Uso">Relaciones de Casos de Uso</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_casos_de_uso&amp;action=edit&amp;section=1" title="Editar sección: Relaciones de Casos de Uso">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Las tres relaciones principales entre los casos de uso son soportadas por el estándar UML, el cual describe notación gráfica para esas relaciones. Veamos una revisión de ellas a continuación:
+</p>
+<h3><span id="Inclusi.C3.B3n_.28include.29"></span><span class="mw-headline" id="Inclusión_(include)">Inclusión (include)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_casos_de_uso&amp;action=edit&amp;section=2" title="Editar sección: Inclusión (include)">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Es una forma de interacción o creación, un caso de uso dado puede "incluir" otro caso de uso. El primer caso de uso a menudo depende del resultado del caso de uso incluido. Esto es útil para extraer comportamientos verdaderamente comunes desde múltiples casos de uso a una descripción individual(si el actor realiza el caso de uso base tendrá que realizar también el caso de uso incluido), desde el <i>caso de uso</i>. El estándar de <a href="/wiki/UML" class="mw-redirect" title="UML">Lenguaje de Modelado Unificado</a> de <a href="/wiki/Object_Management_Group" title="Object Management Group">OMG</a> define una notación gráfica para realizar diagramas de casos de uso, pero no el formato para describir <a href="/wiki/Casos_de_uso" class="mw-redirect" title="Casos de uso">casos de uso</a>. Mucha gente sufre la equivocación pensando que un caso de uso es una notación gráfica (o es su descripción). Mientras la notación gráfica y las descripciones son importantes, ellos forman parte de la documentación de un caso de uso --un propósito para el que el actor puede usar el sistema. La notación es de una flecha de punta abierta con línea discontinua desde el caso de uso que lo incluye hasta el caso de uso incluido, con la etiqueta "«include»". Este uso se asemeja a una expansión de una macro, donde el comportamiento del caso incluido es colocado dentro del comportamiento del caso de uso base. No hay parámetros o valores de retorno
+</p>
+<h3><span id="Extensi.C3.B3n_.28extend.29"></span><span class="mw-headline" id="Extensión_(extend)">Extensión (extend)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_casos_de_uso&amp;action=edit&amp;section=3" title="Editar sección: Extensión (extend)">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Es otra forma de interacción, un caso de uso dado (la extensión) puede <i>extender</i> a otro. Esta relación indica que el comportamiento del caso de la extensión se utiliza en casos de uso, un caso de uso a otro caso siempre debe tener extensión o inclusión. El caso de uso extensión puede ser insertado en el caso de uso extendido bajo ciertas condiciones. La notación, es una flecha de punta abierta con línea discontinua, desde el caso de uso extensión al caso de uso extendido, con la etiqueta <b>«</b>extend<b>»</b>. Esto puede ser útil para lidiar con casos especiales, o para acomodar nuevos requisitos durante el mantenimiento del sistema y su extensión.
+</p><p>"La extensión, es el conjunto de objetos a los que se aplica un concepto. Los objetos de la extensión son los ejemplos o instancias de los conceptos."
+</p><p>Documentan el comportamiento de un sistema desde el punto de vista de un usuario.
+</p><p>En otras palabras será utilizado cuando un caso de uso sea similar a otro pero con ciertas variaciones, un ejemplo claro es que se necesite comprar azúcar y podemos seleccionar de entre azúcar rubia, blanca o su unidad de medida bolsa, kilo, etc.
+</p>
+<h3><span id="Generalizaci.C3.B3n"></span><span class="mw-headline" id="Generalización">Generalización</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_casos_de_uso&amp;action=edit&amp;section=4" title="Editar sección: Generalización">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>"Entonces la Generalización es la actividad de identificar elementos en común entre conceptos y definir las relaciones de una superclase (concepto general) y subclase (concepto especializado). Es una manera de construir clasificaciones taxonómicas entre conceptos que entonces se representan en jerarquías de clases. Las subclases conceptuales son conformes con las superclases conceptuales en cuanto a la intención y extensión."
+</p><p>En la tercera forma de relaciones entre casos de uso, existe una relación generalización/especialización. Un caso de uso dado puede estar en una forma especializada de un caso de uso existente. La notación es una línea sólida terminada en un triángulo dibujado desde el caso de uso especializado al caso de uso general. Esto se asemeja al concepto orientado a objetos de sub-clases, en la práctica puede ser útil factorizar comportamientos comunes, restricciones al caso de uso general, describirlos una vez, y enfrentarse a los detalles excepcionales en los casos de uso especializados.
+UML
+</p>
+<h2><span id="V.C3.A9ase_tambi.C3.A9n"></span><span class="mw-headline" id="Véase_también">Véase también</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_casos_de_uso&amp;action=edit&amp;section=5" title="Editar sección: Véase también">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/UML" class="mw-redirect" title="UML">UML</a></li>
+<li><a href="/wiki/Caso_de_uso" title="Caso de uso">Caso de uso</a></li></ul>
+<h2><span class="mw-headline" id="Enlaces_externos">Enlaces externos</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_casos_de_uso&amp;action=edit&amp;section=6" title="Editar sección: Enlaces externos">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><b>(en)</b> <a rel="nofollow" class="external text" href="http://www.developer.com/design/article.php/2109801">Creating Use Case Diagrams</a></li>
+<li><b>(en)</b> <a rel="nofollow" class="external text" href="http://www.methodsandtools.com/archive/archive.php?id=24">Understanding Use Case Modeling</a></li>
+<li><b>(en)</b> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20061210223114/http://parlezuml.com/tutorials/usecases.htm">Conduciendo el desarrollo con Casos de Uso</a></li>
+<li><b>(es)</b> <a rel="nofollow" class="external text" href="http://synergix.wordpress.com/2008/06/07/casos-de-uso-avanzados-relacion-de-inclusion/">Relación de Inclusión</a></li>
+<li><b>(es)</b> <a rel="nofollow" class="external text" href="http://synergix.wordpress.com/2008/06/05/casos-de-uso-avanzados-relacion-extend/">Relación de Extensión</a></li></ul>
+<style data-mw-deduplicate="TemplateStyles:r144106945">.mw-parser-output .mw-authority-control{margin-top:1.5em}.mw-parser-output .mw-authority-control .navbox hr:last-child{display:none}.mw-parser-output .mw-authority-control .navbox+.mw-mf-linked-projects{display:none}.mw-parser-output .mw-authority-control .mw-mf-linked-projects{display:flex;padding:0.5em;border:1px solid #c8ccd1;background-color:#eaecf0;color:#222222}.mw-parser-output .mw-authority-control .mw-mf-linked-projects ul li{margin-bottom:0}</style><div class="mw-authority-control"><div role="navigation" class="navbox" aria-label="Navbox" style="width: inherit;padding:3px"><table class="hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="row" class="navbox-group" style="width: 12%; text-align:center;"><a href="/wiki/Control_de_autoridades" title="Control de autoridades">Control de autoridades</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><b>Proyectos Wikimedia</b></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a> Datos:</span> <span class="uid"><a href="https://www.wikidata.org/wiki/Q613423" class="extiw" title="wikidata:Q613423">Q613423</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikimedia_Commons" title="Commonscat"><img alt="Commonscat" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png" decoding="async" width="15" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/23px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a> Multimedia:</span> <span class="uid"><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Use_Case_diagrams">Use Case diagrams</a></span></span></li></ul>
+<hr />
+</div></td></tr></tbody></table></div><div class="mw-mf-linked-projects hlist">
+<ul><li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a> Datos:</span> <span class="uid"><a href="https://www.wikidata.org/wiki/Q613423" class="extiw" title="wikidata:Q613423">Q613423</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikimedia_Commons" title="Commonscat"><img alt="Commonscat" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png" decoding="async" width="15" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/23px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a> Multimedia:</span> <span class="uid"><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Use_Case_diagrams">Use Case diagrams</a></span></span></li></ul>
+</div></div>
+<!-- 
+NewPP limit report
+Parsed by mw1384
+Cached time: 20220729172844
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.150 seconds
+Real time usage: 0.185 seconds
+Preprocessor visited node count: 387/1000000
+Post‐expand include size: 10278/2097152 bytes
+Template argument size: 1359/2097152 bytes
+Highest expansion depth: 9/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 1582/5000000 bytes
+Lua time usage: 0.090/10.000 seconds
+Lua memory usage: 1503929/52428800 bytes
+Number of Wikibase entities loaded: 2/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  144.230      1 -total
+ 63.43%   91.478      1 Plantilla:Control_de_autoridades
+ 36.45%   52.572      1 Plantilla:Diagramas_UML
+ 34.65%   49.970      1 Plantilla:Navegación_vertical
+ 24.99%   36.048      1 Plantilla:Navbar
+-->
+
+<!-- Saved in parser cache with key eswiki:pcache:idhash:675122-0!canonical and timestamp 20220729172843 and revision id 133839742.
+ -->
+</div><noscript><img src="//es.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter">Obtenido de «<a dir="ltr" href="https://es.wikipedia.org/w/index.php?title=Diagrama_de_casos_de_uso&amp;oldid=133839742">https://es.wikipedia.org/w/index.php?title=Diagrama_de_casos_de_uso&amp;oldid=133839742</a>»</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Especial:Categor%C3%ADas" title="Especial:Categorías">Categorías</a>: <ul><li><a href="/wiki/Categor%C3%ADa:UML" title="Categoría:UML">UML</a></li><li><a href="/wiki/Categor%C3%ADa:Diagramas" title="Categoría:Diagramas">Diagramas</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Menú de navegación</h2>
+	<div id="mw-head">
+		
+
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Herramientas personales</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage" class="mw-list-item"><span title="La página de usuario de la IP desde la que editas">No has accedido</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Especial:MiDiscusi%C3%B3n" title="Discusión sobre ediciones hechas desde esta dirección IP [n]" accesskey="n"><span>Discusión</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Especial:MisContribuciones" title="Una lista de modificaciones hechas desde esta dirección IP [y]" accesskey="y"><span>Contribuciones</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Especial:Crear_una_cuenta&amp;returnto=Diagrama+de+casos+de+uso" title="Te recomendamos crear una cuenta e iniciar sesión; sin embargo, no es obligatorio"><span>Crear una cuenta</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Especial:Entrar&amp;returnto=Diagrama+de+casos+de+uso" title="Te recomendamos iniciar sesión, aunque no es obligatorio [o]" accesskey="o"><span>Acceder</span></a></li></ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Espacios de nombres</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/Diagrama_de_casos_de_uso" title="Ver la página de contenido [c]" accesskey="c"><span>Artículo</span></a></li><li id="ca-talk" class="mw-list-item"><a href="/wiki/Discusi%C3%B3n:Diagrama_de_casos_de_uso" rel="discussion" title="Discusión acerca de la página [t]" accesskey="t"><span>Discusión</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		 aria-label="Cambiar variante de idioma"
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">español</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Vistas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected mw-list-item"><a href="/wiki/Diagrama_de_casos_de_uso"><span>Leer</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/index.php?title=Diagrama_de_casos_de_uso&amp;action=edit" title="Editar esta página [e]" accesskey="e"><span>Editar</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=Diagrama_de_casos_de_uso&amp;action=history" title="Versiones anteriores de esta página [h]" accesskey="h"><span>Ver historial</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="Más opciones" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Más</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div>
+			<h3 >
+				<label for="searchInput">Buscar</label>
+			</h3>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-navigation">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Buscar en Wikipedia" aria-label="Buscar en Wikipedia" autocapitalize="sentences" title="Buscar en este wiki [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Especial:Buscar">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Busca páginas con este texto." value="Buscar">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Ir a la página con este nombre exacto si existe" value="Ir">
+			</div>
+		</form>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/wiki/Wikipedia:Portada"
+			title="Visitar la página principal"></a>
+	</div>
+	
+
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navegación</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikipedia:Portada" title="Visitar la página principal [z]" accesskey="z"><span>Portada</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Portal:Comunidad" title="Acerca del proyecto, lo que puedes hacer, dónde encontrar información"><span>Portal de la comunidad</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Actualidad" title="Encuentra información de contexto sobre acontecimientos actuales"><span>Actualidad</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Especial:CambiosRecientes" title="Lista de cambios recientes en la wiki [r]" accesskey="r"><span>Cambios recientes</span></a></li><li id="n-newpages" class="mw-list-item"><a href="/wiki/Especial:P%C3%A1ginasNuevas"><span>Páginas nuevas</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Especial:Aleatoria" title="Cargar una página al azar [x]" accesskey="x"><span>Página aleatoria</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Ayuda:Contenidos" title="El lugar para aprender"><span>Ayuda</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_es.wikipedia.org&amp;uselang=es" title="Apóyanos"><span>Donaciones</span></a></li><li id="n-bug_in_article" class="mw-list-item"><a href="/wiki/Wikipedia:Informes_de_error"><span>Notificar un error</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Herramientas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Especial:LoQueEnlazaAqu%C3%AD/Diagrama_de_casos_de_uso" title="Lista de todas las páginas de la wiki que enlazan aquí [j]" accesskey="j"><span>Lo que enlaza aquí</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Especial:CambiosEnEnlazadas/Diagrama_de_casos_de_uso" rel="nofollow" title="Cambios recientes en las páginas que enlazan con esta [k]" accesskey="k"><span>Cambios en enlazadas</span></a></li><li id="t-upload" class="mw-list-item"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=es" title="Subir archivos [u]" accesskey="u"><span>Subir archivo</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Especial:P%C3%A1ginasEspeciales" title="Lista de todas las páginas especiales [q]" accesskey="q"><span>Páginas especiales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Diagrama_de_casos_de_uso&amp;oldid=133839742" title="Enlace permanente a esta versión de la página"><span>Enlace permanente</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Diagrama_de_casos_de_uso&amp;action=info" title="Más información sobre esta página"><span>Información de la página</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Especial:Citar&amp;page=Diagrama_de_casos_de_uso&amp;id=133839742&amp;wpFormIdentifier=titleform" title="Información sobre cómo citar esta página"><span>Citar esta página</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q613423" title="Enlace al elemento conectado del repositorio de datos [g]" accesskey="g"><span>Elemento de Wikidata</span></a></li></ul>
+		
+	</div>
+</nav>
+
+
+<nav id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" role="navigation"  >
+	<h3
+		id="p-coll-print_export-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Imprimir/exportar</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Especial:Libro&amp;bookcmd=book_creator&amp;referer=Diagrama+de+casos+de+uso"><span>Crear un libro</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Especial:DownloadAsPdf&amp;page=Diagrama_de_casos_de_uso&amp;action=show-download-screen"><span>Descargar como PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Diagrama_de_casos_de_uso&amp;printable=yes" title="Versión imprimible de esta página [p]" accesskey="p"><span>Versión para imprimir</span></a></li></ul>
+		
+	</div>
+</nav>
+
+
+<nav id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" aria-labelledby="p-wikibase-otherprojects-label" role="navigation"  >
+	<h3
+		id="p-wikibase-otherprojects-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">En otros proyectos</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Use_Case_diagrams" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-lang" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation"  >
+	<h3
+		id="p-lang-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">En otros idiomas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%A1%D0%BB%D1%83%D1%87%D0%B0%D0%B9_%D0%BD%D0%B0_%D1%83%D0%BF%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%B0_(%D0%B4%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B0)" title="Случай на употреба (диаграма) (búlgaro)" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Diagrama_de_casos_d%27%C3%BAs" title="Diagrama de casos d&#039;ús (catalán)" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Diagram_p%C5%99%C3%ADpad%C5%AF_u%C5%BEit%C3%AD" title="Diagram případů užití (checo)" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Anwendungsfalldiagramm" title="Anwendungsfalldiagramm (alemán)" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/Use_case_diagram" title="Use case diagram (inglés)" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D9%86%D9%85%D9%88%D8%AF%D8%A7%D8%B1_%D9%85%D9%88%D8%B1%D8%AF_%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF" title="نمودار مورد کاربرد (persa)" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/K%C3%A4ytt%C3%B6tapauskaavio" title="Käyttötapauskaavio (finés)" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Diagramme_de_cas_d%27utilisation" title="Diagramme de cas d&#039;utilisation (francés)" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%93%D7%99%D7%90%D7%92%D7%A8%D7%9E%D7%AA_%D7%90%D7%95%D7%A4%D7%9F_%D7%A9%D7%99%D7%9E%D7%95%D7%A9" title="דיאגרמת אופן שימוש (hebreo)" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Haszn%C3%A1lati_eset_diagram" title="Használati eset diagram (húngaro)" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Diagram_use_case" title="Diagram use case (indonesio)" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Use_Case_Diagram" title="Use Case Diagram (italiano)" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9%E5%9B%B3" title="ユースケース図 (japonés)" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%8A%A4_%EC%BC%80%EC%9D%B4%EC%8A%A4_%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8" title="유스 케이스 다이어그램 (coreano)" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a href="https://lt.wikipedia.org/wiki/Panaudos_atvej%C5%B3_diagrama" title="Panaudos atvejų diagrama (lituano)" lang="lt" hreflang="lt" class="interlanguage-link-target"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Usecasediagram" title="Usecasediagram (neerlandés)" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Diagram_przypadk%C3%B3w_u%C5%BCycia" title="Diagram przypadków użycia (polaco)" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Diagrama_de_caso_de_uso" title="Diagrama de caso de uso (portugués)" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%BF%D1%80%D0%B5%D1%86%D0%B5%D0%B4%D0%B5%D0%BD%D1%82%D0%BE%D0%B2" title="Диаграмма прецедентов (ruso)" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/Diagram_pr%C3%ADpadov_pou%C5%BEitia" title="Diagram prípadov použitia (eslovaco)" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a href="https://sq.wikipedia.org/wiki/Diagrami_use_case" title="Diagrami use case (albanés)" lang="sq" hreflang="sq" class="interlanguage-link-target"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%94%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC_%D1%81%D0%BB%D1%83%D1%87%D0%B0%D1%98%D0%B5%D0%B2%D0%B0_%D0%BA%D0%BE%D1%80%D0%B8%D1%88%D1%9B%D0%B5%D1%9A%D0%B0" title="Дијаграм случајева коришћења (serbio)" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Kullan%C4%B1m_senaryosu_diyagram%C4%B1" title="Kullanım senaryosu diyagramı (turco)" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%94%D1%96%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B0_%D0%BF%D1%80%D0%B5%D1%86%D0%B5%D0%B4%D0%B5%D0%BD%D1%82%D1%96%D0%B2" title="Діаграма прецедентів (ucraniano)" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E7%94%A8%E4%BE%8B%E5%9B%BE" title="用例图 (chino)" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q613423#sitelinks-wikipedia" title="Editar enlaces interlingüísticos" class="wbc-editpage">Editar enlaces</a></span></div>
+	</div>
+</nav>
+
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> Esta página se editó por última vez el 9 mar 2021 a las 14:38.</li>
+	<li id="footer-info-copyright">El texto está disponible bajo la <a rel="license" href="//es.wikipedia.org/wiki/Wikipedia:Texto_de_la_Licencia_Creative_Commons_Atribuci%C3%B3n-CompartirIgual_3.0_Unported">Licencia Creative Commons Atribución Compartir Igual 3.0</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+pueden aplicarse cláusulas adicionales. Al usar este sitio, usted acepta nuestros <a href="//wikimediafoundation.org/wiki/Terms_of_Use">términos de uso</a> y nuestra <a href="//wikimediafoundation.org/wiki/Privacy_policy">política de privacidad</a>. <br/>Wikipedia&reg; es una marca registrada de la <a href="//www.wikimediafoundation.org/">Fundación Wikimedia, Inc.</a>, una organización sin ánimo de lucro.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/es">Política de privacidad</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:Acerca_de">Acerca de Wikipedia</a></li>
+	<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:Limitaci%C3%B3n_general_de_responsabilidad">Limitación de responsabilidad</a></li>
+	<li id="footer-places-mobileview"><a href="//es.m.wikipedia.org/w/index.php?title=Diagrama_de_casos_de_uso&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versión para móviles</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Desarrolladores</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/es.wikipedia.org">Estadísticas</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement/es">Declaración de cookies</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.150","walltime":"0.185","ppvisitednodes":{"value":387,"limit":1000000},"postexpandincludesize":{"value":10278,"limit":2097152},"templateargumentsize":{"value":1359,"limit":2097152},"expansiondepth":{"value":9,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":1582,"limit":5000000},"entityaccesscount":{"value":2,"limit":400},"timingprofile":["100.00%  144.230      1 -total"," 63.43%   91.478      1 Plantilla:Control_de_autoridades"," 36.45%   52.572      1 Plantilla:Diagramas_UML"," 34.65%   49.970      1 Plantilla:Navegación_vertical"," 24.99%   36.048      1 Plantilla:Navbar"]},"scribunto":{"limitreport-timeusage":{"value":"0.090","limit":"10.000"},"limitreport-memusage":{"value":1503929,"limit":52428800}},"cachereport":{"origin":"mw1384","timestamp":"20220729172844","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Diagrama de casos de uso","url":"https:\/\/es.wikipedia.org\/wiki\/Diagrama_de_casos_de_uso","sameAs":"http:\/\/www.wikidata.org\/entity\/Q613423","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q613423","author":{"@type":"Organization","name":"Colaboradores de los proyectos Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-12-14T23:09:08Z","dateModified":"2021-03-09T14:38:56Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/80\/UML_diagrama_caso_de_uso.svg"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Diagrama de casos de uso","url":"https:\/\/es.wikipedia.org\/wiki\/Diagrama_de_casos_de_uso","sameAs":"http:\/\/www.wikidata.org\/entity\/Q613423","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q613423","author":{"@type":"Organization","name":"Colaboradores de los proyectos Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-12-14T23:09:08Z","dateModified":"2021-03-09T14:38:56Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/80\/UML_diagrama_caso_de_uso.svg"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":132,"wgHostname":"mw1432"});});</script>
+</body>
+</html>

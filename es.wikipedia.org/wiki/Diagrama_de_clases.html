@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Diagrama de clases - Wikipedia, la enciclopedia libre</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"wgRequestId":"f116ac6e-2cdf-4c6f-a2ce-af6617faf224","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Diagrama_de_clases","wgTitle":"Diagrama de clases","wgCurRevisionId":143126114,"wgRevisionId":143126114,"wgArticleId":450389,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["UML","Diagramas"],"wgPageContentLanguage":"es","wgPageContentModel":"wikitext","wgRelevantPageName":"Diagrama_de_clases","wgRelevantArticleId":450389,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],
+"wgVisualEditor":{"pageLanguageCode":"es","pageLanguageDir":"ltr","pageVariantFallbacks":"es"},"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":8000,"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"español","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q664166","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":true,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.imagenesinfobox":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":
+"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.a-commons-directo","ext.gadget.ReferenceTooltips","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=es&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=ext.gadget.imagenesinfobox&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<noscript><link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=noscript&amp;only=styles&amp;skin=vector"/></noscript>
+<meta name="generator" content="MediaWiki 1.39.0-wmf.23"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="width=1000, initial-scale=1.0"/>
+<meta property="og:title" content="Diagrama de clases - Wikipedia, la enciclopedia libre"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//es.m.wikipedia.org/wiki/Diagrama_de_clases"/>
+<link rel="alternate" type="application/x-wiki" title="Editar" href="/w/index.php?title=Diagrama_de_clases&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (es)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//es.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://es.wikipedia.org/wiki/Diagrama_de_clases"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Diagrama_de_clases rootpage-Diagrama_de_clases skin-vector action-view skin-vector-legacy"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"><!-- CentralNotice --></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading">Diagrama de clases</h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">De Wikipedia, la enciclopedia libre</div>
+		<div id="contentSub"></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Ir a la navegación</a>
+		<a class="mw-jump-link" href="#searchInput">Ir a la búsqueda</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="es" dir="ltr"><div class="mw-parser-output"><table class="vertical-navbox plainlist nowraplinks" cellspacing="5" cellpadding="0" style="float:right;clear:right;width:17em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;"><tbody><tr><th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;background-color:#eecd9c"><a href="/w/index.php?title=Diagramas_UML&amp;action=edit&amp;redlink=1" class="new" title="Diagramas UML (aún no redactado)">Diagramas UML</a></th>
+      </tr><tr>
+<th class="" style="padding:0.1em;;background-color:#FFDEAD;">
+Estructurales</th>
+</tr><tr>
+<td class="" style="padding:0 0.1em 0.4em;;">
+<ul><li><a class="mw-selflink selflink">Clases</a></li>
+<li><a href="/wiki/Diagrama_de_componentes" title="Diagrama de componentes">Componentes</a></li>
+<li><a href="/wiki/Diagrama_de_estructura_compuesta" title="Diagrama de estructura compuesta">Estructura compuesta</a></li>
+<li><a href="/wiki/Diagrama_de_despliegue" title="Diagrama de despliegue">Despliegue</a></li>
+<li><a href="/wiki/Diagrama_de_objetos" title="Diagrama de objetos">Objetos</a></li>
+<li><a href="/wiki/Diagrama_de_paquetes" title="Diagrama de paquetes">Paquetes</a></li>
+<li><a href="/w/index.php?title=Diagrama_de_perfiles&amp;action=edit&amp;redlink=1" class="new" title="Diagrama de perfiles (aún no redactado)">Perfiles</a></li></ul></td>
+</tr><tr>
+<th class="" style="padding:0.1em;;background-color:#FFDEAD;">
+De comportamiento</th>
+</tr><tr>
+<td class="" style="padding:0 0.1em 0.4em;;">
+<ul><li><a href="/wiki/Diagrama_de_actividades" class="mw-redirect" title="Diagrama de actividades">Actividades</a></li>
+<li><a href="/wiki/Diagrama_de_comunicaci%C3%B3n" title="Diagrama de comunicación">Comunicación</a></li>
+<li><a href="/wiki/Diagrama_global_de_interacciones" title="Diagrama global de interacciones">Interacciones</a></li>
+<li><a href="/w/index.php?title=Diagrama_de_m%C3%A1quina_de_estados&amp;action=edit&amp;redlink=1" class="new" title="Diagrama de máquina de estados (aún no redactado)">Máquina de estados</a></li>
+<li><a href="/wiki/Diagrama_de_secuencia" title="Diagrama de secuencia">Secuencia</a></li>
+<li><a href="/wiki/Diagrama_de_tiempos" title="Diagrama de tiempos">Tiempos</a></li>
+<li><a href="/wiki/Diagrama_de_casos_de_uso" title="Diagrama de casos de uso">Casos de uso</a></li></ul></td>
+</tr><tr><td style="text-align:right;font-size:115%;"><style data-mw-deduplicate="TemplateStyles:r134093784">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-ver"><a href="/wiki/Plantilla:Diagramas_UML" title="Plantilla:Diagramas UML"><abbr title="Ver esta plantilla">v</abbr></a></li><li class="nv-discusión"><a href="/w/index.php?title=Plantilla_discusi%C3%B3n:Diagramas_UML&amp;action=edit&amp;redlink=1" class="new" title="Plantilla discusión:Diagramas UML (aún no redactado)"><abbr title="Conversar sobre esta plantilla">t</abbr></a></li><li class="nv-editar"><a class="external text" href="https://es.wikipedia.org/w/index.php?title=Plantilla:Diagramas_UML&amp;action=edit"><abbr title="Editar esta plantilla">e</abbr></a></li></ul></div></td></tr>
+</tbody></table>
+<p>En <a href="/wiki/Ingenier%C3%ADa_de_software" title="Ingeniería de software">ingeniería de software</a>, un <b>diagrama de clases</b> en <a href="/wiki/Lenguaje_unificado_de_modelado" title="Lenguaje unificado de modelado">Lenguaje Unificado de Modelado</a> (UML) es un tipo de diagrama de estructura estática que describe la estructura de un sistema mostrando las <a href="/wiki/Clase_(inform%C3%A1tica)" title="Clase (informática)">clases</a> del sistema, sus atributos, operaciones (o métodos), y las relaciones entre los objetos.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="es" dir="ltr"><h2 id="mw-toc-heading">Índice</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Miembros"><span class="tocnumber">1</span> <span class="toctext">Miembros</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Visibilidad"><span class="tocnumber">1.1</span> <span class="toctext">Visibilidad</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Ámbitos"><span class="tocnumber">1.2</span> <span class="toctext">Ámbitos</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Relaciones"><span class="tocnumber">2</span> <span class="toctext">Relaciones</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Relaciones_a_nivel_de_instancia"><span class="tocnumber">2.1</span> <span class="toctext">Relaciones a nivel de instancia</span></a>
+<ul>
+<li class="toclevel-3 tocsection-6"><a href="#Enlace"><span class="tocnumber">2.1.1</span> <span class="toctext">Enlace</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Asociación"><span class="tocnumber">2.1.2</span> <span class="toctext">Asociación</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Agregación"><span class="tocnumber">2.1.3</span> <span class="toctext">Agregación</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Composición"><span class="tocnumber">2.1.4</span> <span class="toctext">Composición</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Diferencias_entre_Composición_y_Agregación"><span class="tocnumber">2.1.5</span> <span class="toctext">Diferencias entre Composición y Agregación</span></a>
+<ul>
+<li class="toclevel-4 tocsection-11"><a href="#Relación_de_Composición"><span class="tocnumber">2.1.5.1</span> <span class="toctext">Relación de Composición</span></a></li>
+<li class="toclevel-4 tocsection-12"><a href="#Relación_de_Agregación_(o_Agrupación)"><span class="tocnumber">2.1.5.2</span> <span class="toctext">Relación de Agregación (o Agrupación)</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Diagramas"><span class="tocnumber">3</span> <span class="toctext">Diagramas</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Miembros">Miembros</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=1" title="Editar sección: Miembros">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>UML proporciona mecanismos para representar los miembros de la <a href="/wiki/Clase_(inform%C3%A1tica)" title="Clase (informática)">clase</a>, como atributos y métodos, así como información adicional sobre ellos.
+</p>
+<h3><span class="mw-headline" id="Visibilidad">Visibilidad</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=2" title="Editar sección: Visibilidad">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Para especificar la visibilidad de un miembro de la <a href="/wiki/Clase_(inform%C3%A1tica)" title="Clase (informática)">clase</a> (es decir, cualquier atributo o método), se coloca uno de los siguientes signos delante de ese miembro:
+</p>
+<table class="wikitable">
+<tbody><tr>
+<td style="width:3em;text-align:center"><code>+</code></td>
+<td>Público
+</td></tr>
+<tr>
+<td style="width:3em;text-align:center"><code>-</code></td>
+<td>Privado
+</td></tr>
+<tr>
+<td style="width:3em;text-align:center"><code>#</code></td>
+<td>Protegido
+</td></tr>
+<tr>
+<td style="width:3em;text-align:center"><code>/</code></td>
+<td>Derivado (se puede combinar con otro)
+</td></tr>
+<tr>
+<td style="width:3em;text-align:center"><code>~</code></td>
+<td>Paquete
+</td></tr></tbody></table><div class="thumb tright"><div class="thumbinner" style="width:382px;"><a href="/wiki/Archivo:Diagrama_de_clases.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Diagrama_de_clases.svg/380px-Diagrama_de_clases.svg.png" decoding="async" width="380" height="296" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Diagrama_de_clases.svg/570px-Diagrama_de_clases.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Diagrama_de_clases.svg/760px-Diagrama_de_clases.svg.png 2x" data-file-width="1594" data-file-height="1240" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Diagrama_de_clases.svg" class="internal" title="Aumentar"></a></div>Ejemplo de diagrama de clases de una Universidad.</div></div></div>
+<h3><span id=".C3.81mbitos"></span><span class="mw-headline" id="Ámbitos">Ámbitos</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=3" title="Editar sección: Ámbitos">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>UML especifica dos tipos de ámbitos para los miembros: <i>instancias</i> y <i>clasificadores</i> y estos últimos se representan con nombres subrayados.
+</p>
+<ul><li>Los miembros <b>clasificadores</b> se denotan comúnmente como “estáticos” en muchos lenguajes de programación. Su ámbito es la propia <a href="/wiki/Clase_(inform%C3%A1tica)" title="Clase (informática)">clase</a>.
+<ul><li>Los valores de los atributos son los mismos en todas las instancias</li>
+<li>La invocación de métodos no afecta al estado de las instancias</li></ul></li>
+<li>Los miembros <b>instancias</b> tienen como ámbito una instancia específica.
+<ul><li>Los valores de los atributos pueden variar entre instancias</li>
+<li>La invocación de métodos puede afectar al estado de las instancias(es decir, cambiar el valor de sus atributos)</li></ul></li></ul>
+<p>Para indicar que un miembro posee un ámbito de clasificador, hay que subrayar su nombre. De lo contrario, se asume por defecto que tendrá ámbito de instancia.
+</p>
+<h2><span class="mw-headline" id="Relaciones">Relaciones</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=4" title="Editar sección: Relaciones">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Una relación es un término general que abarca los tipos específicos de conexiones lógicas que se pueden encontrar en los diagramas de clases y objetos. UML presenta las siguientes relaciones:
+</p>
+<h3><span class="mw-headline" id="Relaciones_a_nivel_de_instancia">Relaciones a nivel de instancia</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=5" title="Editar sección: Relaciones a nivel de instancia">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span class="mw-headline" id="Enlace">Enlace</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=6" title="Editar sección: Enlace">editar</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Un <i>enlace</i> es la relación más básica entre objetos.
+</p>
+<h4><span id="Asociaci.C3.B3n"></span><span class="mw-headline" id="Asociación">Asociación</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=7" title="Editar sección: Asociación">editar</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="thumb tright"><div class="thumbinner" style="width:402px;"><a href="/wiki/Archivo:UML_role_example.gif" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/UML_role_example.gif/400px-UML_role_example.gif" decoding="async" width="400" height="49" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/4/4d/UML_role_example.gif 1.5x" data-file-width="491" data-file-height="60" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:UML_role_example.gif" class="internal" title="Aumentar"></a></div>Ejemplo de diagrama de clases con una asociación de dos clases (en inglés)</div></div></div>
+<p>Una <i>asociación</i> representa a una familia de enlaces. Una asociación binaria (entre dos clases) normalmente se representa con una línea continua.  Una misma asociación puede relacionar cualquier número de clases.  Una asociación que relacione tres clases se llama asociación ternaria.<br />
+A una asociación se le puede asignar un nombre, y en sus extremos se puede hacer indicaciones, como el rol que desempeña la asociación, los nombres de las clases relacionadas, su multiplicidad, su visibilidad, y otras propiedades.<br />
+Hay cuatro tipos diferentes de asociación: bidireccional, unidireccional, agregación (en la que se incluye la composición) y reflexiva. Las asociaciones unidireccional y bidireccional son las más comunes.<br />
+Por ejemplo, una clase vuelo se asocia con una clase avión de forma bidireccional. La asociación representa la relación estática que comparten los objetos de ambas clases.
+</p>
+<h4><span id="Agregaci.C3.B3n"></span><span class="mw-headline" id="Agregación">Agregación</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=8" title="Editar sección: Agregación">editar</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="thumb tright"><div class="thumbinner" style="width:302px;"><a href="/wiki/Archivo:KP-UML-Aggregation-20060420.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/KP-UML-Aggregation-20060420.svg/300px-KP-UML-Aggregation-20060420.svg.png" decoding="async" width="300" height="39" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/KP-UML-Aggregation-20060420.svg/450px-KP-UML-Aggregation-20060420.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2a/KP-UML-Aggregation-20060420.svg/600px-KP-UML-Aggregation-20060420.svg.png 2x" data-file-width="381" data-file-height="50" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:KP-UML-Aggregation-20060420.svg" class="internal" title="Aumentar"></a></div>Ejemplo de diagrama de clases con una agregación entre dos clases (en inglés)</div></div></div>
+<p>La <i>agregación</i> o <i>agrupación</i> es una variante de la relación de asociación “tiene un”: la agregación es más específica que la asociación. Se trata de una asociación que representa una relación de tipo parte-todo o parte-de.
+</p><p>Como se puede ver en la imagen del ejemplo (en inglés), un Profesor 'tiene una' clase a la que enseña.
+</p><p>Al ser un tipo de asociación, una agregación puede tener un nombre y las mismas indicaciones en los extremos de la línea. Sin embargo, una agregación no puede incluir más de dos clases; debe ser una asociación binaria. 
+</p><p>Una <i>agregación</i> se puede dar cuando una clase es una colección o un contenedor de otras clases, pero a su vez, el tiempo de vida de las clases contenidas no tienen una <i>dependencia fuerte del tiempo de vida</i> de la clase contenedora (de <i>el todo</i>). Es decir, el contenido de la clase contenedora no se destruye automáticamente cuando desaparece dicha clase.
+</p><p>En <a href="/wiki/Lenguaje_unificado_de_modelado" title="Lenguaje unificado de modelado">UML</a>, se representa gráficamente con un <i>rombo hueco</i> junto a la clase contenedora con una línea que lo conecta a la clase contenida. Todo este conjunto es, semánticamente, un objeto extendido que es tratado como una única unidad en muchas operaciones, aunque físicamente está hecho de varios objetos más pequeños.
+</p>
+<h4><span id="Composici.C3.B3n"></span><span class="mw-headline" id="Composición">Composición</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=9" title="Editar sección: Composición">editar</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Archivo:Diagrama_de_clases_agragaci%C3%B3n.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diagrama_de_clases_agragaci%C3%B3n.jpg/220px-Diagrama_de_clases_agragaci%C3%B3n.jpg" decoding="async" width="220" height="93" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/4/43/Diagrama_de_clases_agragaci%C3%B3n.jpg 1.5x" data-file-width="326" data-file-height="138" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Diagrama_de_clases_agragaci%C3%B3n.jpg" class="internal" title="Aumentar"></a></div>El <b>rombo negro</b> muestra una <i>relación de composición</i>: el almacén está compuesto de cuentas, si se elimina el almacén las cuentas por si solas no tienen sentido como una entidad separada del almacén y se eliminan también. El <b>rombo sin rellenar</b> muestra una <i>relación de agregación</i>: el almacén tiene clientes, si el almacén cierra los clientes irán a otro, su razón de existir sigue teniendo sentido sin el almacén.</div></div></div>
+<p>La representación en UML de una relación de composición es mostrada con una figura de diamante relleno del lado del la clase contenedora, es decir al final de la línea que conecta la clase contenido con la clase contenedor.
+</p>
+<h4><span id="Diferencias_entre_Composici.C3.B3n_y_Agregaci.C3.B3n"></span><span class="mw-headline" id="Diferencias_entre_Composición_y_Agregación">Diferencias entre Composición y Agregación</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=10" title="Editar sección: Diferencias entre Composición y Agregación">editar</a><span class="mw-editsection-bracket">]</span></span></h4>
+<h5><span id="Relaci.C3.B3n_de_Composici.C3.B3n"></span><span class="mw-headline" id="Relación_de_Composición">Relación de Composición</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=11" title="Editar sección: Relación de Composición">editar</a><span class="mw-editsection-bracket">]</span></span></h5>
+<ol><li>Cuando intentamos representar un todo y sus partes. Ejemplo, un motor es una parte de un coche.</li>
+<li>Cuando se elimina el contenedor, el contenido también es eliminado. Ejemplo, si eliminamos una universidad eliminamos igualmente sus departamentos.</li></ol>
+<h5><span id="Relaci.C3.B3n_de_Agregaci.C3.B3n_.28o_Agrupaci.C3.B3n.29"></span><span class="mw-headline" id="Relación_de_Agregación_(o_Agrupación)">Relación de Agregación (o Agrupación)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=12" title="Editar sección: Relación de Agregación (o Agrupación)">editar</a><span class="mw-editsection-bracket">]</span></span></h5>
+<ol><li>Cuando representamos las relaciones en un software o base de datos. Ejemplo, el modelo de motor MTR01 es parte del coche MC01. Como tal, el motor MTR01 puede ser parte de cualquier otro modelo de coche, es decir si eliminamos el coche MC01 no es necesario eliminar el motor pues podemos usarlo en otro modelo.</li>
+<li>Cuando el contenedor es eliminado, el contenido usualmente no es destruido. Ejemplo, un profesor tiene estudiantes, cuando el profesor muere los estudiantes no mueren con él o ella.</li></ol>
+<p>Así, una relación de agregación es a menudo "clasificar" o "catalogar" contenido para distinguirlo del todo "físico" del contenedor.
+</p>
+<h2><span class="mw-headline" id="Diagramas">Diagramas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit&amp;section=13" title="Editar sección: Diagramas">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>El diagrama de clases puede tener como ejemplo: una clase que sería un objeto o persona misma en la cual se especifica cada acción y especificación.</li></ul>
+<ul><li>Propiedades de objetos que tienen propiedades y/u operaciones que contienen un contexto y un dominio, los primeros dos ejemplos son clases de datos y el tercero clase de lógica de negocio, dependiendo de quién diseñe el sistema se pueden unir los datos con las operaciones.</li></ul>
+<ul><li>El diagrama de clases incluye mucha más información como la relación entre un objeto y otro, la herencia de propiedades de otro objeto, conjuntos de operaciones/propiedades que son implementadas para una interfaz gráfica.</li></ul>
+<ul><li>Presenta las clases del sistema con sus relaciones estructurales y de herencia.</li></ul>
+<ul><li>El diagrama de clases es la base para elaborar una arquitectura <a href="/wiki/MVC" class="mw-disambig" title="MVC">MVC</a> o <a href="/wiki/MVP" class="mw-disambig" title="MVP">MVP</a>.</li></ul>
+<style data-mw-deduplicate="TemplateStyles:r144106945">.mw-parser-output .mw-authority-control{margin-top:1.5em}.mw-parser-output .mw-authority-control .navbox hr:last-child{display:none}.mw-parser-output .mw-authority-control .navbox+.mw-mf-linked-projects{display:none}.mw-parser-output .mw-authority-control .mw-mf-linked-projects{display:flex;padding:0.5em;border:1px solid #c8ccd1;background-color:#eaecf0;color:#222222}.mw-parser-output .mw-authority-control .mw-mf-linked-projects ul li{margin-bottom:0}</style><div class="mw-authority-control"><div role="navigation" class="navbox" aria-label="Navbox" style="width: inherit;padding:3px"><table class="hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="row" class="navbox-group" style="width: 12%; text-align:center;"><a href="/wiki/Control_de_autoridades" title="Control de autoridades">Control de autoridades</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><b>Proyectos Wikimedia</b></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a> Datos:</span> <span class="uid"><a href="https://www.wikidata.org/wiki/Q664166" class="extiw" title="wikidata:Q664166">Q664166</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikimedia_Commons" title="Commonscat"><img alt="Commonscat" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png" decoding="async" width="15" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/23px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a> Multimedia:</span> <span class="uid"><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Class_diagrams">Class diagrams</a></span></span></li></ul>
+<hr />
+</div></td></tr></tbody></table></div><div class="mw-mf-linked-projects hlist">
+<ul><li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a> Datos:</span> <span class="uid"><a href="https://www.wikidata.org/wiki/Q664166" class="extiw" title="wikidata:Q664166">Q664166</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikimedia_Commons" title="Commonscat"><img alt="Commonscat" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png" decoding="async" width="15" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/23px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a> Multimedia:</span> <span class="uid"><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Class_diagrams">Class diagrams</a></span></span></li></ul>
+</div></div>
+<!-- 
+NewPP limit report
+Parsed by mw1455
+Cached time: 20220726083541
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.124 seconds
+Real time usage: 0.163 seconds
+Preprocessor visited node count: 405/1000000
+Post‐expand include size: 10254/2097152 bytes
+Template argument size: 1359/2097152 bytes
+Highest expansion depth: 9/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 1582/5000000 bytes
+Lua time usage: 0.072/10.000 seconds
+Lua memory usage: 1506068/52428800 bytes
+Number of Wikibase entities loaded: 2/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  127.519      1 -total
+ 61.04%   77.835      1 Plantilla:Control_de_autoridades
+ 38.80%   49.474      1 Plantilla:Diagramas_UML
+ 37.13%   47.346      1 Plantilla:Navegación_vertical
+ 28.59%   36.453      1 Plantilla:Navbar
+-->
+
+<!-- Saved in parser cache with key eswiki:pcache:idhash:450389-0!canonical and timestamp 20220726083541 and revision id 143126114.
+ -->
+</div><noscript><img src="//es.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter">Obtenido de «<a dir="ltr" href="https://es.wikipedia.org/w/index.php?title=Diagrama_de_clases&amp;oldid=143126114">https://es.wikipedia.org/w/index.php?title=Diagrama_de_clases&amp;oldid=143126114</a>»</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Especial:Categor%C3%ADas" title="Especial:Categorías">Categorías</a>: <ul><li><a href="/wiki/Categor%C3%ADa:UML" title="Categoría:UML">UML</a></li><li><a href="/wiki/Categor%C3%ADa:Diagramas" title="Categoría:Diagramas">Diagramas</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Menú de navegación</h2>
+	<div id="mw-head">
+		
+
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Herramientas personales</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage" class="mw-list-item"><span title="La página de usuario de la IP desde la que editas">No has accedido</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Especial:MiDiscusi%C3%B3n" title="Discusión sobre ediciones hechas desde esta dirección IP [n]" accesskey="n"><span>Discusión</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Especial:MisContribuciones" title="Una lista de modificaciones hechas desde esta dirección IP [y]" accesskey="y"><span>Contribuciones</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Especial:Crear_una_cuenta&amp;returnto=Diagrama+de+clases" title="Te recomendamos crear una cuenta e iniciar sesión; sin embargo, no es obligatorio"><span>Crear una cuenta</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Especial:Entrar&amp;returnto=Diagrama+de+clases" title="Te recomendamos iniciar sesión, aunque no es obligatorio [o]" accesskey="o"><span>Acceder</span></a></li></ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Espacios de nombres</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/Diagrama_de_clases" title="Ver la página de contenido [c]" accesskey="c"><span>Artículo</span></a></li><li id="ca-talk" class="mw-list-item"><a href="/wiki/Discusi%C3%B3n:Diagrama_de_clases" rel="discussion" title="Discusión acerca de la página [t]" accesskey="t"><span>Discusión</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		 aria-label="Cambiar variante de idioma"
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">español</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Vistas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected mw-list-item"><a href="/wiki/Diagrama_de_clases"><span>Leer</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/index.php?title=Diagrama_de_clases&amp;action=edit" title="Editar esta página [e]" accesskey="e"><span>Editar</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=Diagrama_de_clases&amp;action=history" title="Versiones anteriores de esta página [h]" accesskey="h"><span>Ver historial</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="Más opciones" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Más</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div>
+			<h3 >
+				<label for="searchInput">Buscar</label>
+			</h3>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-navigation">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Buscar en Wikipedia" aria-label="Buscar en Wikipedia" autocapitalize="sentences" title="Buscar en este wiki [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Especial:Buscar">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Busca páginas con este texto." value="Buscar">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Ir a la página con este nombre exacto si existe" value="Ir">
+			</div>
+		</form>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/wiki/Wikipedia:Portada"
+			title="Visitar la página principal"></a>
+	</div>
+	
+
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navegación</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikipedia:Portada" title="Visitar la página principal [z]" accesskey="z"><span>Portada</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Portal:Comunidad" title="Acerca del proyecto, lo que puedes hacer, dónde encontrar información"><span>Portal de la comunidad</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Actualidad" title="Encuentra información de contexto sobre acontecimientos actuales"><span>Actualidad</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Especial:CambiosRecientes" title="Lista de cambios recientes en la wiki [r]" accesskey="r"><span>Cambios recientes</span></a></li><li id="n-newpages" class="mw-list-item"><a href="/wiki/Especial:P%C3%A1ginasNuevas"><span>Páginas nuevas</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Especial:Aleatoria" title="Cargar una página al azar [x]" accesskey="x"><span>Página aleatoria</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Ayuda:Contenidos" title="El lugar para aprender"><span>Ayuda</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_es.wikipedia.org&amp;uselang=es" title="Apóyanos"><span>Donaciones</span></a></li><li id="n-bug_in_article" class="mw-list-item"><a href="/wiki/Wikipedia:Informes_de_error"><span>Notificar un error</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Herramientas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Especial:LoQueEnlazaAqu%C3%AD/Diagrama_de_clases" title="Lista de todas las páginas de la wiki que enlazan aquí [j]" accesskey="j"><span>Lo que enlaza aquí</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Especial:CambiosEnEnlazadas/Diagrama_de_clases" rel="nofollow" title="Cambios recientes en las páginas que enlazan con esta [k]" accesskey="k"><span>Cambios en enlazadas</span></a></li><li id="t-upload" class="mw-list-item"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=es" title="Subir archivos [u]" accesskey="u"><span>Subir archivo</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Especial:P%C3%A1ginasEspeciales" title="Lista de todas las páginas especiales [q]" accesskey="q"><span>Páginas especiales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Diagrama_de_clases&amp;oldid=143126114" title="Enlace permanente a esta versión de la página"><span>Enlace permanente</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Diagrama_de_clases&amp;action=info" title="Más información sobre esta página"><span>Información de la página</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Especial:Citar&amp;page=Diagrama_de_clases&amp;id=143126114&amp;wpFormIdentifier=titleform" title="Información sobre cómo citar esta página"><span>Citar esta página</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q664166" title="Enlace al elemento conectado del repositorio de datos [g]" accesskey="g"><span>Elemento de Wikidata</span></a></li></ul>
+		
+	</div>
+</nav>
+
+
+<nav id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" role="navigation"  >
+	<h3
+		id="p-coll-print_export-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Imprimir/exportar</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Especial:Libro&amp;bookcmd=book_creator&amp;referer=Diagrama+de+clases"><span>Crear un libro</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Especial:DownloadAsPdf&amp;page=Diagrama_de_clases&amp;action=show-download-screen"><span>Descargar como PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Diagrama_de_clases&amp;printable=yes" title="Versión imprimible de esta página [p]" accesskey="p"><span>Versión para imprimir</span></a></li></ul>
+		
+	</div>
+</nav>
+
+
+<nav id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" aria-labelledby="p-wikibase-otherprojects-label" role="navigation"  >
+	<h3
+		id="p-wikibase-otherprojects-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">En otros proyectos</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Class_diagram" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-lang" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation"  >
+	<h3
+		id="p-lang-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">En otros idiomas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D9%85%D8%AE%D8%B7%D8%B7_%D8%A7%D9%84%D9%81%D8%A6%D8%A9" title="مخطط الفئة (árabe)" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B0_%D0%BD%D0%B0_%D0%BA%D0%BB%D0%B0%D1%81%D0%BE%D0%B2%D0%B5" title="Диаграма на класове (búlgaro)" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Diagrama_de_classes" title="Diagrama de classes (catalán)" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Diagram_t%C5%99%C3%ADd" title="Diagram tříd (checo)" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Klassendiagramm" title="Klassendiagramm (alemán)" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/Class_diagram" title="Class diagram (inglés)" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D9%86%D9%85%D9%88%D8%AF%D8%A7%D8%B1_%DA%A9%D9%84%D8%A7%D8%B3" title="نمودار کلاس (persa)" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Luokkakaavio" title="Luokkakaavio (finés)" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Diagramme_de_classes" title="Diagramme de classes (francés)" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%93%D7%99%D7%90%D7%92%D7%A8%D7%9E%D7%AA_%D7%9E%D7%97%D7%9C%D7%A7%D7%94" title="דיאגרמת מחלקה (hebreo)" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a href="https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%97_%E0%A4%B0%E0%A5%87%E0%A4%96%E0%A4%BE%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0" title="वर्ग रेखाचित्र (hindi)" lang="hi" hreflang="hi" class="interlanguage-link-target"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Dijagram_klasa" title="Dijagram klasa (croata)" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Oszt%C3%A1lydiagram" title="Osztálydiagram (húngaro)" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Diagram_kelas" title="Diagram kelas (indonesio)" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Class_diagram" title="Class diagram (italiano)" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%A9%E3%82%B9%E5%9B%B3" title="クラス図 (japonés)" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9E%98%EC%8A%A4_%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8" title="클래스 다이어그램 (coreano)" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a href="https://lt.wikipedia.org/wiki/Klasi%C5%B3_diagrama" title="Klasių diagrama (lituano)" lang="lt" hreflang="lt" class="interlanguage-link-target"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Diagram_klas" title="Diagram klas (polaco)" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Diagrama_de_classes" title="Diagrama de classes (portugués)" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B2" title="Диаграмма классов (ruso)" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/Diagram_tried" title="Diagram tried (eslovaco)" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a href="https://sq.wikipedia.org/wiki/Diagrami_i_klas%C3%ABs" title="Diagrami i klasës (albanés)" lang="sq" hreflang="sq" class="interlanguage-link-target"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%94%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC_%D0%BA%D0%BB%D0%B0%D1%81%D0%B0" title="Дијаграм класа (serbio)" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Klassmodeller" title="Klassmodeller (sueco)" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a href="https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81_%E0%AE%B5%E0%AE%B0%E0%AF%88%E0%AE%AA%E0%AE%9F%E0%AE%AE%E0%AF%8D" title="வகுப்பு வரைபடம் (tamil)" lang="ta" hreflang="ta" class="interlanguage-link-target"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/S%C4%B1n%C4%B1f_diyagram%C4%B1" title="Sınıf diyagramı (turco)" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%94%D1%96%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B0_%D0%BA%D0%BB%D0%B0%D1%81%D1%96%D0%B2" title="Діаграма класів (ucraniano)" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E9%A1%9E%E5%88%A5%E5%9C%96" title="類別圖 (chino)" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q664166#sitelinks-wikipedia" title="Editar enlaces interlingüísticos" class="wbc-editpage">Editar enlaces</a></span></div>
+	</div>
+</nav>
+
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> Esta página se editó por última vez el 25 abr 2022 a las 14:40.</li>
+	<li id="footer-info-copyright">El texto está disponible bajo la <a rel="license" href="//es.wikipedia.org/wiki/Wikipedia:Texto_de_la_Licencia_Creative_Commons_Atribuci%C3%B3n-CompartirIgual_3.0_Unported">Licencia Creative Commons Atribución Compartir Igual 3.0</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+pueden aplicarse cláusulas adicionales. Al usar este sitio, usted acepta nuestros <a href="//wikimediafoundation.org/wiki/Terms_of_Use">términos de uso</a> y nuestra <a href="//wikimediafoundation.org/wiki/Privacy_policy">política de privacidad</a>. <br/>Wikipedia&reg; es una marca registrada de la <a href="//www.wikimediafoundation.org/">Fundación Wikimedia, Inc.</a>, una organización sin ánimo de lucro.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/es">Política de privacidad</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:Acerca_de">Acerca de Wikipedia</a></li>
+	<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:Limitaci%C3%B3n_general_de_responsabilidad">Limitación de responsabilidad</a></li>
+	<li id="footer-places-mobileview"><a href="//es.m.wikipedia.org/w/index.php?title=Diagrama_de_clases&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versión para móviles</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Desarrolladores</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/es.wikipedia.org">Estadísticas</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement/es">Declaración de cookies</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.124","walltime":"0.163","ppvisitednodes":{"value":405,"limit":1000000},"postexpandincludesize":{"value":10254,"limit":2097152},"templateargumentsize":{"value":1359,"limit":2097152},"expansiondepth":{"value":9,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":1582,"limit":5000000},"entityaccesscount":{"value":2,"limit":400},"timingprofile":["100.00%  127.519      1 -total"," 61.04%   77.835      1 Plantilla:Control_de_autoridades"," 38.80%   49.474      1 Plantilla:Diagramas_UML"," 37.13%   47.346      1 Plantilla:Navegación_vertical"," 28.59%   36.453      1 Plantilla:Navbar"]},"scribunto":{"limitreport-timeusage":{"value":"0.072","limit":"10.000"},"limitreport-memusage":{"value":1506068,"limit":52428800}},"cachereport":{"origin":"mw1455","timestamp":"20220726083541","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Diagrama de clases","url":"https:\/\/es.wikipedia.org\/wiki\/Diagrama_de_clases","sameAs":"http:\/\/www.wikidata.org\/entity\/Q664166","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q664166","author":{"@type":"Organization","name":"Colaboradores de los proyectos Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-07-13T01:53:15Z","dateModified":"2022-04-25T14:40:07Z"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Diagrama de clases","url":"https:\/\/es.wikipedia.org\/wiki\/Diagrama_de_clases","sameAs":"http:\/\/www.wikidata.org\/entity\/Q664166","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q664166","author":{"@type":"Organization","name":"Colaboradores de los proyectos Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-07-13T01:53:15Z","dateModified":"2022-04-25T14:40:07Z"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":191,"wgHostname":"mw1367"});});</script>
+</body>
+</html>

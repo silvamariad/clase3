@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Autómata (mecánico) - Wikipedia, la enciclopedia libre</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"wgRequestId":"aebcbfde-09f9-49a1-b301-6e4999d5e055","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Autómata_(mecánico)","wgTitle":"Autómata (mecánico)","wgCurRevisionId":140342067,"wgRevisionId":140342067,"wgArticleId":289642,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Seres artificiales","Robótica","Automatización","Tecnología de la Antigua Grecia","Autómata (mecánico)"],"wgPageContentLanguage":"es","wgPageContentModel":"wikitext","wgRelevantPageName":"Autómata_(mecánico)","wgRelevantArticleId":289642,"wgIsProbablyEditable":
+true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"es","pageLanguageDir":"ltr","pageVariantFallbacks":"es"},"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":40000,"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"español","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q16039868","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":true,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.imagenesinfobox":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":
+"loading","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.a-commons-directo","ext.gadget.ReferenceTooltips","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=es&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=ext.gadget.imagenesinfobox&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<noscript><link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=noscript&amp;only=styles&amp;skin=vector"/></noscript>
+<meta name="generator" content="MediaWiki 1.39.0-wmf.23"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/CIMA_mg_8333.jpg/1200px-CIMA_mg_8333.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="1800"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/CIMA_mg_8333.jpg/800px-CIMA_mg_8333.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="1200"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/CIMA_mg_8333.jpg/640px-CIMA_mg_8333.jpg"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="960"/>
+<meta name="viewport" content="width=1000, initial-scale=1.0"/>
+<meta property="og:title" content="Autómata (mecánico) - Wikipedia, la enciclopedia libre"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//es.m.wikipedia.org/wiki/Aut%C3%B3mata_(mec%C3%A1nico)"/>
+<link rel="alternate" type="application/x-wiki" title="Editar" href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (es)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//es.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://es.wikipedia.org/wiki/Aut%C3%B3mata_(mec%C3%A1nico)"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Autómata_mecánico rootpage-Autómata_mecánico skin-vector action-view skin-vector-legacy"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"><!-- CentralNotice --></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading">Autómata (mecánico)</h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">De Wikipedia, la enciclopedia libre</div>
+		<div id="contentSub"></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Ir a la navegación</a>
+		<a class="mw-jump-link" href="#searchInput">Ir a la búsqueda</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="es" dir="ltr"><div class="mw-parser-output"><div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Archivo:CIMA_mg_8333.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/CIMA_mg_8333.jpg/220px-CIMA_mg_8333.jpg" decoding="async" width="220" height="330" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/CIMA_mg_8333.jpg/330px-CIMA_mg_8333.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9b/CIMA_mg_8333.jpg/440px-CIMA_mg_8333.jpg 2x" data-file-width="2912" data-file-height="4368" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:CIMA_mg_8333.jpg" class="internal" title="Aumentar"></a></div>Autómata en el <a href="/wiki/Centre_International_de_la_M%C3%A9canique_d%27Art" title="Centre International de la Mécanique d&#39;Art">Centre International de la Mécanique d'Art</a>, en <a href="/wiki/Suiza" title="Suiza">Suiza</a>.</div></div></div>
+<p><b>Autómata</b> (del <a href="/wiki/Lat%C3%ADn" title="Latín">latín</a> <i>automăta</i> y este del griego αὐτόματος <i>autómatos</i>, ‘espontáneo’ o ‘con movimiento propio’. Según la <a href="/wiki/Real_Academia_Espa%C3%B1ola" title="Real Academia Española">RAE</a>, «máquina que imita la figura y los movimientos de un ser animado»)<sup id="cite_ref-1" class="reference separada"><a href="#cite_note-1"><span class="corchete-llamada">[</span>1<span class="corchete-llamada">]</span></a></sup>&#8203; es un equivalente tecnológico de lo que en la actualidad serían los <a href="/wiki/Robot_aut%C3%B3nomo" title="Robot autónomo">robots autónomos</a>. Si el robot es <a href="/wiki/Antropomorfismo" title="Antropomorfismo">antropomorfo</a> se conoce como <a href="/wiki/Androide" title="Androide">androide</a>.<sup id="cite_ref-2" class="reference separada"><a href="#cite_note-2"><span class="corchete-llamada">[</span>2<span class="corchete-llamada">]</span></a></sup>&#8203;
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="es" dir="ltr"><h2 id="mw-toc-heading">Índice</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Origen_de_los_primeros_autómatas"><span class="tocnumber">1</span> <span class="toctext">Origen de los primeros autómatas</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Edad_Media_y_Renacimiento"><span class="tocnumber">2</span> <span class="toctext">Edad Media y Renacimiento</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Libro_de_Mecanismos_Ingeniosos"><span class="tocnumber">2.1</span> <span class="toctext">Libro de Mecanismos Ingeniosos</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Alberto_Magno"><span class="tocnumber">2.2</span> <span class="toctext">Alberto Magno</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Al-Jazari"><span class="tocnumber">2.3</span> <span class="toctext">Al-Jazari</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Leonardo_da_Vinci"><span class="tocnumber">2.4</span> <span class="toctext">Leonardo da Vinci</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Juanelo_Turriano"><span class="tocnumber">2.5</span> <span class="toctext">Juanelo Turriano</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#René_Descartes"><span class="tocnumber">2.6</span> <span class="toctext">René Descartes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Época_de_esplendor:_siglo_XVIII"><span class="tocnumber">3</span> <span class="toctext">Época de esplendor: siglo XVIII</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#Jacques_de_Vaucanson"><span class="tocnumber">3.1</span> <span class="toctext">Jacques de Vaucanson</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Friedrich_von_Knauss"><span class="tocnumber">3.2</span> <span class="toctext">Friedrich von Knauss</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Pierre_Jaquet-Droz"><span class="tocnumber">3.3</span> <span class="toctext">Pierre Jaquet-Droz</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Jean_Eugène_Robert-Houdin"><span class="tocnumber">3.4</span> <span class="toctext">Jean Eugène Robert-Houdin</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#El_Papamoscas"><span class="tocnumber">3.5</span> <span class="toctext">El Papamoscas</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Calendura_y_Calendureta,_de_Elche"><span class="tocnumber">3.6</span> <span class="toctext">Calendura y Calendureta, de Elche</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Autómatas_en_China_y_Japón"><span class="tocnumber">4</span> <span class="toctext">Autómatas en China y Japón</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#Última_época:_1848-1914"><span class="tocnumber">5</span> <span class="toctext">Última época: 1848-1914</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Algunos_tipos_de_autómatas"><span class="tocnumber">6</span> <span class="toctext">Algunos tipos de autómatas</span></a>
+<ul>
+<li class="toclevel-2 tocsection-19"><a href="#Cabezas_y_máquinas_parlantes"><span class="tocnumber">6.1</span> <span class="toctext">Cabezas y máquinas parlantes</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#Jugadores_de_ajedrez"><span class="tocnumber">6.2</span> <span class="toctext">Jugadores de ajedrez</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-21"><a href="#Autómatas_en_la_ficción"><span class="tocnumber">7</span> <span class="toctext">Autómatas en la ficción</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#En_la_mitología"><span class="tocnumber">7.1</span> <span class="toctext">En la mitología</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#En_la_literatura"><span class="tocnumber">7.2</span> <span class="toctext">En la literatura</span></a>
+<ul>
+<li class="toclevel-3 tocsection-24"><a href="#Literatura_española"><span class="tocnumber">7.2.1</span> <span class="toctext">Literatura española</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-25"><a href="#En_el_cine"><span class="tocnumber">7.3</span> <span class="toctext">En el cine</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-26"><a href="#Museos"><span class="tocnumber">8</span> <span class="toctext">Museos</span></a></li>
+<li class="toclevel-1 tocsection-27"><a href="#Notas_y_referencias"><span class="tocnumber">9</span> <span class="toctext">Notas y referencias</span></a></li>
+<li class="toclevel-1 tocsection-28"><a href="#Bibliografía"><span class="tocnumber">10</span> <span class="toctext">Bibliografía</span></a></li>
+<li class="toclevel-1 tocsection-29"><a href="#Enlaces_externos"><span class="tocnumber">11</span> <span class="toctext">Enlaces externos</span></a></li>
+</ul>
+</div>
+
+<h2><span id="Origen_de_los_primeros_aut.C3.B3matas"></span><span class="mw-headline" id="Origen_de_los_primeros_autómatas">Origen de los primeros autómatas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=1" title="Editar sección: Origen de los primeros autómatas">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Archivo:Heron.jpeg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Heron.jpeg/220px-Heron.jpeg" decoding="async" width="220" height="309" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/c/ca/Heron.jpeg 1.5x" data-file-width="232" data-file-height="326" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Heron.jpeg" class="internal" title="Aumentar"></a></div>Herón de Alejandría.</div></div></div>
+<p>Históricamente los primeros autómatas se remontan a la <a href="/wiki/Prehistoria" title="Prehistoria">prehistoria</a>, cuando las estatuas de algunos de dioses o reyes despedían fuego de los ojos, como era el caso de una estatua de <a href="/wiki/Osiris" title="Osiris">Osiris</a>. Otras tenían brazos mecánicos operados por los sacerdotes del templo, y otras, como la de Memon de Etiopía, emitían sonidos cuando los rayos del sol las iluminaba, y así infundían temor y respeto a quien las contemplara. Esta finalidad religiosa de los autómatas continuó hasta la <a href="/wiki/Grecia" title="Grecia">Grecia</a> clásica, en la que se hicieron estatuas que se movían con energía hidráulica. Esos nuevos conocimientos quedan plasmados en el primer libro sobre la figura de los robots <i>Autómata,</i> escrito por <a href="/wiki/Her%C3%B3n_de_Alejandr%C3%ADa" title="Herón de Alejandría">Herón de Alejandría</a> (10&#160;d.&#160;C.-70&#160;d.&#160;C.) donde se explica la creación de mecanismos, muchos basados en los principios de Filón o <a href="/wiki/Arqu%C3%ADmedes" title="Arquímedes">Arquímedes</a>, realizados fundamentalmente como entretenimiento y que imitaban el movimiento, como el de aves que gorjeaban, volaban y bebían, estatuas que servían vino o puertas automáticas, todos producidos por el movimiento del agua, la gravedad o por sistemas de palancas. También cabe destacar su “The Automaton Theatre”, sobre su teatro de marionetas mecánicas que representaban la <a href="/wiki/Guerra_de_Troya" title="Guerra de Troya">Guerra de Troya</a>.
+</p><p>Aunque Herón es el primero en recopilar datos sobre los autómatas, otros anteriores a él realizaron aportaciones, como es el caso de Archytas (428&#160;a.&#160;C.-347&#160;a.&#160;C.), inventor del tornillo y la polea y famoso por su paloma mecánica capaz de volar gracias a vapor de aire en propulsión. O el terrible sistema descrito por <a href="/wiki/Polibio" title="Polibio">Polibio</a> (200&#160;a.&#160;C.-118&#160;a.&#160;C.) y utilizado por <a href="/wiki/Nabis_de_Esparta" title="Nabis de Esparta">Nabis</a>, tirano de <a href="/wiki/Esparta" title="Esparta">Esparta</a>, que consistía en un artilugio con forma de mujer con clavos en su pecho y brazos y que abrazaba mortalmente a todo aquel que incumplía sus pagos. Y otros aún más antiguos, pero de más difícil autentificación, como el mítico Trono de <a href="/wiki/Salom%C3%B3n" title="Salomón">Salomón</a>, descrito en la Biblia y otros textos árabes como un árbol de bronce con pájaros cantores, leones y grifos mecánicos además de ser móvil, pudiendo elevarse desde el suelo hasta el techo.
+</p>
+<h2><span class="mw-headline" id="Edad_Media_y_Renacimiento">Edad Media y Renacimiento</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=2" title="Editar sección: Edad Media y Renacimiento">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>La <a href="/wiki/Edad_Media" title="Edad Media">Edad Media</a> supone un avance en la creación de autómatas tras el período romano en que no se generó ninguna aportación importante. El problema es que en muchos casos la falta de fuentes o la poca consideración que se le ha dado a esta época ha hecho que muchos inventos y artilugios producidos en este período hayan quedado en el olvido.
+</p>
+<h3><span class="mw-headline" id="Libro_de_Mecanismos_Ingeniosos">Libro de Mecanismos Ingeniosos</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=3" title="Editar sección: Libro de Mecanismos Ingeniosos">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>El <a href="/wiki/Libro_de_Mecanismos_Ingeniosos" title="Libro de Mecanismos Ingeniosos">Libro de Mecanismos Ingeniosos</a> es un libro escrito en el año 805 por los hermanos <a href="/wiki/Banu_Musa" class="mw-redirect" title="Banu Musa">Banu Musa</a> (Ahmad, Muhammad y Hasan bin Musa ibn Shakir) en los que se describe<sup id="cite_ref-3" class="reference separada"><a href="#cite_note-3"><span class="corchete-llamada">[</span>3<span class="corchete-llamada">]</span></a></sup>&#8203; un centenar de mecanismos y autómatas, y cómo emplearlos.<sup id="cite_ref-Hill-44_4-0" class="reference separada"><a href="#cite_note-Hill-44-4"><span class="corchete-llamada">[</span>4<span class="corchete-llamada">]</span></a></sup>&#8203; 
+</p><p>Los hermanos Banu Musa trabajaban en la <a href="/wiki/Casa_de_la_sabidur%C3%ADa" title="Casa de la sabiduría">Casa de la sabiduría</a>, y el libro fue un encargo del califa <a href="/wiki/Al-Mam%C3%BAn_(califa)" title="Al-Mamún (califa)">Al-Mamun</a>, que dio instrucciones a los Banu Musa para recopilar de las diversas obras grecolatinas que se habían conservado todo el saber al respecto.<sup id="cite_ref-5" class="reference separada"><a href="#cite_note-5"><span class="corchete-llamada">[</span>5<span class="corchete-llamada">]</span></a></sup>&#8203; Algunos de los artefactos se inspiraban en las obras de <a href="/wiki/Her%C3%B3n_de_Alejandr%C3%ADa" title="Herón de Alejandría">Herón de Alejandría</a><sup id="cite_ref-6" class="reference separada"><a href="#cite_note-6"><span class="corchete-llamada">[</span>6<span class="corchete-llamada">]</span></a></sup>&#8203; y <a href="/wiki/Fil%C3%B3n_de_Bizancio" title="Filón de Bizancio">Filón de Bizancio</a>, así como en la antigua <a href="/wiki/Persia" class="mw-redirect" title="Persia">Persia</a>, <a href="/wiki/China" class="mw-redirect" title="China">China</a> e <a href="/wiki/India" title="India">India</a>.<sup id="cite_ref-7" class="reference separada"><a href="#cite_note-7"><span class="corchete-llamada">[</span>7<span class="corchete-llamada">]</span></a></sup>&#8203; Otros muchos fueron invenciones de los propios hermanos Banu Musa.<sup id="cite_ref-8" class="reference separada"><a href="#cite_note-8"><span class="corchete-llamada">[</span>8<span class="corchete-llamada">]</span></a></sup>&#8203;
+</p>
+<h3><span class="mw-headline" id="Alberto_Magno">Alberto Magno</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=4" title="Editar sección: Alberto Magno">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Nacido en 1206 en <a href="/wiki/Baviera" title="Baviera">Baviera</a>, teólogo, filósofo y hombre de ciencia, <a href="/wiki/Alberto_Magno" title="Alberto Magno">Alberto Magno</a> fue una de las figuras decisivas del pensamiento medieval. Se le han atribuido a lo largo de la historia multitud de obras tanto de carácter mágico como de creación de seres artificiales. En concreto dos, una de las llamadas “cabezas parlantes”, de las que se hablará más adelante, y de un autómata de hierro que le servía como mayordomo y en el que trabajó treinta años de su vida, el cual era capaz de andar, abrir la puerta y saludar a los visitantes, aunque otros autores afirman que además podía hacer más tareas caseras. Otra versión (que también se cuenta en la historia de la cabeza parlante) narra que <a href="/wiki/Tom%C3%A1s_de_Aquino" title="Tomás de Aquino">Tomás de Aquino</a>, discípulo suyo, al ver aquel ser, decidió destruirlo ya que estaba convencido de que la mano del diablo había influido en su creación.
+</p>
+<h3><span class="mw-headline" id="Al-Jazari">Al-Jazari</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=5" title="Editar sección: Al-Jazari">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Archivo:Al-Jazari_Automata_Elephant-Clock_1315.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Al-Jazari_Automata_Elephant-Clock_1315.jpg/220px-Al-Jazari_Automata_Elephant-Clock_1315.jpg" decoding="async" width="220" height="316" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Al-Jazari_Automata_Elephant-Clock_1315.jpg/330px-Al-Jazari_Automata_Elephant-Clock_1315.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Al-Jazari_Automata_Elephant-Clock_1315.jpg/440px-Al-Jazari_Automata_Elephant-Clock_1315.jpg 2x" data-file-width="1392" data-file-height="2000" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Al-Jazari_Automata_Elephant-Clock_1315.jpg" class="internal" title="Aumentar"></a></div>Reloj elefante creado por Al-Jazari.</div></div></div>
+<p>Si se habla de avances científicos, Auilicos y tecnológicos se debe mencionar el mundo árabe y a <a href="/wiki/Al_Jazar%C3%AD" title="Al Jazarí">Al-Jazari</a> (1260), uno de los más grandes ingenieros de la historia. Inventor del <a href="/wiki/Cig%C3%BCe%C3%B1al" title="Cigüeñal">cigüeñal</a> y los primeros relojes mecánicos movidos por pesos y agua, entre otros muchos inventos de control automático, estuvo también muy interesado en la figura del autómata, creando una obra del mismo nombre (también llamada <i>El libro del conocimiento de los ingeniosos mecanismos</i>) y considerada una de las más importantes sobre la historia de la tecnología. Dentro de esta vertiente cabe destacar su complejo reloj elefante, animado por seres humanos y animales mecánicos que se movían y marcaban las horas, o un autómata con forma humana que servía distintos tipos de bebidas.
+</p>
+<h3><span class="mw-headline" id="Leonardo_da_Vinci">Leonardo da Vinci</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=6" title="Editar sección: Leonardo da Vinci">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="noprint AP rellink"><span style="font-size:88%">Artículo principal:</span>&#32;<i><a href="/wiki/Robot_de_Leonardo" title="Robot de Leonardo"> Robot de Leonardo</a></i></div>
+<p><a href="/wiki/Leonardo_da_Vinci" title="Leonardo da Vinci">Leonardo da Vinci</a> (1452-1519), hombre por excelencia del <a href="/wiki/Renacimiento" title="Renacimiento">Renacimiento</a>, diseñó al menos dos autómatas de los que se tenga constancia. El primero se considera también uno de los primeros con forma completamente humana, vestido con una armadura medieval. Fue diseñado alrededor del año 1495, aunque como muchos otros inventos de Leonardo no fue construido. Este mecanismo fue reconstruido en la actualidad según los dibujos originales y podía mover los brazos, girar la cabeza y sentarse. El segundo, mucho más ambicioso, se trató de un león mecánico construido a petición de <a href="/wiki/Francisco_I_de_Francia" title="Francisco I de Francia">Francisco I, rey de Francia</a> (1515), para facilitar las conversaciones de paz entre el rey francés y el <a href="/wiki/Papa_Le%C3%B3n_X" class="mw-redirect" title="Papa León X">papa León X</a>. Mediante diversos artificios, iba de una habitación a otra, donde se encontraba el monarca; en un momento dado, abrió su pecho y todos pudieron comprobar que estaba lleno de lirios y otras flores, representado así un antiguo símbolo de <a href="/wiki/Florencia" title="Florencia">Florencia</a> (el león) y la flor de lis que <a href="/wiki/Luis_XII" class="mw-redirect" title="Luis XII">Luis XII</a> regaló a la ciudad como señal de amistad.
+</p>
+<h3><span class="mw-headline" id="Juanelo_Turriano">Juanelo Turriano</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=7" title="Editar sección: Juanelo Turriano">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gran ingeniero del <a href="/wiki/Siglo_XVI" title="Siglo XVI">siglo XVI</a>, <a href="/wiki/Juanelo_Turriano" title="Juanelo Turriano">Juanelo Turriano</a> trabajó en España a las órdenes de <a href="/wiki/Carlos_I_de_Espa%C3%B1a" title="Carlos I de España">Carlos V</a> como relojero de la corte. Fue inventor de multitud de mecanismos, siendo el más famoso el llamado “artilugio de Juanelo”, una obra de ingeniería capaz de llevar el agua desde el <a href="/wiki/Tajo" title="Tajo">Tajo</a> al <a href="/wiki/Alc%C3%A1zar_de_Toledo" title="Alcázar de Toledo">Alcázar de Toledo</a>, aunque jamás le pagaron por aquella obra. En esa ciudad se le atribuye a Turriano la creación de un autómata (entre otros muchos, como danzarines, guerreros o pájaros voladores) llamado “El Hombre de Palo” (del que queda constancia en el nombre de una calle de Toledo), un sirviente autómata que se diferenciaba del resto por estar hecho de madera y que recorría las calles pidiendo limosna para su dueño, haciendo una reverencia cuando la conseguía. Otros autores más conservadores solo consideran a este autómata un muñeco de palo estático, que se colocó en la ciudad para recoger fondos para la apertura de un hospital.
+</p>
+<h3><span id="Ren.C3.A9_Descartes"></span><span class="mw-headline" id="René_Descartes">René Descartes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=8" title="Editar sección: René Descartes">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Uno de los más famosos casos de creación de un autómata humano, pero también donde es más difícil separar la historia de la ficción, es la historia de <a href="/wiki/Ren%C3%A9_Descartes" title="René Descartes">René Descartes</a> (1596-1650) y su hija autómata. Una de las principales ideas cartesianas era la consideración de todos los animales como complejos autómatas, seres privados de todo estado mental, que solo actuaban por supervivencia y que en la práctica su carne y huesos funcionaban como la mecánica de un artilugio. Pero cuentan que tras la muerte de su hija ilegítima Francine, de cinco años de edad, se sintió tan deprimido que se propuso construir una muñeca autómata lo más parecida a la fallecida, uniéndose tanto a aquella figura que según describen la trataba como “mi hija Francine”. Su inseparable unión hizo que la llevara de viaje cruzando el mar de <a href="/wiki/Pa%C3%ADses_Bajos" title="Países Bajos">Holanda</a>. La tenía guardada en un cofre dentro de su camarote. El capitán del barco, intrigado por su contenido, consiguió entrar en el camarote y abrir el cofre. Cual fue su espanto al comprobar que aquella muñeca se levantaba y movía. El capitán, horrorizado, la tiró por la borda.
+Entonces Descartes, que solía destacarse por su mal humor, mató al capitán y lo tiró por la borda, al igual que había hecho con la muñeca.
+</p>
+<h2><span id=".C3.89poca_de_esplendor:_siglo_XVIII"></span><span class="mw-headline" id="Época_de_esplendor:_siglo_XVIII">Época de esplendor: siglo XVIII</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=9" title="Editar sección: Época de esplendor: siglo XVIII">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Con la entrada en el <a href="/wiki/Siglo_XVIII" title="Siglo XVIII">siglo XVIII</a> y los consiguientes avances en materia de relojería se llega a la que se considera la época donde mejores y más perfectos autómatas se realizaron de la historia. Su desarrollo, dominado por el carácter científico, ponía de relieve la obsesión por intentar reproducir lo más fielmente posible los movimientos y comportamientos de los seres vivos.
+</p>
+<h3><span class="mw-headline" id="Jacques_de_Vaucanson">Jacques de Vaucanson</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=10" title="Editar sección: Jacques de Vaucanson">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="/wiki/Archivo:Digesting_Duck.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Digesting_Duck.jpg/180px-Digesting_Duck.jpg" decoding="async" width="180" height="179" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Digesting_Duck.jpg/270px-Digesting_Duck.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Digesting_Duck.jpg/360px-Digesting_Duck.jpg 2x" data-file-width="940" data-file-height="935" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Digesting_Duck.jpg" class="internal" title="Aumentar"></a></div>El <i>canard digérateur</i> de <a href="/wiki/Jacques_de_Vaucanson" title="Jacques de Vaucanson">Jacques de Vaucanson</a>, aclamado en 1739 como el primer autómata capaz de hacer la <a href="/wiki/Digesti%C3%B3n" title="Digestión">digestión</a>.</div></div></div>
+<p>Nacido un 24 de febrero de 1709, <a href="/wiki/Jacques_de_Vaucanson" title="Jacques de Vaucanson">Jacques de Vaucanson</a>, excelente relojero pero con amplios conocimientos de música, anatomía y mecánica, quería demostrar mediante sus autómatas la realización de principios biológicos básicos, tales como la <a href="/wiki/Aparato_circulatorio" title="Aparato circulatorio">circulación</a>, la <a href="/wiki/Digesti%C3%B3n" title="Digestión">digestión</a> o la <a href="/wiki/Respiraci%C3%B3n" title="Respiración">respiración</a>. Sobre esta última función versó su primera creación, “El Flautista”, figura con forma de pastor y de tamaño natural que tocaba el tambor y la flauta con un variado repertorio musical. Vaucanson lo presentó en la <a href="/wiki/Academia_de_Ciencias_de_Francia" title="Academia de Ciencias de Francia">Academia de Ciencias de Francia</a> cosechando un gran éxito. Más tarde, en 1738, crea su segundo autómata, llamado “El Tamborilero”, como una versión mejorada del primero. En esta ocasión la figura tocaba la zampoña de <a href="/wiki/Provenza" title="Provenza">Provenza</a> y el tamboril con veinte melodías distintas. El tercero y más famoso fue el “<a href="/wiki/Pato_con_aparato_digestivo" title="Pato con aparato digestivo">Pato con aparato digestivo</a>”, transparente y compuesto por más de cuatrocientas partes móviles y que batía las alas, comía y realizaba completamente la digestión imitando al mínimo detalle el comportamiento natural del ave. Aunque en realidad el pato era un engaño, pues lo que comía no era lo mismo que defecaba, sino que al interior del pato había un compartimento en el que se depositaba el grano que comía y del que salía algo parecido a un excremento. Pasados los años, Vaucanson, cansado de su propia obra, vendió las figuras en 1743.
+</p>
+<h3><span class="mw-headline" id="Friedrich_von_Knauss">Friedrich von Knauss</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=11" title="Editar sección: Friedrich von Knauss">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Inventor del <a href="/wiki/Siglo_XVIII" title="Siglo XVIII">siglo XVIII</a> (1724-1789), <a href="/wiki/Friedrich_von_Knauss" title="Friedrich von Knauss">Friedrich von Knauss</a> fue el creador de uno de los primeros autómatas escritores. Esta compleja creación la formaba una esfera sostenida por dos águilas de bronce; en ella la figura de una diosa sirve de musa al autómata, que con su largo brazo escribe en una hoja en blanco lo que previamente se le ha ordenado realizar. El sistema de funcionamiento es capaz de hacer que el autómata moje la pluma en el tintero para poder escribir y cuenta con un sistema para pasar la página cuando ésta ha quedado escrita.
+</p>
+<h3><span class="mw-headline" id="Pierre_Jaquet-Droz">Pierre Jaquet-Droz</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=12" title="Editar sección: Pierre Jaquet-Droz">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="noprint AP rellink"><span style="font-size:88%">Artículo principal:</span>&#32;<i><a href="/wiki/Aut%C3%B3matas_de_Jaquet-Droz" title="Autómatas de Jaquet-Droz"> Autómatas de Jaquet-Droz</a></i></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Archivo:Automates-Jaquet-Droz-p1030490.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Automates-Jaquet-Droz-p1030490.jpg/220px-Automates-Jaquet-Droz-p1030490.jpg" decoding="async" width="220" height="165" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Automates-Jaquet-Droz-p1030490.jpg/330px-Automates-Jaquet-Droz-p1030490.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/06/Automates-Jaquet-Droz-p1030490.jpg/440px-Automates-Jaquet-Droz-p1030490.jpg 2x" data-file-width="2560" data-file-height="1920" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Automates-Jaquet-Droz-p1030490.jpg" class="internal" title="Aumentar"></a></div>«La pianista» de Jaquet-Droz.</div></div></div>
+<p>Posiblemente el mejor y más conocido creador de autómatas de la historia. <a href="/w/index.php?title=Pierre_Jaquet-Droz&amp;action=edit&amp;redlink=1" class="new" title="Pierre Jaquet-Droz (aún no redactado)">Pierre Jaquet-Droz</a>, suizo nacido en 1721, fue el responsable de los tres autómatas más complejos y famosos del <a href="/wiki/Siglo_XVIII" title="Siglo XVIII">siglo XVIII</a>. Sus tres obras maestras («La pianista», «El dibujante» y «El escritor») causaron asombro en la época, llegando a ser contemplados por reyes y emperadores tanto de Europa como de China, India o Japón.
+</p><p>El primero de ellos, «La pianista», es un autómata con forma de mujer que toca el <a href="/wiki/%C3%93rgano_(instrumento_musical)" title="Órgano (instrumento musical)">órgano</a>, con la particularidad de que es la propia figura la que interpreta las obras pulsando las teclas con sus dedos sin tener el sonido pregrabado o procedente de otro lugar. Compuesta por 2500 piezas, podía mover los ojos dirigiendo la mirada del piano a los dedos, inclinar el cuerpo, respirar y al finalizar cada tema hacer una reverencia.
+</p><p>«El dibujante», por otra parte, estaba compuesto por unas 2000 piezas, tenía forma de niño sentado en un pupitre y podía realizar hasta cuatro dibujos distintos. Al igual que el anterior, imitaba el comportamiento mientras realizaba la tarea, moviendo los ojos, las manos o incluso soplando en el papel para eliminar los restos del polvo del lápiz.
+</p><p>El último, y más complejo de los tres autómatas, es «El escritor», compuesto por más de 6000 piezas. Podía escribir utilizando la pluma gracias a una rueda donde se seleccionaban los caracteres uno a uno, pudiendo escribir así pequeños textos de unas cuarenta palabras de longitud. Como los anteriores, realizaba movimientos propios de un ser humano, como mojar la tinta y escurrir el sobrante para no manchar el papel, levantar la pluma como si estuviera pensando, respetando los espacios y puntos y aparte, además de seguir con la mirada el papel y la pluma mientras escribía.
+</p><p>Los tres autómatas se pueden contemplar en el Musée d’Art et d’Histoire de <a href="/wiki/Neuch%C3%A2tel" title="Neuchâtel">Neuchâtel</a>, <a href="/wiki/Suiza" title="Suiza">Suiza</a>.
+</p>
+<h3><span id="Jean_Eug.C3.A8ne_Robert-Houdin"></span><span class="mw-headline" id="Jean_Eugène_Robert-Houdin">Jean Eugène Robert-Houdin</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=13" title="Editar sección: Jean Eugène Robert-Houdin">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Archivo:Burgos_-_Catedral_162_-_Papamoscas.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/56/Burgos_-_Catedral_162_-_Papamoscas.jpg/220px-Burgos_-_Catedral_162_-_Papamoscas.jpg" decoding="async" width="220" height="266" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/56/Burgos_-_Catedral_162_-_Papamoscas.jpg/330px-Burgos_-_Catedral_162_-_Papamoscas.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/56/Burgos_-_Catedral_162_-_Papamoscas.jpg/440px-Burgos_-_Catedral_162_-_Papamoscas.jpg 2x" data-file-width="1341" data-file-height="1620" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Burgos_-_Catedral_162_-_Papamoscas.jpg" class="internal" title="Aumentar"></a></div>El Papamoscas de la catedral de Burgos.</div></div></div>
+<p>La fama de los autómatas de Von Knauss y Jaquet-Droz llevó a muchos ilusionistas y prestidigitadores a incorporar trucos con autómatas en sus espectáculos. Es el caso de <a href="/wiki/Jean_Eug%C3%A8ne_Robert-Houdin" title="Jean Eugène Robert-Houdin">Jean Eugène Robert-Houdin</a>, que creó varios autómatas que, aunque mecánicos, estaban más cerca del mundo de la magia. Cabe destacar un busto cantante donde se mostraba un sistema de engranajes con el que se decía que la figura cantaba, aunque la realidad es que detrás de ese mecanismo se encontraba una cantante auténtica. También fue responsable de un autómata escritor que dibujaba lo que el público le pedía o el truco del autómata llamado “El Pastelero del Palais Royal”, que traía al mago todos los platos y bebidas que este le pedía, entre otros muchos.
+</p>
+<h3><span class="mw-headline" id="El_Papamoscas">El Papamoscas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=14" title="Editar sección: El Papamoscas">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="noprint AP rellink"><span style="font-size:88%">Artículo principal:</span>&#32;<i><a href="/wiki/Papamoscas_(Burgos)" title="Papamoscas (Burgos)"> Papamoscas (Burgos)</a></i></div>
+<p>De estas fechas data el famoso autómata de la <a href="/wiki/Catedral_de_Burgos" title="Catedral de Burgos">catedral de Burgos</a>, el <a href="/wiki/Papamoscas_(Burgos)" title="Papamoscas (Burgos)">Papamoscas</a>, cuya misión es la de tocar las campanas señalando la hora: lo hace moviendo su brazo derecho (con el que mueve, a través de una campana, un badajo) al mismo tiempo que abre y cierra la boca. Si bien el mecanismo actual es del siglo XVIII, sustituye a un artilugio parecido de fecha anterior.
+</p>
+<h3><span id="Calendura_y_Calendureta.2C_de_Elche"></span><span class="mw-headline" id="Calendura_y_Calendureta,_de_Elche">Calendura y Calendureta, de <a href="/wiki/Elche" title="Elche">Elche</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=15" title="Editar sección: Calendura y Calendureta, de Elche">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="noprint AP rellink"><span style="font-size:88%">Artículo principal:</span>&#32;<i><a href="/wiki/Calendura_y_Calendureta" title="Calendura y Calendureta"> Calendura y Calendureta</a></i></div>
+<p>En 1759 el Consell de Elche votó por añadir dos autómatas al campanario construido en 1572 sobre la Torre de la Vetla o Centinela de la antigua muralla, la continua a la Torre del Consell, hoy Ayuntamiento de Elche; ambas del S. XV. El 29 de septiembre del mismo año fueron "bautizados" los dos autómatas: Miquel Calendura, el mayor, que da las horas, y Vicente sin padre, el pequeño, que da los cuartos. Los nombres corresponden al de las campanas S. Miguel y S. Vicente Ferrer y derivado de Calenda, relativo a la medición del tiempo. Hoy día se les conoce popularmente como Calendura y Calendureta. A Vicent, el pueblo le añadió Calendureta, como diminutivo de Calendura. Tras más de 2 siglos y medio siguen marcando las horas a los ilicitanos e ilicitanas, siendo de los pocos supervivientes del levante español.
+</p>
+<h2><span id="Aut.C3.B3matas_en_China_y_Jap.C3.B3n"></span><span class="mw-headline" id="Autómatas_en_China_y_Japón">Autómatas en China y Japón</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=16" title="Editar sección: Autómatas en China y Japón">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Archivo:TeaAutomatAndMechanism.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TeaAutomatAndMechanism.jpg/220px-TeaAutomatAndMechanism.jpg" decoding="async" width="220" height="212" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TeaAutomatAndMechanism.jpg/330px-TeaAutomatAndMechanism.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TeaAutomatAndMechanism.jpg/440px-TeaAutomatAndMechanism.jpg 2x" data-file-width="596" data-file-height="575" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:TeaAutomatAndMechanism.jpg" class="internal" title="Aumentar"></a></div>Karakuri japonés.</div></div></div>
+<p>La cultura asiática, especialmente <a href="/wiki/Rep%C3%BAblica_Popular_China" title="República Popular China">China</a> y <a href="/wiki/Jap%C3%B3n" title="Japón">Japón</a>, ha tenido una gran tradición de autómatas que se ha mantenido desde tiempos muy antiguos hasta la actualidad. Ya en el año 2000&#160;a.&#160;C. se cuentan leyendas chinas sobre autómatas, como la creada por el hijo del rey Tach`uan, hecho de madera, y tan semejante al hombre que confundía a todos los que lo veían, hasta que descubren su naturaleza y es destruido. En tiempos más cercanos se habla de varios emperadores chinos que, curiosos por estos inventos, apoyaron la creación de todo tipo de autómatas, desde los que poseían forma animal (pájaros, caballos, gatos, monos, etcétera) hasta otros con forma humana y que andaban, bailan o tocaban instrumentos.
+</p><p>En el Japón de los siglos XVIII y XIX los autómatas consiguieron un alto grado de importancia y complejidad. Se les llamaba <i><a href="/wiki/Karakuri" title="Karakuri">karakuri</a></i>, que se podría traducir como “aparatos mecánicos para producir la sorpresa en una persona” y se distinguían tres tipos de figuras: las <i>Butai Karakuri</i>, que se usaban en el teatro, las <i>Zashiki Karakuri</i>, más pequeñas y con las que se jugaba en las habitaciones, y las <i>Dashi Karakuri</i>, que se utilizaban en las festividades religiosas. Su mayor tarea era la representación de mitos y leyendas tradicionales aunque existían de todo tipo, como algunos que servían el té o lanzaban flechas con un arco. Ya entrados en el <a href="/wiki/Siglo_XX" title="Siglo XX">siglo XX</a> y <a href="/wiki/Siglo_XXI" title="Siglo XXI">XXI</a> se ve cómo la tradición del karakuri se mantiene en los modernos robots japoneses, con la creación de complejísimos robots antropomorfos como <a href="/wiki/ASIMO" title="ASIMO">ASIMO</a>, <a href="/wiki/QRIO" title="QRIO">QRIO</a> o Repliee Q1 o mascotas robóticas como <a href="/wiki/Aibo" title="Aibo">Aibo</a>, descendiente directo de los autómatas animales de siglos pasados.
+</p>
+<h2><span id=".C3.9Altima_.C3.A9poca:_1848-1914"></span><span class="mw-headline" id="Última_época:_1848-1914">Última época: 1848-1914</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=17" title="Editar sección: Última época: 1848-1914">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Archivo:Singing_Bird_Box_by_Bontems.JPG" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Singing_Bird_Box_by_Bontems.JPG/220px-Singing_Bird_Box_by_Bontems.JPG" decoding="async" width="220" height="162" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Singing_Bird_Box_by_Bontems.JPG/330px-Singing_Bird_Box_by_Bontems.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/52/Singing_Bird_Box_by_Bontems.JPG/440px-Singing_Bird_Box_by_Bontems.JPG 2x" data-file-width="2002" data-file-height="1476" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Singing_Bird_Box_by_Bontems.JPG" class="internal" title="Aumentar"></a></div><a href="/wiki/Caja_de_p%C3%A1jaro_cantor_aut%C3%B3mata" class="mw-redirect" title="Caja de pájaro cantor autómata">Caja de pájaro cantor autómata</a> fabricada hacia 1890 por la casa francesa Bontems. Caja de <a href="/wiki/Eretmochelys_imbricata" title="Eretmochelys imbricata">carey</a> con autómata finamente elaborado compuesto por plumaje iridiscente de <a href="/wiki/Trochilinae" title="Trochilinae">colibrí</a> y pico de hueso.</div></div></div>
+<p>A finales del <a href="/wiki/Siglo_XIX" title="Siglo XIX">siglo XIX</a> y comienzos del <a href="/wiki/Siglo_XX" title="Siglo XX">siglo XX</a> se siguieron creando autómatas de todo tipo, pero la realidad es que no fueron tan elaborados como sus antecesores y estuvieron más guiados al mundo del espectáculo y al comercio, como las <i><a href="/wiki/Autoperipatetikos" title="Autoperipatetikos">autoperipatetikos</a></i>. Entre los más importantes caben destacar “La pareja”, de <a href="/w/index.php?title=Alexander_Nicolas_Theroude&amp;action=edit&amp;redlink=1" class="new" title="Alexander Nicolas Theroude (aún no redactado)">Alexander Nicolas Theroude</a>, los autómatas animales de <a href="/w/index.php?title=Blaise_Bontems&amp;action=edit&amp;redlink=1" class="new" title="Blaise Bontems (aún no redactado)">Blaise Bontems</a>, las figuras que realizaban pequeños trucos de magia o la encantadora de serpientes de <a href="/w/index.php?title=Roullet_%26_Decamps&amp;action=edit&amp;redlink=1" class="new" title="Roullet &amp; Decamps (aún no redactado)">Roullet &amp; Decamps</a>, el fumador turco de <a href="/w/index.php?title=Leopold_Lambert&amp;action=edit&amp;redlink=1" class="new" title="Leopold Lambert (aún no redactado)">Leopold Lambert</a>, los escarceos con el mundo de los autómatas de científicos como <a href="/wiki/Nikola_Tesla" title="Nikola Tesla">Nikola Tesla</a> y su modelo de barco manejado a distancia o el autómata caminante de <a href="/wiki/George_Moore" title="George Moore">George Moore</a> con forma humana y movido por la fuerza del vapor que podía recorrer distancias a casi 9 millas por hora. Finalmente, con el estallido de la <a href="/wiki/Primera_Guerra_Mundial" title="Primera Guerra Mundial">Primera Guerra Mundial</a>, la industria de los autómatas desaparece y no renacerá hasta la llegada de los modernos robots.
+</p>
+<h2><span id="Algunos_tipos_de_aut.C3.B3matas"></span><span class="mw-headline" id="Algunos_tipos_de_autómatas">Algunos tipos de autómatas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=18" title="Editar sección: Algunos tipos de autómatas">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="Cabezas_y_m.C3.A1quinas_parlantes"></span><span class="mw-headline" id="Cabezas_y_máquinas_parlantes">Cabezas y máquinas parlantes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=19" title="Editar sección: Cabezas y máquinas parlantes">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Dentro de los autómatas hay un grupo que ha tenido una gran difusión a lo largo de la historia, las cabezas parlantes, seres que se creían entre la mecánica y la magia que hablaban, aconsejaban a sus dueños o predecían el futuro. La leyenda y el mito han influido mucho en este tipo de mecanismos, encontrándose las primeras versiones en antiguos cuentos árabes. Uno de los ejemplos más famosos es la cabeza con forma de hombre de <a href="/wiki/Roger_Bacon" title="Roger Bacon">Roger Bacon</a> (1214-1294), hecha de latón y que podía responder a preguntas sobre el futuro, la de <a href="/wiki/Alberto_Magno" title="Alberto Magno">Alberto Magno</a> con forma de mujer, la de Valentín Merbitz que decían que hablaba varios idiomas  (algunos decían que gracias a un ventrílocuo), la cabeza parlante del papa <a href="/wiki/Silvestre_II" title="Silvestre II">Silvestre II</a> que respondía aleatoriamente “sí” o “no” a las preguntas que se le hacían, o la figura de la santa que hablaba de <a href="/wiki/Atanasio_Kircher" title="Atanasio Kircher">Atanasio Kircher</a>, además de su libro “Misurgia Universalis”, donde describe con detalle la creación de figuras que podían mover los ojos, labios y lengua.
+</p><p>En cualquier caso, la mayoría de ellas conseguían la “voz” a través de diversos sistemas. El primero con base documental en conseguirlo fue Kratzenstein, que con un sistema de tubos de órgano podía reproducir las vocales. Más tarde Wolfrang von Kempelen explicaba en una de sus obras cómo fabricar y manipular una de estas máquinas para que pudiera pronunciar algunas frases breves a través de una especie de fuelle por el que pasaba el aire y se modulaban los sonidos. O las creadas por el abate Mical, de tamaño natural y que, exhibidas de dos en dos, se contestaban la una a la otra. Ya en el <a href="/wiki/Siglo_XIX" title="Siglo XIX">siglo XIX</a> <a href="/w/index.php?title=Joseph_Faber&amp;action=edit&amp;redlink=1" class="new" title="Joseph Faber (aún no redactado)">Joseph Faber</a> ideó la versión más perfecta de estas máquinas, bautizada como <i>Euphonia</i>, que se utilizaba como el órgano de una iglesia y que podía desde recitar el alfabeto hasta responder preguntas, susurrar o reír.
+</p>
+<h3><span class="mw-headline" id="Jugadores_de_ajedrez">Jugadores de ajedrez</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=20" title="Editar sección: Jugadores de ajedrez">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Archivo:Tuerkischer_schachspieler_windisch4.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Tuerkischer_schachspieler_windisch4.jpg/220px-Tuerkischer_schachspieler_windisch4.jpg" decoding="async" width="220" height="192" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Tuerkischer_schachspieler_windisch4.jpg/330px-Tuerkischer_schachspieler_windisch4.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Tuerkischer_schachspieler_windisch4.jpg/440px-Tuerkischer_schachspieler_windisch4.jpg 2x" data-file-width="600" data-file-height="523" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Tuerkischer_schachspieler_windisch4.jpg" class="internal" title="Aumentar"></a></div>"El Turco" tal y como lo veía el público.</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Archivo:Racknitz_-_The_Turk_3.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Racknitz_-_The_Turk_3.jpg/220px-Racknitz_-_The_Turk_3.jpg" decoding="async" width="220" height="200" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Racknitz_-_The_Turk_3.jpg/330px-Racknitz_-_The_Turk_3.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Racknitz_-_The_Turk_3.jpg/440px-Racknitz_-_The_Turk_3.jpg 2x" data-file-width="2678" data-file-height="2439" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Racknitz_-_The_Turk_3.jpg" class="internal" title="Aumentar"></a></div>Posible funcionamiento real de "El Turco".</div></div></div>
+<p><a href="/wiki/Wolfgang_von_Kempelen" title="Wolfgang von Kempelen">Wolfgang von Kempelen</a> fue el inventor, como se ha señalado anteriormente, de una de las primeras máquinas parlantes, y fue también creador de uno de los más famosos autómatas de la historia, que a su vez, fue uno de los mayores fraudes de su tiempo, pero que, a pesar de ello, impulsó la creación de autómatas jugadores de ajedrez hasta casi nuestros días. Se trata de “<a href="/wiki/El_Turco" title="El Turco">El Turco</a>”.
+</p><p>Construido en 1769, “El Turco” estaba formado por una mesa donde estaba colocado un maniquí con forma humana vestido con ropajes árabes. Una puerta en la parte frontal se abría y dejaba ver el supuesto mecanismo de funcionamiento del autómata. Este jugador fue una de las mayores atracciones de la época ya que, según contaban, era invencible. Viajó a lo largo de Europa aún después de la muerte de su creador, pasando a manos de <a href="/wiki/Johann_M%C3%A4zel" title="Johann Mäzel">Johan Maezel</a>, llegando a derrotar al mismísimo <a href="/wiki/Napole%C3%B3n_Bonaparte" title="Napoleón Bonaparte">Napoleón Bonaparte</a> durante la campaña de la <a href="/wiki/Batalla_de_Wagram" title="Batalla de Wagram">Batalla de Wagram</a>. Después de viajar por <a href="/wiki/Estados_Unidos" title="Estados Unidos">Estados Unidos</a> aterriza en <a href="/wiki/Cuba" title="Cuba">Cuba</a>, donde muere William Schlumberger, ayudante de Maezel, y posible encargado de introducirse dentro del autómata para jugar las partidas, ya que después de esta muerte “El Turco” dejó de exhibirse hasta acabar destruido en 1845 en el gran incendio de <a href="/wiki/Filadelfia" title="Filadelfia">Filadelfia</a>. Más tarde se dijo que, a lo largo de su historia, el autómata había tenido varios operadores que movían el mecanismo gracias a un tablero de ajedrez secundario. Cada pieza del tablero principal contenía un imán, así el operador podía saber qué pieza había sido movida y dónde. El operador hacía su movimiento mediante un mecanismo que podía encajarse en el tablero secundario, indicando al maniquí dónde mover.
+</p><p>La fama de este autómata hizo que se crearan otras muchas réplicas con el mismo truco de funcionamiento, algunas de ellas en el siglo XIX, como es el caso de <i>Ajeeb</i>, presentado por Charles Arthur Hooper en 1868; Ajeeb iba vestido de egipcio y fue exhibido muchas veces en Europa y América hasta 1929, cuando también fue destruido en un incendio; este autómata consiguió ganar un torneo de ajedrez en Londres sin que nadie se percatara del artificio. También <i>Mephisto</i>, nacido en 1876 de la mano de Charles Godfrey Gumpley, fabricante de libros ortopédicos, se enfrentó a varios jugadores importantes como <a href="/wiki/Henry_Bird" title="Henry Bird">Henry Bird</a> y <a href="/wiki/Joseph_Henry_Blackburne" title="Joseph Henry Blackburne">Joseph Henry Blackburne</a>, manejado según parece por Gunsberg.<sup id="cite_ref-9" class="reference separada"><a href="#cite_note-9"><span class="corchete-llamada">[</span>9<span class="corchete-llamada">]</span></a></sup>&#8203;
+</p><p>Sin embargo, sí existió un autómata cuyo funcionamiento era totalmente real. Su creación se debe al español <a href="/wiki/Leonardo_Torres_Quevedo" title="Leonardo Torres Quevedo">Leonardo Torres Quevedo</a>, ingeniero y matemático, inventor de “<a href="/wiki/El_Ajedrecista" title="El Ajedrecista">El Ajedrecista</a>”, presentado en la feria de <a href="/wiki/Par%C3%ADs" title="París">París</a> de 1914. Funcionaba utilizando unos electroimanes bajo el tablero, jugando automáticamente hasta el final con un rey y una torre contra un rey desde cualquier posición sin ninguna intervención humana.
+</p><p>Así, se puede considerar a estos autómatas, tanto los falsos como los reales, como pioneros de los modernos juegos de ajedrez informáticos y de ordenadores como <a href="/wiki/Deep_Blue_(computadora)" title="Deep Blue (computadora)">Deep Blue</a>, que mantienen el mismo espíritu y objetivos que sus predecesores: conseguir que una máquina pueda vencer a la mente humana.
+</p>
+<h2><span id="Aut.C3.B3matas_en_la_ficci.C3.B3n"></span><span class="mw-headline" id="Autómatas_en_la_ficción">Autómatas en la ficción</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=21" title="Editar sección: Autómatas en la ficción">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="En_la_mitolog.C3.ADa"></span><span class="mw-headline" id="En_la_mitología">En la mitología</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=22" title="Editar sección: En la mitología">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="/wiki/Prometeo" title="Prometeo">Prometeo</a>, según la mitología griega, creador del ser humano.</li>
+<li><a href="/wiki/Pigmali%C3%B3n" title="Pigmalión">Pigmalión</a>, ser de la mitología griega que esculpió la estatua de una joven a la que llamó <a href="/wiki/Galatea" title="Galatea">Galatea</a>, tan hermosa que se <a href="/wiki/Enamoramiento" title="Enamoramiento">enamoró</a> de ella, deseando que tuviera vida.</li>
+<li><a href="/wiki/Hefesto" title="Hefesto">Hefesto</a>, ser mitológico que creó mujeres mecánicas construidas en oro que le ayudaban en sus labores de herrería.</li>
+<li>Los <a href="/wiki/Argonautas" title="Argonautas">Argonautas</a> crearon un perro autómata para que custodiara su nave.</li>
+<li>El Gigante de <a href="/wiki/Talos" title="Talos">Talos</a>, hecho de bronce.</li>
+<li>El <a href="/wiki/Golem" title="Golem">Golem</a>, según el folclore judío, ser creado de arcilla por el rabino Löw introduciéndole en la boca el shem, una inscripción mágica en <a href="/wiki/Idioma_hebreo" title="Idioma hebreo">hebreo</a> que contenía el nombre de <a href="/wiki/Yahveh" title="Yahveh">Yahveh</a>.</li></ul>
+<h3><span class="mw-headline" id="En_la_literatura">En la literatura</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=23" title="Editar sección: En la literatura">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Archivo:Pinocchio.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pinocchio.jpg/220px-Pinocchio.jpg" decoding="async" width="220" height="303" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pinocchio.jpg/330px-Pinocchio.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pinocchio.jpg/440px-Pinocchio.jpg 2x" data-file-width="512" data-file-height="705" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Archivo:Pinocchio.jpg" class="internal" title="Aumentar"></a></div>Ilustración original de Enrico Mazzanti para "<i>Las aventuras de Pinocho</i>".</div></div></div>
+<ul><li>En el <i>Satiricón</i>, de <a href="/wiki/Petronio" title="Petronio">Petronio</a>, se describe un esclavo con esqueleto de plata articulado que sirve los platos y las bebidas.</li>
+<li>En <i>El hombre de arena</i>, <a href="/wiki/E._T._A._Hoffmann" title="E. T. A. Hoffmann">E. T. A. Hoffmann</a> habla de Nataniel y su amor por la autómata Olimpia. Su fin será el suicidio al descubrir la verdadera naturaleza de su amada. Este mismo autor hablará en el cuento "Los autómatas" de  "El Turco Parlante", inspirado en el falso autómata de Von Kempelen.</li>
+<li><i><a href="/wiki/Frankenstein_o_el_moderno_Prometeo" title="Frankenstein o el moderno Prometeo">Frankenstein</a></i>, obra escrita por <a href="/wiki/Mary_Shelley" title="Mary Shelley">Mary Shelley</a> en 1818 y que cuenta la historia del Doctor Frankenstein, obsesionado con crear un ser vivo a partir de diferentes partes del cuerpo de cadáveres diseccionados.</li>
+<li><i>El jugador de ajedrez de Maezel</i>, de <a href="/wiki/Edgar_Allan_Poe" title="Edgar Allan Poe">Edgar Allan Poe</a>, donde se intenta descifrar el auténtico funcionamiento de <a href="/wiki/El_Turco" title="El Turco">El Turco</a>.</li>
+<li><i>El Maestro Zacarías</i>, de <a href="/wiki/Julio_Verne" title="Julio Verne">Julio Verne</a>, cuenta la historia de un relojero que transfiere su alma a sus autómatas.</li>
+<li><i><a href="/wiki/El_ruise%C3%B1or" title="El ruiseñor">El ruiseñor</a></i>, de <a href="/wiki/Hans_Christian_Andersen" title="Hans Christian Andersen">Hans Christian Andersen</a>, donde aparece un ave mecánica que imita el sonido del ruiseñor.</li>
+<li><i>La Eva Futura</i>, de Villiers de L´Isle Adam, describe a Hadaly, la mujer artificial ideal, pero a la vez critica los excesos de las invenciones tecnológicas, representadas por <a href="/wiki/Thomas_Edison" class="mw-redirect" title="Thomas Edison">Thomas Edison</a>.</li>
+<li><i>Las aventuras de <a href="/wiki/Pinocho" title="Pinocho">Pinocho</a></i>, de <a href="/wiki/Carlo_Collodi" title="Carlo Collodi">Carlo Collodi</a>, con la historia de Gepeto y su marioneta de madera, la cual talla a partir de un tronco de madera parlante que le entrega el maestro carpintero Cereza.</li>
+<li><i>Los robots universales de Rossum</i>, escrita en 1920 por el checo <a href="/wiki/Karel_%C4%8Capek" title="Karel Čapek">Karel Čapek</a> y primera obra donde es utilizado el término moderno "robot".</li>
+<li>Muchos de los cuentos y novelas del escritor de ciencia ficción ruso-estadounidense <a href="/wiki/Isaac_Asimov" title="Isaac Asimov">Isaac Asimov</a> tratan sobre robots tan similares a los humanos que resultan indistinguibles de éstos.</li>
+<li><i><a href="/wiki/F%C3%A1bulas_de_robots" title="Fábulas de robots">Fábulas de robots</a></i> (1964) y su continuación, <i><a href="/wiki/Ciber%C3%ADada" title="Ciberíada">Ciberíada</a></i> (1965), del escritor de ciencia ficción polaco <a href="/wiki/Stanislav_Lem" class="mw-redirect" title="Stanislav Lem">Stanislav Lem</a>, son una especie de cuentos o fábulas protagonizadas por robots. En muchas otras de sus obras aparecen frecuentemente personajes que son robots y autómatas.</li></ul>
+<h4><span id="Literatura_espa.C3.B1ola"></span><span class="mw-headline" id="Literatura_española">Literatura española</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=24" title="Editar sección: Literatura española">editar</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>La presencia de autómatas es muy frecuente, sobre todo en novelas de género (<a href="/wiki/Literatura_juvenil" title="Literatura juvenil">literatura juvenil</a>, <a href="/wiki/Literatura_fant%C3%A1stica" title="Literatura fantástica">literatura fantástica</a>, <a href="/wiki/Ciencia_ficci%C3%B3n" title="Ciencia ficción">ciencia ficción</a>, etc.), pero también hay citas en libros realistas y en los clásicos, como en los <a href="/wiki/Novela_de_caballer%C3%ADas" class="mw-redirect" title="Novela de caballerías">libros de caballerías</a><sup id="cite_ref-10" class="reference separada"><a href="#cite_note-10"><span class="corchete-llamada">[</span>10<span class="corchete-llamada">]</span></a></sup>&#8203; y, por su influencia, en <i><a href="/wiki/Don_Quijote_de_la_Mancha" title="Don Quijote de la Mancha">Don Quijote de la Mancha</a></i>, en el capítulo 62 de su segunda parte, en el que Don Quijote se encuentra con una cabeza parlante, que cree hecha por medio de la brujería, cuando en realidad era un truco de feria.
+</p><p><a href="/wiki/Carmen_Mart%C3%ADn_Gaite" title="Carmen Martín Gaite">Carmen Martín Gaite</a> recurrió a las figuras de los autómatas en varias de sus obras, como en el cuento 
+«El  castillo  de  las  tres  murallas» (en el que una estatua animada sirve de enlace entre los personajes de Serena y su hija Altalé), o la novela <i>Caperucita en Manhattan</i>.<sup id="cite_ref-NF_11-0" class="reference separada"><a href="#cite_note-NF-11"><span class="corchete-llamada">[</span>11<span class="corchete-llamada">]</span></a></sup>&#8203;
+</p><p>Otros ejemplos son <i>El jardín de los autómatas</i>, de <a href="/wiki/Armando_Boix" title="Armando Boix">Armando Boix</a>, donde aparece Schrade, un inventor de autómatas. En <i>Juanelo o el hombre nuevo</i>, <a href="/wiki/Jes%C3%BAs_Ferrero" title="Jesús Ferrero">Jesús Ferrero</a> recrea la construcción del homúnculo Juanelo, obra del inventor Gianello Turriano<sup id="cite_ref-12" class="reference separada"><a href="#cite_note-12"><span class="corchete-llamada">[</span>12<span class="corchete-llamada">]</span></a></sup>&#8203; <i>Autómata</i>, de <a href="/wiki/Adolfo_Garc%C3%ADa_Ortega" title="Adolfo García Ortega">Adolfo García Ortega</a>, trata sobre el descubrimiento de un artilugio mecánico de tiempos de <a href="/wiki/Felipe_II_de_Espa%C3%B1a" title="Felipe II de España">Felipe II de España</a>, cuyo cometido era defender el <a href="/wiki/Estrecho_de_Magallanes" title="Estrecho de Magallanes">estrecho de Magallanes</a>. En varias novelas de <a href="/wiki/%C3%93scar_Esquivias" title="Óscar Esquivias">Óscar Esquivias</a> aparecen autómatas, como el <i>chubesqui</i> Capablanca en <i>La ciudad del Gran Rey</i> o los fabricados por el relojero Breguet en <i>Étienne el traidor</i>.<sup id="cite_ref-NF_11-1" class="reference separada"><a href="#cite_note-NF-11"><span class="corchete-llamada">[</span>11<span class="corchete-llamada">]</span></a></sup>&#8203; 
+</p><p>El cuento <a href="/wiki/Steampunk" title="Steampunk">steampunk</a> "Aria de una muñeca mecánica", de <a href="/wiki/Care_Santos" title="Care Santos">Care Santos</a>, trata sobre el negocio de autómatas.<sup id="cite_ref-13" class="reference separada"><a href="#cite_note-13"><span class="corchete-llamada">[</span>13<span class="corchete-llamada">]</span></a></sup>&#8203;<sup id="cite_ref-14" class="reference separada"><a href="#cite_note-14"><span class="corchete-llamada">[</span>14<span class="corchete-llamada">]</span></a></sup>&#8203;
+</p>
+<h3><span class="mw-headline" id="En_el_cine">En el cine</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=25" title="Editar sección: En el cine">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><i><a href="/w/index.php?title=Le_Joueur_d%27echecs_(The_Chess_Player)&amp;action=edit&amp;redlink=1" class="new" title="Le Joueur d&#39;echecs (The Chess Player) (aún no redactado)">Le Joueur d'echecs (The Chess Player)</a></i> (1927), dirigida por Raymond Bernard, es una película antibélica basada en la novela de Henri Dupuy-Mazuel, el cual se inspiró en la historia del jugador de ajedrez autómata "El Turco", creado por el barón húngaro Wolfgang von Kempelen.</li>
+<li><i><a href="/wiki/Metr%C3%B3polis_(pel%C3%ADcula_de_1927)" title="Metrópolis (película de 1927)">Metrópolis</a></i> (1927), dirigida por <a href="/wiki/Fritz_Lang" title="Fritz Lang">Fritz Lang</a>, donde el científico <a href="/wiki/Rotwang" title="Rotwang">Rotwang CA</a> crea un robot antropomorfo con forma de mujer (o gynoide).</li>
+<li><i><a href="/wiki/El_mago_de_Oz" title="El mago de Oz">El mago de Oz</a></i> (1939), dirigida por <a href="/wiki/Victor_Fleming" title="Victor Fleming">Victor Fleming</a>, donde aparece el personaje de <i>el hombre de hojalata</i>, que viaja a Oz en busca de un corazón.</li>
+<li><i><a href="/wiki/2001:_A_Space_Odyssey_(pel%C3%ADcula)" title="2001: A Space Odyssey (película)">2001: Una odisea del espacio</a></i> (1968), dirigida por <a href="/wiki/Stanley_Kubrick" title="Stanley Kubrick">Stanley Kubrick</a>, en la que aparece el personaje <a href="/wiki/HAL_9000" title="HAL 9000">HAL 9000</a>, una computadora con inteligencia artificial que eventualmente enloquece, intentando matar a los tripulantes de la nave <a href="/wiki/Discovery_1" title="Discovery 1">Discovery 1</a>.</li>
+<li><i><a href="/wiki/Westworld" title="Westworld">Westworld</a></i> (<a href="/wiki/1973" title="1973">1973</a>), dirigida por <a href="/wiki/Michael_Crichton" title="Michael Crichton">Michael Crichton</a> y protagonizada por <a href="/wiki/Yul_Brynner" title="Yul Brynner">Yul Brynner</a>, donde los robots de un parque temático que simulaba el antiguo oeste estadounidense se rebelan en contra de los visitantes.</li>
+<li><i>The Stepford Wives</i> (1975 y una remake en 2004), basada en el cuento <i><a href="/wiki/Las_mujeres_perfectas" class="mw-redirect" title="Las mujeres perfectas">Las mujeres perfectas</a></i>, de <a href="/wiki/Ira_Levin" title="Ira Levin">Ira Levin</a>, que cuenta cómo en la ciudad de Stepford los hombres han sustituido a sus mujeres por autómatas que obedecen todas sus órdenes.</li>
+<li><i><a href="/wiki/Blade_Runner" title="Blade Runner">Blade Runner</a></i> (1982), dirigida por <a href="/wiki/Ridley_Scott" title="Ridley Scott">Ridley Scott</a>, donde aparecen los “Replicantes”, seres idénticos a los humanos pero con una esperanza de vida limitada, utilizados como trabajadores.</li>
+<li><i><a href="/wiki/The_Terminator" title="The Terminator">The Terminator</a></i> (1984), dirigida por <a href="/wiki/James_Cameron" title="James Cameron">James Cameron</a>, que muestra que en el futuro las máquinas han esclavizado al hombre y envían al pasado a un autómata de apariencia humana para que elimine a la futura madre del que será líder de la rebelión contra las máquinas.</li>
+<li><i><a href="/wiki/Edward_Scissorhands" title="Edward Scissorhands">Edward Scissorhands</a></i> (1990), dirigida por <a href="/wiki/Tim_Burton" title="Tim Burton">Tim Burton</a>, cuenta la historia de Eduardo, un autómata con unas afiladas cuchillas por manos, que quedó incompleto al morir prematuramente su creador.</li>
+<li><i><a href="/wiki/Toy_Story" title="Toy Story">Toy Story</a></i> (1995), dirigida por <a href="/wiki/John_Lasseter" title="John Lasseter">John Lasseter</a>, recupera el mito de que los seres inanimados, como los juguetes, tienen vida propia en ausencia de sus dueños.</li>
+<li><i><a href="/wiki/Inteligencia_artificial_(pel%C3%ADcula)" class="mw-redirect" title="Inteligencia artificial (película)">Inteligencia Artificial</a></i> (2001), de <a href="/wiki/Steven_Spielberg" title="Steven Spielberg">Steven Spielberg</a>, narra la historia de David, un robot único en su género capaz de amar.</li>
+<li><i><a href="/wiki/El_hombre_bicentenario" title="El hombre bicentenario">El hombre bicentenario</a></i> (1999), dirigida por <a href="/wiki/Chris_Columbus" title="Chris Columbus">Chris Columbus</a>, es una película que narra la historia de un autómata capaz de pensar y sentir, basada en una cuento de <a href="/wiki/Isaac_Asimov" title="Isaac Asimov">Isaac Asimov</a>.</li>
+<li><i><a href="/wiki/Hugo_(pel%C3%ADcula)" title="Hugo (película)">Hugo</a></i> (2011), película dirigida por <a href="/wiki/Martin_Scorsese" title="Martin Scorsese">Martin Scorsese</a> y basada en el libro <i>La invención de Hugo Cabret</i>, donde el gran cineasta <a href="/wiki/Georges_M%C3%A9li%C3%A8s" title="Georges Méliès">Georges Méliès</a> crea un autómata por el cual se desata la trama de esta historia.</li></ul>
+<h2><span class="mw-headline" id="Museos">Museos</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=26" title="Editar sección: Museos">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Museo_de_Aut%C3%B3matas_de_La_Rochelle" title="Museo de Autómatas de La Rochelle">Museo de Autómatas de La Rochelle</a>, <a href="/wiki/Francia" title="Francia">Francia</a></li>
+<li>Otro famoso museo de autómatas (Museu d'Autòmats) se encuentra en el <a href="/wiki/Parque_de_Atracciones_del_Tibidabo" class="mw-redirect" title="Parque de Atracciones del Tibidabo">Parque de Atracciones del Tibidabo</a>, en <a href="/wiki/Barcelona" title="Barcelona">Barcelona</a>.</li>
+<li>Hay otro en <a href="/wiki/Verd%C3%BA" title="Verdú">Verdú</a>, cerca de <a href="/wiki/T%C3%A1rrega" title="Tárrega">Tárrega</a>: el <a href="/wiki/Museo_de_Juguetes_y_Aut%C3%B3matas" title="Museo de Juguetes y Autómatas">Museo de Juguetes y Autómatas</a>, en <a href="/wiki/Provincia_de_L%C3%A9rida" title="Provincia de Lérida">Lérida</a>, <a href="/wiki/Catalu%C3%B1a" title="Cataluña">Cataluña</a>.</li></ul>
+<h2><span class="mw-headline" id="Notas_y_referencias">Notas y referencias</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=27" title="Editar sección: Notas y referencias">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="listaref" style="-moz-column-count:2; -webkit-column-count:2; column-count:2; list-style-type: decimal;"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://buscon.rae.es/drae/srv/search?id=zpWbOiFMYDXX2npWwz9P">«Autómata, Real  Academia Española»</a>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3AAut%C3%B3mata+%28mec%C3%A1nico%29&amp;rft.btitle=Aut%C3%B3mata%2C+Real++Academia+Espa%C3%B1ola&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fbuscon.rae.es%2Fdrae%2Fsrv%2Fsearch%3Fid%3DzpWbOiFMYDXX2npWwz9P&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.wordreference.com/definicion/androide">«Androide, Diccionario Wordreference»</a><span class="reference-accessdate">. Consultado el 21 de septiembre de 2015</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3AAut%C3%B3mata+%28mec%C3%A1nico%29&amp;rft.btitle=Androide%2C+Diccionario+Wordreference&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.wordreference.com%2Fdefinicion%2Fandroide&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text">Dimarogonas 2000, 15.</span>
+</li>
+<li id="cite_note-Hill-44-4"><span class="mw-cite-backlink"><a href="#cite_ref-Hill-44_4-0">↑</a></span> <span class="reference-text">Hill 1979, 44.</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text">Rosheim 1994, 9.</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text">Bunch, 2004, 107</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><a href="#cite_ref-7">↑</a></span> <span class="reference-text">Hill 1979, 21</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><a href="#cite_ref-8">↑</a></span> <span class="reference-text">Hill 1979, 13, 19 y 23.</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><a href="#cite_ref-9">↑</a></span> <span class="reference-text">Ibero, Ramón. “Diccionario de Ajedrez”. <a href="/wiki/Ediciones_Mart%C3%ADnez_Roca" title="Ediciones Martínez Roca">Ediciones Martínez Roca</a>. Barcelona. 1977</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><a href="#cite_ref-10">↑</a></span> <span class="reference-text">María del Rosario Aguilar Perdomo, <i>Artificio, maravilla y técnica. Hacia una tipología de los autómatas en los libros de caballerías</i>, en <i>Amadís de Gaula: quinientos años después</i>. Estudios en homenaje a Juan Manuel Cacho Blecua, Alcalá de Henares: Centro de Estudios Cervantinos, 2008, pp. 15-42.</span>
+</li>
+<li id="cite_note-NF-11"><span class="mw-cite-backlink">↑ <a href="#cite_ref-NF_11-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-NF_11-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Núñez de la Fuente (2015)</span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><a href="#cite_ref-12">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.elcultural.es/articulo_imp.aspx?id=2076">Crítica de Ángel Basanta en El Cultural (14/06/2000)</a></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><a href="#cite_ref-13">↑</a></span> <span class="reference-text"><a href="/wiki/F%C3%A9lix_J._Palma" title="Félix J. Palma">Félix J. Palma</a>, <i>Steampunk: antología retrofuturista</i> (ed. Fábulas de Albión, 2012), página 11.</span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><a href="#cite_ref-14">↑</a></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20120704135109/http://www.koult.es/2012/06/steampunk-el-futuro-es-ayer/">«Copia archivada»</a>. Archivado desde <a rel="nofollow" class="external text" href="http://www.koult.es/2012/06/steampunk-el-futuro-es-ayer/">el original</a> el 4 de julio de 2012<span class="reference-accessdate">. Consultado el 1 de julio de 2012</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3AAut%C3%B3mata+%28mec%C3%A1nico%29&amp;rft.btitle=Copia+archivada&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.koult.es%2F2012%2F06%2Fsteampunk-el-futuro-es-ayer%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+</ol></div>
+<h2><span id="Bibliograf.C3.ADa"></span><span class="mw-headline" id="Bibliografía">Bibliografía</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=28" title="Editar sección: Bibliografía">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><i>La quimera del autómata matemático. Del calculador medieval a la máquina analítica de Babbage</i>, V. Guijarro y L. González, Ed. Cátedra, 2010.</li>
+<li>Núñez de la Fuente, Sara: «<a rel="nofollow" class="external text" href="http://www.usc.es/revistas/index.php/elos/article/view/2533/pdf">Estatuas animadas y autómatas en la literatura juvenil de Carmen Martín Gaite y Óscar Esquivias</a>» en <i>Elos. Revista de Literatura Infantil e Xuvenil</i>, n.º 2, 2015; pp. 39-61.</li>
+<li><i>Le monde des automates</i>, 1928.</li>
+<li><i>Los falsos adanes. Historia y mito de los autómatas</i>. Ceserani, G.P. Editorial Tiempo Nuevo, 1971.</li>
+<li><i>De autómatas y otras maravillas</i>, Vid. Alvar, C.</li>
+<li><i>Historia de Monstruos</i>, Juan Jacobo Bajarlía.</li>
+<li><i>Máquinas de amar. Secretos del cuerpo artificial</i>, Pilar Pedraza. Ed. Valdemar, 1998.</li>
+<li><i>Juego y Artificio. Autómatas y otras ficciones en la cultura del Renacimiento a la Ilustración</i>, Alfredo Aracil.</li>
+<li><i>El Turco: La Vida y Época de la Famosa Máquina Jugadora de Ajedrez del Siglo XVIII</i>, Tom Standage, Editorial Walker &amp; Company, 2002.</li>
+<li><i>Secretos medievales</i>, Jesús Callejo. Editorial Temas de Hoy, 2006.</li>
+<li><i>From music boxes to street organs</i> R.Dewaard, 1967.</li>
+<li><i>La familia del Dr. Frankenstein. Materiales para una historia del hombre artificial</i>, Jesús Alonso Burgos, Alcalá Grupo Editorial, 2007.</li>
+<li><i>THE JAQUET-DROZ MECHANICAL PUPPETS</i> EDMONDO DROZ 1971.</li>
+<li><i>ENCYCLOPEDIA of Automatic Musical Instruments</i> Q.David Bowers 1972.</li>
+<li><i>CLOKWORK MUSIC</i> W.J.G.ORD-HUME 1973.</li>
+<li><i>Silver Anniversary Collection MUSICAL BOX SOCIETY INTERNATIONAL</i> 1974.</li>
+<li><i>The Marvelous World of Music Machines</i> Heinrich Weiss-Stauffachｅr 1976.</li>
+<li><i>MUSIC AND THE BRAIN</i> MACDONALD CRITCHLEY &amp; R.A.HENSON 1977.</li>
+<li><i>MUSICAL INSTRUMENTS OF THE WORLD</i> the Diagram Group 1976.</li>
+<li><i>BARREL ORGAN</i> W.J.G.ORD-HUME 1978.</li>
+<li><i>ANDROIDS The Jaquet-Droz automaton</i> F.M. Ricci 1979.</li>
+<li><i>Musical Box</i> W.J.G.ORD-HUME 1980.</li>
+<li><i>The Musical Box Handbook</i> Cylinder Boxes Graham Webb 1984.</li>
+<li><i>Von der Aolsharfe zum Digitalspieler</i> Jan _Brauers 1984.</li>
+<li><i>Le MONDE des AUTOMATES ETUDE HISTORIQUE ET TECHNIQUEⅠⅡ</i> A.Chapuis E.Gelis 1984.</li>
+<li><i>THE WONDERLAND OF MUSIC BOXES AND AUTOMATA</i> Daniel Troquet 1989.</li>
+<li><i>Clock and watch museum Geneva</i> 1990 Musee d’art et d’histoire.</li>
+<li><i>Museums of Horology La Chaux-de-Fonds Le Locle</i> Francois Mercier 1991.</li>
+<li><i>All’epoca dell Scatole musicali</i>.</li>
+<li><i>AUTOMATES ET MUSIQUES Pendules</i> Anne Winter-Jensen M.E.L.D.L. Geneve 1987.</li>
+<li><i>L'Oregue de Barbarie</i> Helmut Zeraschi Payot Lausanne 1980.</li>
+<li><i>Faszinierende Welt der Automaten</i> Annette Beyer Callwey Verlag Munchen 1983.</li>
+<li><i>Automaten</i> Chrisian Bailly Hirmer.</li></ul>
+<h2><span class="mw-headline" id="Enlaces_externos">Enlaces externos</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit&amp;section=29" title="Editar sección: Enlaces externos">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png" decoding="async" width="15" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/23px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /> <a href="/wiki/Wikimedia_Commons" title="Wikimedia Commons">Wikimedia Commons</a> alberga una categoría multimedia sobre <b><a href="https://commons.wikimedia.org/wiki/Category:Aut%C3%B3mata" class="extiw" title="commons:Category:Autómata">Autómata</a></b>.</li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20070807220756/http://www.musees.ch/Pages/arriva.html">Sitio web oficial del Centre International de la Mécanique d'Art.</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.automates-boites-musique.com">Automates-Anciens.com</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.lovelyfineantiques.com">Autómata from XIX Century.</a></li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20060701124846/http://isaacasimov.garcia-cuervo.com/Robotica.htm">Archivado</a> el 1 de julio de 2006 en <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://www.muslimheritage.com/topics/default.cfm?ArticleID=466">Las máquinas de Al-Jazari</a> (en inglés)</li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20080430070803/http://www.ling.su.se/staff/hartmut/kemplne.htm">Las máquinas parlantes de Wolfgang von Kempelen</a> <span style="color:#555;">(en inglés)</span></li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20060203051422/http://www.nyu.edu/pages/linguistics/courses/v610051/gelmanr/ling.html">Galería de autómatas de los Siglos XVIII y XIX.</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.karakuri.info/">Karakuri.info</a> <span style="color:#555;">(en inglés)</span></li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20080114052240/http://www.geocities.com/SiliconValley/Lab/7378/automat.htm">Cronología de los autómatas jugadores de ajedrez</a> <span style="color:#555;">(en inglés)</span></li></ul>
+<p><br />
+</p>
+<style data-mw-deduplicate="TemplateStyles:r144106945">.mw-parser-output .mw-authority-control{margin-top:1.5em}.mw-parser-output .mw-authority-control .navbox hr:last-child{display:none}.mw-parser-output .mw-authority-control .navbox+.mw-mf-linked-projects{display:none}.mw-parser-output .mw-authority-control .mw-mf-linked-projects{display:flex;padding:0.5em;border:1px solid #c8ccd1;background-color:#eaecf0;color:#222222}.mw-parser-output .mw-authority-control .mw-mf-linked-projects ul li{margin-bottom:0}</style><div class="mw-authority-control"><div role="navigation" class="navbox" aria-label="Navbox" style="width: inherit;padding:3px"><table class="hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="row" class="navbox-group" style="width: 12%; text-align:center;"><a href="/wiki/Control_de_autoridades" title="Control de autoridades">Control de autoridades</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><b>Proyectos Wikimedia</b></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a> Datos:</span> <span class="uid"><a href="https://www.wikidata.org/wiki/Q16039868" class="extiw" title="wikidata:Q16039868">Q16039868</a></span></li></ul>
+</div></td></tr></tbody></table></div><div class="mw-mf-linked-projects hlist">
+<ul><li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a> Datos:</span> <span class="uid"><a href="https://www.wikidata.org/wiki/Q16039868" class="extiw" title="wikidata:Q16039868">Q16039868</a></span></li></ul>
+</div></div>
+<!-- 
+NewPP limit report
+Parsed by mw1451
+Cached time: 20220805072235
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.327 seconds
+Real time usage: 0.399 seconds
+Preprocessor visited node count: 1222/1000000
+Post‐expand include size: 8588/2097152 bytes
+Template argument size: 565/2097152 bytes
+Highest expansion depth: 9/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 8925/5000000 bytes
+Lua time usage: 0.109/10.000 seconds
+Lua memory usage: 2779447/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  246.315      1 -total
+ 36.18%   89.108      1 Plantilla:Listaref
+ 34.83%   85.781      1 Plantilla:Control_de_autoridades
+ 30.55%   75.255      3 Plantilla:Cita_web
+ 18.84%   46.399      1 Plantilla:Commonscat
+ 10.14%   24.973      1 Plantilla:Propiedad
+  3.76%    9.260      4 Plantilla:AP
+  3.05%    7.515      3 Plantilla:En
+  2.57%    6.326      1 Plantilla:Título_sin_coletilla
+  2.46%    6.058      1 Plantilla:En_idioma
+-->
+
+<!-- Saved in parser cache with key eswiki:pcache:idhash:289642-0!canonical and timestamp 20220805072234 and revision id 140342067.
+ -->
+</div><noscript><img src="//es.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter">Obtenido de «<a dir="ltr" href="https://es.wikipedia.org/w/index.php?title=Autómata_(mecánico)&amp;oldid=140342067">https://es.wikipedia.org/w/index.php?title=Autómata_(mecánico)&amp;oldid=140342067</a>»</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Especial:Categor%C3%ADas" title="Especial:Categorías">Categorías</a>: <ul><li><a href="/wiki/Categor%C3%ADa:Seres_artificiales" title="Categoría:Seres artificiales">Seres artificiales</a></li><li><a href="/wiki/Categor%C3%ADa:Rob%C3%B3tica" title="Categoría:Robótica">Robótica</a></li><li><a href="/wiki/Categor%C3%ADa:Automatizaci%C3%B3n" title="Categoría:Automatización">Automatización</a></li><li><a href="/wiki/Categor%C3%ADa:Tecnolog%C3%ADa_de_la_Antigua_Grecia" title="Categoría:Tecnología de la Antigua Grecia">Tecnología de la Antigua Grecia</a></li><li><a href="/wiki/Categor%C3%ADa:Aut%C3%B3mata_(mec%C3%A1nico)" title="Categoría:Autómata (mecánico)">Autómata (mecánico)</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Menú de navegación</h2>
+	<div id="mw-head">
+		
+
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Herramientas personales</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage" class="mw-list-item"><span title="La página de usuario de la IP desde la que editas">No has accedido</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Especial:MiDiscusi%C3%B3n" title="Discusión sobre ediciones hechas desde esta dirección IP [n]" accesskey="n"><span>Discusión</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Especial:MisContribuciones" title="Una lista de modificaciones hechas desde esta dirección IP [y]" accesskey="y"><span>Contribuciones</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Especial:Crear_una_cuenta&amp;returnto=Aut%C3%B3mata+%28mec%C3%A1nico%29" title="Te recomendamos crear una cuenta e iniciar sesión; sin embargo, no es obligatorio"><span>Crear una cuenta</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Especial:Entrar&amp;returnto=Aut%C3%B3mata+%28mec%C3%A1nico%29" title="Te recomendamos iniciar sesión, aunque no es obligatorio [o]" accesskey="o"><span>Acceder</span></a></li></ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Espacios de nombres</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/Aut%C3%B3mata_(mec%C3%A1nico)" title="Ver la página de contenido [c]" accesskey="c"><span>Artículo</span></a></li><li id="ca-talk" class="mw-list-item"><a href="/wiki/Discusi%C3%B3n:Aut%C3%B3mata_(mec%C3%A1nico)" rel="discussion" title="Discusión acerca de la página [t]" accesskey="t"><span>Discusión</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		 aria-label="Cambiar variante de idioma"
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">español</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Vistas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected mw-list-item"><a href="/wiki/Aut%C3%B3mata_(mec%C3%A1nico)"><span>Leer</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=edit" title="Editar esta página [e]" accesskey="e"><span>Editar</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=history" title="Versiones anteriores de esta página [h]" accesskey="h"><span>Ver historial</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="Más opciones" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Más</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div>
+			<h3 >
+				<label for="searchInput">Buscar</label>
+			</h3>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-navigation">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Buscar en Wikipedia" aria-label="Buscar en Wikipedia" autocapitalize="sentences" title="Buscar en este wiki [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Especial:Buscar">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Busca páginas con este texto." value="Buscar">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Ir a la página con este nombre exacto si existe" value="Ir">
+			</div>
+		</form>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/wiki/Wikipedia:Portada"
+			title="Visitar la página principal"></a>
+	</div>
+	
+
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navegación</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikipedia:Portada" title="Visitar la página principal [z]" accesskey="z"><span>Portada</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Portal:Comunidad" title="Acerca del proyecto, lo que puedes hacer, dónde encontrar información"><span>Portal de la comunidad</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Actualidad" title="Encuentra información de contexto sobre acontecimientos actuales"><span>Actualidad</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Especial:CambiosRecientes" title="Lista de cambios recientes en la wiki [r]" accesskey="r"><span>Cambios recientes</span></a></li><li id="n-newpages" class="mw-list-item"><a href="/wiki/Especial:P%C3%A1ginasNuevas"><span>Páginas nuevas</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Especial:Aleatoria" title="Cargar una página al azar [x]" accesskey="x"><span>Página aleatoria</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Ayuda:Contenidos" title="El lugar para aprender"><span>Ayuda</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_es.wikipedia.org&amp;uselang=es" title="Apóyanos"><span>Donaciones</span></a></li><li id="n-bug_in_article" class="mw-list-item"><a href="/wiki/Wikipedia:Informes_de_error"><span>Notificar un error</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Herramientas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Especial:LoQueEnlazaAqu%C3%AD/Aut%C3%B3mata_(mec%C3%A1nico)" title="Lista de todas las páginas de la wiki que enlazan aquí [j]" accesskey="j"><span>Lo que enlaza aquí</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Especial:CambiosEnEnlazadas/Aut%C3%B3mata_(mec%C3%A1nico)" rel="nofollow" title="Cambios recientes en las páginas que enlazan con esta [k]" accesskey="k"><span>Cambios en enlazadas</span></a></li><li id="t-upload" class="mw-list-item"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=es" title="Subir archivos [u]" accesskey="u"><span>Subir archivo</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Especial:P%C3%A1ginasEspeciales" title="Lista de todas las páginas especiales [q]" accesskey="q"><span>Páginas especiales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;oldid=140342067" title="Enlace permanente a esta versión de la página"><span>Enlace permanente</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;action=info" title="Más información sobre esta página"><span>Información de la página</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Especial:Citar&amp;page=Aut%C3%B3mata_%28mec%C3%A1nico%29&amp;id=140342067&amp;wpFormIdentifier=titleform" title="Información sobre cómo citar esta página"><span>Citar esta página</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q16039868" title="Enlace al elemento conectado del repositorio de datos [g]" accesskey="g"><span>Elemento de Wikidata</span></a></li></ul>
+		
+	</div>
+</nav>
+
+
+<nav id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" role="navigation"  >
+	<h3
+		id="p-coll-print_export-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Imprimir/exportar</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Especial:Libro&amp;bookcmd=book_creator&amp;referer=Aut%C3%B3mata+%28mec%C3%A1nico%29"><span>Crear un libro</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Especial:DownloadAsPdf&amp;page=Aut%C3%B3mata_%28mec%C3%A1nico%29&amp;action=show-download-screen"><span>Descargar como PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;printable=yes" title="Versión imprimible de esta página [p]" accesskey="p"><span>Versión para imprimir</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-lang" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation"  >
+	<h3
+		id="p-lang-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">En otros idiomas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A2%D9%84%D8%A7%D8%AA_%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%B1%D9%83%D8%A9_%D8%A8%D8%B0%D8%A7%D8%AA%D9%87%D8%A7" title="الآلات المتحركة بذاتها (árabe)" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Automate_m%C3%A9canique" title="Automate mécanique (francés)" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%BD" title="Автоматон (ruso)" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q16039868#sitelinks-wikipedia" title="Editar enlaces interlingüísticos" class="wbc-editpage">Editar enlaces</a></span></div>
+	</div>
+</nav>
+
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> Esta página se editó por última vez el 14 dic 2021 a las 11:43.</li>
+	<li id="footer-info-copyright">El texto está disponible bajo la <a rel="license" href="//es.wikipedia.org/wiki/Wikipedia:Texto_de_la_Licencia_Creative_Commons_Atribuci%C3%B3n-CompartirIgual_3.0_Unported">Licencia Creative Commons Atribución Compartir Igual 3.0</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+pueden aplicarse cláusulas adicionales. Al usar este sitio, usted acepta nuestros <a href="//wikimediafoundation.org/wiki/Terms_of_Use">términos de uso</a> y nuestra <a href="//wikimediafoundation.org/wiki/Privacy_policy">política de privacidad</a>. <br/>Wikipedia&reg; es una marca registrada de la <a href="//www.wikimediafoundation.org/">Fundación Wikimedia, Inc.</a>, una organización sin ánimo de lucro.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/es">Política de privacidad</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:Acerca_de">Acerca de Wikipedia</a></li>
+	<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:Limitaci%C3%B3n_general_de_responsabilidad">Limitación de responsabilidad</a></li>
+	<li id="footer-places-mobileview"><a href="//es.m.wikipedia.org/w/index.php?title=Aut%C3%B3mata_(mec%C3%A1nico)&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versión para móviles</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Desarrolladores</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/es.wikipedia.org">Estadísticas</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement/es">Declaración de cookies</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.327","walltime":"0.399","ppvisitednodes":{"value":1222,"limit":1000000},"postexpandincludesize":{"value":8588,"limit":2097152},"templateargumentsize":{"value":565,"limit":2097152},"expansiondepth":{"value":9,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":8925,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  246.315      1 -total"," 36.18%   89.108      1 Plantilla:Listaref"," 34.83%   85.781      1 Plantilla:Control_de_autoridades"," 30.55%   75.255      3 Plantilla:Cita_web"," 18.84%   46.399      1 Plantilla:Commonscat"," 10.14%   24.973      1 Plantilla:Propiedad","  3.76%    9.260      4 Plantilla:AP","  3.05%    7.515      3 Plantilla:En","  2.57%    6.326      1 Plantilla:Título_sin_coletilla","  2.46%    6.058      1 Plantilla:En_idioma"]},"scribunto":{"limitreport-timeusage":{"value":"0.109","limit":"10.000"},"limitreport-memusage":{"value":2779447,"limit":52428800}},"cachereport":{"origin":"mw1451","timestamp":"20220805072235","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Aut\u00f3mata (mec\u00e1nico)","url":"https:\/\/es.wikipedia.org\/wiki\/Aut%C3%B3mata_(mec%C3%A1nico)","sameAs":"http:\/\/www.wikidata.org\/entity\/Q16039868","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q16039868","author":{"@type":"Organization","name":"Colaboradores de los proyectos Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-02-06T00:29:54Z","dateModified":"2021-12-14T11:43:51Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9b\/CIMA_mg_8333.jpg"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Aut\u00f3mata (mec\u00e1nico)","url":"https:\/\/es.wikipedia.org\/wiki\/Aut%C3%B3mata_(mec%C3%A1nico)","sameAs":"http:\/\/www.wikidata.org\/entity\/Q16039868","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q16039868","author":{"@type":"Organization","name":"Colaboradores de los proyectos Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-02-06T00:29:54Z","dateModified":"2021-12-14T11:43:51Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9b\/CIMA_mg_8333.jpg"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":168,"wgHostname":"mw1320"});});</script>
+</body>
+</html>
