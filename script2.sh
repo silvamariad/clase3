@@ -5,7 +5,9 @@
 info_txt ()
 {
 		#echo "hola"
-		wget -m -F -p -np -k -erobots=off -U mozilla  --wait=2 --html-extension https://es.wikipedia.org/wiki/DevOps
+		#para descargar la pag web
+		wget -m -F -p -np -k -erobots=off -U mozilla  --wait=2 --html-extension https://es.wikipedia.org/wiki/DevOps 
+		ls -s | grep "DevOps"
 		#curl https://es.wikipedia.org/wiki/DevOps -s | jq | grep "DevOps" | awk '{print $2}'
 }
 
