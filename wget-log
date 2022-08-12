@@ -1,0 +1,29 @@
+
+
+2022-08-11 22:37:31 (23,6 MB/s) - «es.wikipedia.org/w/extensions/UniversalLanguageSelector/resources/images/cog-sprite.svg?cca73» guardado [861/861]
+
+--2022-08-11 22:37:33--  https://es.wikipedia.org/w/extensions/WikimediaBadges/resources/images/badge-silver-star.png?70a8c
+Reutilizando la conexión con es.wikipedia.org:443.
+Petición HTTP enviada, esperando respuesta... 200 OK
+Longitud: 161 [image/png]
+Grabando a: «es.wikipedia.org/w/extensions/WikimediaBadges/resources/images/badge-silver-star.png?70a8c»
+
+
+
+2022-08-11 22:37:33 (155 MB/s) - «es.wikipedia.org/w/extensions/WikimediaBadges/resources/images/badge-silver-star.png?70a8c» guardado [161/161]
+
+--2022-08-11 22:37:35--  https://es.wikipedia.org/w/extensions/WikimediaBadges/resources/images/badge-golden-star.png?ed948
+Reutilizando la conexión con es.wikipedia.org:443.
+Petición HTTP enviada, esperando respuesta... 200 OK
+Longitud: 165 [image/png]
+Grabando a: «es.wikipedia.org/w/extensions/WikimediaBadges/resources/images/badge-golden-star.png?ed948»
+
+
+
+2022-08-11 22:37:35 (158 MB/s) - «es.wikipedia.org/w/extensions/WikimediaBadges/resources/images/badge-golden-star.png?ed948» guardado [165/165]
+
+--2022-08-11 23:09:07--  https://es.wikipedia.org/w/extensions/WikimediaBadges/resources/images/badge-problematic.png?f3177
+Conectando con es.wikipedia.org (es.wikipedia.org)[208.80.154.224]:443... conectado.
+Petición HTTP enviada, esperando respuesta... 200 OK
+Longitud: 146 [image/png]
+Grabando a: «es.wikipedia.org/w/extensions/WikimediaBadges/resources/images/badge-problematic.png?f3177»
